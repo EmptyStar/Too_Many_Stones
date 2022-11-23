@@ -1,2 +1,2 @@
-# too_many_stones
+# Too Many Stones
 
