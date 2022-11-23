@@ -286,7 +286,7 @@ stairs.register_stair_and_slab(
 )
 -- Marble
 stairs.register_stair_and_slab(
-	"amazonite",
+	"marble",
 	"too_many_stones:marble",
 	{cracky = 3},
 	{"tms_marble.png"},
