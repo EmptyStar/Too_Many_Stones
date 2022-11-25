@@ -283,3 +283,87 @@
 			persist = 0.0
 		},
 	})
+
+-- Rose Quartz
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:rose_quartz",
+		wherein         = {"default:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 30,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			seed = 52,
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Blue Granite
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:granite_blue",
+		wherein         = {"default:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 30,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			seed = 53,
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Green Granite
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:granite_green",
+		wherein         = {"default:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 30,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			seed = 54,
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Red Granite
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:granite_red",
+		wherein         = {"default:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 30,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			seed = 55,
+			octaves = 1,
+			persist = 0.0
+		},
+	})
