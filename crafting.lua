@@ -170,6 +170,71 @@ minetest.register_craft({
 		{"too_many_stones:marble", "too_many_stones:marble", "too_many_stones:marble"},
 	}
 })
+-- Rose_Quartz
+minetest.register_craft({
+	output = "too_many_stones:rose_quartz_brick 4",
+	recipe = {
+		{"too_many_stones:rose_quartz", "too_many_stones:rose_quartz"},
+		{"too_many_stones:rose_quartz", "too_many_stones:rose_quartz"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:rose_quartz_block 9",
+	recipe = {
+		{"too_many_stones:rose_quartz", "too_many_stones:rose_quartz", "too_many_stones:rose_quartz"},
+		{"too_many_stones:rose_quartz", "too_many_stones:rose_quartz", "too_many_stones:rose_quartz"},
+		{"too_many_stones:rose_quartz", "too_many_stones:rose_quartz", "too_many_stones:rose_quartz"},
+	}
+})-- Blue Granite
+minetest.register_craft({
+	output = "too_many_stones:granite_blue_brick 4",
+	recipe = {
+		{"too_many_stones:granite_blue", "too_many_stones:granite_blue"},
+		{"too_many_stones:granite_blue", "too_many_stones:granite_blue"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:granite_blue_block 9",
+	recipe = {
+		{"too_many_stones:granite_blue", "too_many_stones:granite_blue", "too_many_stones:granite_blue"},
+		{"too_many_stones:granite_blue", "too_many_stones:granite_blue", "too_many_stones:granite_blue"},
+		{"too_many_stones:granite_blue", "too_many_stones:granite_blue", "too_many_stones:granite_blue"},
+	}
+})-- Green Granite
+minetest.register_craft({
+	output = "too_many_stones:granite_green_brick 4",
+	recipe = {
+		{"too_many_stones:granite_green", "too_many_stones:granite_green"},
+		{"too_many_stones:granite_green", "too_many_stones:granite_green"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:granite_green_block 9",
+	recipe = {
+		{"too_many_stones:granite_green", "too_many_stones:granite_green", "too_many_stones:granite_green"},
+		{"too_many_stones:granite_green", "too_many_stones:granite_green", "too_many_stones:granite_green"},
+		{"too_many_stones:granite_green", "too_many_stones:granite_green", "too_many_stones:granite_green"},
+	}
+})-- Red Granite
+minetest.register_craft({
+	output = "too_many_stones:granite_red_brick 4",
+	recipe = {
+		{"too_many_stones:granite_red", "too_many_stones:granite_red"},
+		{"too_many_stones:granite_red", "too_many_stones:granite_red"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:granite_red_block 9",
+	recipe = {
+		{"too_many_stones:granite_red", "too_many_stones:granite_red", "too_many_stones:granite_red"},
+		{"too_many_stones:granite_red", "too_many_stones:granite_red", "too_many_stones:granite_red"},
+		{"too_many_stones:granite_red", "too_many_stones:granite_red", "too_many_stones:granite_red"},
+	}
+})
 
 --
 -- Cooking recipes
