@@ -317,3 +317,91 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
+-- Rose Quartz
+stairs.register_stair_and_slab(
+	"rose_quartz",
+	"too_many_stones:rose_quartz",
+	{cracky = 3},
+	{"tms_rose_quartz.png"},
+	"Rose Quartz Stair",
+	"Rose Quartz Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"rose_quartz_brick",
+	"too_many_stones:rose_quartz_brick",
+	{cracky = 2},
+	{"tms_rose_quartz_brick.png"},
+	"Rose Quartz Brick Stair",
+	"Rose Quartz Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Blue Granite
+stairs.register_stair_and_slab(
+	"granite_blue",
+	"too_many_stones:granite_blue",
+	{cracky = 3},
+	{"tms_granite_blue.png"},
+	"Blue Granite Stair",
+	"Blue Granite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"granite_blue_brick",
+	"too_many_stones:granite_blue_brick",
+	{cracky = 2},
+	{"tms_granite_blue_brick.png"},
+	"Blue Granite Brick Stair",
+	"Blue Granite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Green Granite
+stairs.register_stair_and_slab(
+	"granite_green",
+	"too_many_stones:granite_green",
+	{cracky = 3},
+	{"tms_granite_green.png"},
+	"Green Granite Stair",
+	"Green Granite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"granite_green_brick",
+	"too_many_stones:granite_green_brick",
+	{cracky = 2},
+	{"tms_granite_green_brick.png"},
+	"Green Granite Brick Stair",
+	"Green Granite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Red Granite
+stairs.register_stair_and_slab(
+	"granite_red",
+	"too_many_stones:granite_red",
+	{cracky = 3},
+	{"tms_granite_red.png"},
+	"Red Granite Stair",
+	"Red Granite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"granite_red_brick",
+	"too_many_stones:granite_red_brick",
+	{cracky = 2},
+	{"tms_granite_red_brick.png"},
+	"Red Granite Brick Stair",
+	"Red Granite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
