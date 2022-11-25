@@ -85,3 +85,27 @@ walls.register("too_many_stones:marble_brick_wall", "Marble Brick Wall", "tms_ma
 
 walls.register("too_many_stones:marble_cobble_wall", "Cobbled Marble Wall", "tms_marble_cobble.png",
 		"too_many_stones:marble_cobble", default.node_sound_stone_defaults())
+-- Rose Quartz
+walls.register("too_many_stones:rose_quartz_wall", "Rose Quartz Wall", "tms_rose_quartz.png",
+		"too_many_stones:rose_quartz", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:rose_quartz_brick_wall", "Rose Quartz Brick Wall", "tms_rose_quartz_brick.png",
+		"too_many_stones:rose_quartz_brick", default.node_sound_stone_defaults())
+-- Blue Granite
+walls.register("too_many_stones:granite_blue_wall", "Blue Granite Wall", "tms_granite_blue.png",
+		"too_many_stones:granite_blue", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:granite_blue_brick_wall", "Blue Granite Brick Wall", "tms_granite_blue_brick.png",
+		"too_many_stones:granite_blue_brick", default.node_sound_stone_defaults())
+-- Green Granite
+walls.register("too_many_stones:granite_green_wall", "Green Granite Wall", "tms_granite_green.png",
+		"too_many_stones:granite_green", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:granite_green_brick_wall", "Green Granite Brick Wall", "tms_granite_green_brick.png",
+		"too_many_stones:granite_green_brick", default.node_sound_stone_defaults())
+-- Red Granite
+walls.register("too_many_stones:granite_red_wall", "Red Granite Wall", "tms_granite_red.png",
+		"too_many_stones:granite_red", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:granite_red_brick_wall", "Red Granite Brick Wall", "tms_granite_red_brick.png",
+		"too_many_stones:granite_red_brick", default.node_sound_stone_defaults())
