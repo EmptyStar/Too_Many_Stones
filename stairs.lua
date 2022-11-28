@@ -1,3 +1,4 @@
+if minetest.get_modpath("stairs") ~= nil then
 -- Greenstone
 stairs.register_stair_and_slab(
 	"greenstone",
@@ -405,3 +406,4 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
+end

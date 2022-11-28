@@ -1,3 +1,4 @@
+if minetest.get_modpath("walls") ~= nil then
 -- Greenstone
 walls.register("too_many_stones:greenstone_wall", "Greentone Wall", "tms_greenstone.png",
 		"too_many_stones:greenstone", default.node_sound_stone_defaults())
@@ -109,3 +110,4 @@ walls.register("too_many_stones:granite_red_wall", "Red Granite Wall", "tms_gran
 		
 walls.register("too_many_stones:granite_red_brick_wall", "Red Granite Brick Wall", "tms_granite_red_brick.png",
 		"too_many_stones:granite_red_brick", default.node_sound_stone_defaults())
+end
