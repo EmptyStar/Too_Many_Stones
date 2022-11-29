@@ -1,34 +1,35 @@
 if minetest.get_modpath("stairs") ~= nil then
--- Greenstone
+
+-- Amazonite
 stairs.register_stair_and_slab(
-	"greenstone",
-	"too_many_stones:greenstone",
+	"amazonite",
+	"too_many_stones:amazonite",
 	{cracky = 3},
-	{"tms_greenstone.png"},
-	"Greenstone Stair",
-	"Greenstone Slab",
+	{"tms_amazonite.png"},
+	"Amazonite Stair",
+	"Amazonite Slab",
 	default.node_sound_stone_defaults(),
 	true
 )
 
 stairs.register_stair_and_slab(
-	"greenstone_cobble",
-	"too_many_stones:greenstone_cobble",
+	"amazonite_cobble",
+	"too_many_stones:amazonite_cobble",
 	{cracky = 3},
-	{"tms_greenstone_cobble.png"},
-	"Cobbled Greenstone Stair",
-	"Cobbled Greenstone Slab",
+	{"tms_amazonite_cobble.png"},
+	"Cobbled Amazonite Stair",
+	"Cobbled Amazonite Slab",
 	default.node_sound_stone_defaults(),
 	true
 )
 
 stairs.register_stair_and_slab(
-	"greenstone_brick",
-	"too_many_stones:greenstone_brick",
+	"amazonite_brick",
+	"too_many_stones:amazonite_brick",
 	{cracky = 2},
-	{"tms_greenstone_brick.png"},
-	"Greenstone Brick Stair",
-	"Greenstone Brick Slab",
+	{"tms_amazonite_brick.png"},
+	"Amazonite Brick Stair",
+	"Amazonite Brick Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -120,226 +121,6 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
--- Scoria
-stairs.register_stair_and_slab(
-	"scoria",
-	"too_many_stones:scoria",
-	{cracky = 3},
-	{"tms_scoria.png"},
-	"Scoria Stair",
-	"Scoria Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"scoria_cobble",
-	"too_many_stones:scoria_cobble",
-	{cracky = 3},
-	{"tms_scoria_cobble.png"},
-	"Cobbled Scoria Stair",
-	"Cobbled Scoria Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"scoria_brick",
-	"too_many_stones:scoria_brick",
-	{cracky = 2},
-	{"tms_scoria_brick.png"},
-	"Scoria Brick Stair",
-	"Scoria Brick Slab",
-	default.node_sound_stone_defaults(),
-	false
-)
--- Kyanite
-stairs.register_stair_and_slab(
-	"kyanite",
-	"too_many_stones:kyanite",
-	{cracky = 3},
-	{"tms_kyanite.png"},
-	"Kyanite Stair",
-	"Kyanite Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"kyanite_cobble",
-	"too_many_stones:kyanite_cobble",
-	{cracky = 3},
-	{"tms_kyanite_cobble.png"},
-	"Cobbled Kyanite Stair",
-	"Cobbled Kyanite Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"kyanite_brick",
-	"too_many_stones:kyanite_brick",
-	{cracky = 2},
-	{"tms_kyanite_brick.png"},
-	"Kyanite Brick Stair",
-	"Kyanite Brick Slab",
-	default.node_sound_stone_defaults(),
-	false
-)
--- Sugilite
-stairs.register_stair_and_slab(
-	"sugilite",
-	"too_many_stones:sugilite",
-	{cracky = 3},
-	{"tms_sugilite.png"},
-	"Sugilite Stair",
-	"Sugilite Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"sugilite_cobble",
-	"too_many_stones:sugilite_cobble",
-	{cracky = 3},
-	{"tms_sugilite_cobble.png"},
-	"Cobbled Sugilite Stair",
-	"Cobbled Sugilite Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"sugilite_brick",
-	"too_many_stones:sugilite_brick",
-	{cracky = 2},
-	{"tms_sugilite_brick.png"},
-	"Sugilite Brick Stair",
-	"Sugilite Brick Slab",
-	default.node_sound_stone_defaults(),
-	false
-)
--- Ilvaite
-stairs.register_stair_and_slab(
-	"ilvaite",
-	"too_many_stones:ilvaite",
-	{cracky = 3},
-	{"tms_ilvaite.png"},
-	"Ilvaite Stair",
-	"Ilvaite Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"ilvaite_cobble",
-	"too_many_stones:ilvaite_cobble",
-	{cracky = 3},
-	{"tms_ilvaite_cobble.png"},
-	"Cobbled Ilvaite Stair",
-	"Cobbled Ilvaite Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"ilvaite_brick",
-	"too_many_stones:ilvaite_brick",
-	{cracky = 2},
-	{"tms_ilvaite_brick.png"},
-	"Ilvaite Brick Stair",
-	"Ilvaite Brick Slab",
-	default.node_sound_stone_defaults(),
-	false
-)
--- Amazonite
-stairs.register_stair_and_slab(
-	"amazonite",
-	"too_many_stones:amazonite",
-	{cracky = 3},
-	{"tms_amazonite.png"},
-	"Amazonite Stair",
-	"Amazonite Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"amazonite_cobble",
-	"too_many_stones:amazonite_cobble",
-	{cracky = 3},
-	{"tms_amazonite_cobble.png"},
-	"Cobbled Amazonite Stair",
-	"Cobbled Amazonite Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"amazonite_brick",
-	"too_many_stones:amazonite_brick",
-	{cracky = 2},
-	{"tms_amazonite_brick.png"},
-	"Amazonite Brick Stair",
-	"Amazonite Brick Slab",
-	default.node_sound_stone_defaults(),
-	false
-)
--- Marble
-stairs.register_stair_and_slab(
-	"marble",
-	"too_many_stones:marble",
-	{cracky = 3},
-	{"tms_marble.png"},
-	"Marble Stair",
-	"Marble Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"marble_cobble",
-	"too_many_stones:marble_cobble",
-	{cracky = 3},
-	{"tms_marble_cobble.png"},
-	"Cobbled Marble Stair",
-	"Cobbled Marble Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"marble_brick",
-	"too_many_stones:marble_brick",
-	{cracky = 2},
-	{"tms_marble_brick.png"},
-	"Marble Brick Stair",
-	"Marble Brick Slab",
-	default.node_sound_stone_defaults(),
-	false
-)
--- Rose Quartz
-stairs.register_stair_and_slab(
-	"rose_quartz",
-	"too_many_stones:rose_quartz",
-	{cracky = 3},
-	{"tms_rose_quartz.png"},
-	"Rose Quartz Stair",
-	"Rose Quartz Slab",
-	default.node_sound_stone_defaults(),
-	true
-)
-
-stairs.register_stair_and_slab(
-	"rose_quartz_brick",
-	"too_many_stones:rose_quartz_brick",
-	{cracky = 2},
-	{"tms_rose_quartz_brick.png"},
-	"Rose Quartz Brick Stair",
-	"Rose Quartz Brick Slab",
-	default.node_sound_stone_defaults(),
-	false
-)
 -- Blue Granite
 stairs.register_stair_and_slab(
 	"granite_blue",
@@ -403,6 +184,292 @@ stairs.register_stair_and_slab(
 	{"tms_granite_red_brick.png"},
 	"Red Granite Brick Stair",
 	"Red Granite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Greenstone
+stairs.register_stair_and_slab(
+	"greenstone",
+	"too_many_stones:greenstone",
+	{cracky = 3},
+	{"tms_greenstone.png"},
+	"Greenstone Stair",
+	"Greenstone Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"greenstone_cobble",
+	"too_many_stones:greenstone_cobble",
+	{cracky = 3},
+	{"tms_greenstone_cobble.png"},
+	"Cobbled Greenstone Stair",
+	"Cobbled Greenstone Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"greenstone_brick",
+	"too_many_stones:greenstone_brick",
+	{cracky = 2},
+	{"tms_greenstone_brick.png"},
+	"Greenstone Brick Stair",
+	"Greenstone Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Ilvaite
+stairs.register_stair_and_slab(
+	"ilvaite",
+	"too_many_stones:ilvaite",
+	{cracky = 3},
+	{"tms_ilvaite.png"},
+	"Ilvaite Stair",
+	"Ilvaite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"ilvaite_cobble",
+	"too_many_stones:ilvaite_cobble",
+	{cracky = 3},
+	{"tms_ilvaite_cobble.png"},
+	"Cobbled Ilvaite Stair",
+	"Cobbled Ilvaite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"ilvaite_brick",
+	"too_many_stones:ilvaite_brick",
+	{cracky = 2},
+	{"tms_ilvaite_brick.png"},
+	"Ilvaite Brick Stair",
+	"Ilvaite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Kyanite
+stairs.register_stair_and_slab(
+	"kyanite",
+	"too_many_stones:kyanite",
+	{cracky = 3},
+	{"tms_kyanite.png"},
+	"Kyanite Stair",
+	"Kyanite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"kyanite_cobble",
+	"too_many_stones:kyanite_cobble",
+	{cracky = 3},
+	{"tms_kyanite_cobble.png"},
+	"Cobbled Kyanite Stair",
+	"Cobbled Kyanite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"kyanite_brick",
+	"too_many_stones:kyanite_brick",
+	{cracky = 2},
+	{"tms_kyanite_brick.png"},
+	"Kyanite Brick Stair",
+	"Kyanite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Blue Limestone
+stairs.register_stair_and_slab(
+	"limestone_blue",
+	"too_many_stones:limestone_blue",
+	{cracky = 3},
+	{"tms_limestone_blue.png"},
+	"Blue Limestone Stair",
+	"Blue Limestone Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"limestone_blue_cobble",
+	"too_many_stones:limestone_blue_cobble",
+	{cracky = 3},
+	{"tms_limestone_blue_cobble.png"},
+	"Cobbled Blue Limestone Stair",
+	"Cobbled Blue Limestone Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"limestone_blue_brick",
+	"too_many_stones:limestone_blue_brick",
+	{cracky = 2},
+	{"tms_limestone_blue_brick.png"},
+	"Blue Limestone Brick Stair",
+	"Blue Limestone Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- White Limestone
+stairs.register_stair_and_slab(
+	"limestone_white",
+	"too_many_stones:limestone_white",
+	{cracky = 3},
+	{"tms_limestone_white.png"},
+	"White Limestone Stair",
+	"White Limestone Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"limestone_white_cobble",
+	"too_many_stones:limestone_white_cobble",
+	{cracky = 3},
+	{"tms_limestone_white_cobble.png"},
+	"Cobbled White Limestone Stair",
+	"Cobbled White Limestone Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"limestone_white_brick",
+	"too_many_stones:limestone_white_brick",
+	{cracky = 2},
+	{"tms_limestone_white_brick.png"},
+	"White Limestone Brick Stair",
+	"White Limestone Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Marble
+stairs.register_stair_and_slab(
+	"marble",
+	"too_many_stones:marble",
+	{cracky = 3},
+	{"tms_marble.png"},
+	"Marble Stair",
+	"Marble Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"marble_cobble",
+	"too_many_stones:marble_cobble",
+	{cracky = 3},
+	{"tms_marble_cobble.png"},
+	"Cobbled Marble Stair",
+	"Cobbled Marble Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"marble_brick",
+	"too_many_stones:marble_brick",
+	{cracky = 2},
+	{"tms_marble_brick.png"},
+	"Marble Brick Stair",
+	"Marble Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Rose Quartz
+stairs.register_stair_and_slab(
+	"rose_quartz",
+	"too_many_stones:rose_quartz",
+	{cracky = 3},
+	{"tms_rose_quartz.png"},
+	"Rose Quartz Stair",
+	"Rose Quartz Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"rose_quartz_brick",
+	"too_many_stones:rose_quartz_brick",
+	{cracky = 2},
+	{"tms_rose_quartz_brick.png"},
+	"Rose Quartz Brick Stair",
+	"Rose Quartz Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Scoria
+stairs.register_stair_and_slab(
+	"scoria",
+	"too_many_stones:scoria",
+	{cracky = 3},
+	{"tms_scoria.png"},
+	"Scoria Stair",
+	"Scoria Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"scoria_cobble",
+	"too_many_stones:scoria_cobble",
+	{cracky = 3},
+	{"tms_scoria_cobble.png"},
+	"Cobbled Scoria Stair",
+	"Cobbled Scoria Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"scoria_brick",
+	"too_many_stones:scoria_brick",
+	{cracky = 2},
+	{"tms_scoria_brick.png"},
+	"Scoria Brick Stair",
+	"Scoria Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Sugilite
+stairs.register_stair_and_slab(
+	"sugilite",
+	"too_many_stones:sugilite",
+	{cracky = 3},
+	{"tms_sugilite.png"},
+	"Sugilite Stair",
+	"Sugilite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"sugilite_cobble",
+	"too_many_stones:sugilite_cobble",
+	{cracky = 3},
+	{"tms_sugilite_cobble.png"},
+	"Cobbled Sugilite Stair",
+	"Cobbled Sugilite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"sugilite_brick",
+	"too_many_stones:sugilite_brick",
+	{cracky = 2},
+	{"tms_sugilite_brick.png"},
+	"Sugilite Brick Stair",
+	"Sugilite Brick Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
