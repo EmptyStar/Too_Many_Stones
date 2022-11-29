@@ -14,36 +14,38 @@ local S = default.get_translator
 --
 -- Stone
 --
---Greenstone
-minetest.register_node("too_many_stones:greenstone", {
-	description = S("Greenstone"),
-	tiles = {"tms_greenstone.png"},
+-- Amazonite
+minetest.register_node("too_many_stones:amazonite", {
+	description = S("Amazonite"),
+	tiles = {"tms_amazonite.png"},
+	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:greenstone_cobble",
+	drop = "too_many_stones:amazonite_cobble",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:greenstone_block", {
-	description = S("Greenstone Block"),
-	tiles = {"tms_greenstone_block.png"},
+minetest.register_node("too_many_stones:amazonite_block", {
+	description = S("Amazonite Block"),
+	tiles = {"tms_amazonite_block.png"},
+	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:greenstone_block",
+	drop = "too_many_stones:amazonite_block",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:greenstone_cobble", {
-	description = S("Cobbled Greenstone"),
-	tiles = {"tms_greenstone_cobble.png"},
+minetest.register_node("too_many_stones:amazonite_cobble", {
+	description = S("Cobbled Amazonite"),
+	tiles = {"tms_amazonite_cobble.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 2},
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:greenstone_brick", {
-	description = S("Greenstone Brick"),
+minetest.register_node("too_many_stones:amazonite_brick", {
+	description = S("Amazonite Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_greenstone_brick.png"},
+	tiles = {"tms_amazonite_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -80,42 +82,6 @@ minetest.register_node("too_many_stones:bluestone_brick", {
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_bluestone_brick.png"},
-	is_ground_content = false,
-	groups = {cracky = 2, stone = 1},
-	sounds = default.node_sound_stone_defaults(),
-})
--- Kyanite
-minetest.register_node("too_many_stones:kyanite", {
-	description = S("Kyanite"),
-	tiles = {"tms_kyanite.png"},
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:kyanite_cobble",
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:kyanite_block", {
-	description = S("Kyanite Block"),
-	tiles = {"tms_kyanite_block.png"},
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:kyanite_block",
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:kyanite_cobble", {
-	description = S("Cobbled Kyanite"),
-	tiles = {"tms_kyanite_cobble.png"},
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 2},
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:kyanite_brick", {
-	description = S("Kyanite Brick"),
-	paramtype2 = "facedir",
-	place_param2 = 0,
-	tiles = {"tms_kyanite_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -193,74 +159,129 @@ minetest.register_node("too_many_stones:carnotite_brick", {
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
--- Scoria
-minetest.register_node("too_many_stones:scoria", {
-	description = S("Scoria"),
-	tiles = {"tms_scoria.png"},
+-- Blue Granite
+minetest.register_node("too_many_stones:granite_blue", {
+	description = S("Blue Granite"),
+	tiles = {"tms_granite_blue.png"},
+	sunlight_propagates = true,
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:scoria_cobble",
+	drop = "too_many_stones:granite_blue",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:scoria_block", {
-	description = S("Scoria Block"),
-	tiles = {"tms_scoria_block.png"},
+minetest.register_node("too_many_stones:granite_blue_block", {
+	description = S("Blue Granite Block"),
+	tiles = {"tms_granite_blue_block.png"},
+	sunlight_propagates = true,
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:scoria_block",
+	drop = "too_many_stones:granite_blue_block",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:scoria_cobble", {
-	description = S("Cobbled Scoria"),
-	tiles = {"tms_scoria_cobble.png"},
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 2},
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:scoria_brick", {
-	description = S("Scoria Brick"),
+minetest.register_node("too_many_stones:granite_blue_brick", {
+	description = S("Blue Granite Brick"),
+	sunlight_propagates = true,
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_scoria_brick.png"},
+	tiles = {"tms_granite_blue_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
--- Sugilite
-minetest.register_node("too_many_stones:sugilite", {
-	description = S("Sugilite"),
-	tiles = {"tms_sugilite.png"},
+-- Green Granite
+minetest.register_node("too_many_stones:granite_green", {
+	description = S("Green Granite"),
+	tiles = {"tms_granite_green.png"},
+	sunlight_propagates = true,
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:sugilite_cobble",
+	drop = "too_many_stones:granite_green",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:sugilite_block", {
-	description = S("Sugilite Block"),
-	tiles = {"tms_sugilite_block.png"},
+minetest.register_node("too_many_stones:granite_green_block", {
+	description = S("Green Granite Block"),
+	tiles = {"tms_granite_green_block.png"},
+	sunlight_propagates = true,
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:sugilite_block",
+	drop = "too_many_stones:granite_green_block",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:sugilite_cobble", {
-	description = S("Cobbled Sugilite"),
-	tiles = {"tms_sugilite_cobble.png"},
+minetest.register_node("too_many_stones:granite_green_brick", {
+	description = S("Green Granite Brick"),
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_granite_green_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+-- Red Granite
+minetest.register_node("too_many_stones:granite_red", {
+	description = S("Red Granite"),
+	tiles = {"tms_granite_red.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_red",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_red_block", {
+	description = S("Red Granite Block"),
+	tiles = {"tms_granite_red_block.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_red_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_red_brick", {
+	description = S("Red Granite Brick"),
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_granite_red_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+--Greenstone
+minetest.register_node("too_many_stones:greenstone", {
+	description = S("Greenstone"),
+	tiles = {"tms_greenstone.png"},
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:greenstone_cobble",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:greenstone_block", {
+	description = S("Greenstone Block"),
+	tiles = {"tms_greenstone_block.png"},
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:greenstone_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:greenstone_cobble", {
+	description = S("Cobbled Greenstone"),
+	tiles = {"tms_greenstone_cobble.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 2},
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:sugilite_brick", {
-	description = S("Sugilite Brick"),
+minetest.register_node("too_many_stones:greenstone_brick", {
+	description = S("Greenstone Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_sugilite_brick.png"},
+	tiles = {"tms_greenstone_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -301,38 +322,110 @@ minetest.register_node("too_many_stones:ilvaite_brick", {
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
--- Amazonite
-minetest.register_node("too_many_stones:amazonite", {
-	description = S("Amazonite"),
-	tiles = {"tms_amazonite.png"},
+-- Kyanite
+minetest.register_node("too_many_stones:kyanite", {
+	description = S("Kyanite"),
+	tiles = {"tms_kyanite.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:amazonite_cobble",
+	drop = "too_many_stones:kyanite_cobble",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:amazonite_block", {
-	description = S("Amazonite Block"),
-	tiles = {"tms_amazonite_block.png"},
+minetest.register_node("too_many_stones:kyanite_block", {
+	description = S("Kyanite Block"),
+	tiles = {"tms_kyanite_block.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:amazonite_block",
+	drop = "too_many_stones:kyanite_block",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:amazonite_cobble", {
-	description = S("Cobbled Amazonite"),
-	tiles = {"tms_amazonite_cobble.png"},
+minetest.register_node("too_many_stones:kyanite_cobble", {
+	description = S("Cobbled Kyanite"),
+	tiles = {"tms_kyanite_cobble.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 2},
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:amazonite_brick", {
-	description = S("Amazonite Brick"),
+minetest.register_node("too_many_stones:kyanite_brick", {
+	description = S("Kyanite Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_amazonite_brick.png"},
+	tiles = {"tms_kyanite_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+-- Blue Limestone
+minetest.register_node("too_many_stones:limestone_blue", {
+	description = S("Blue Limestone"),
+	tiles = {"tms_limestone_blue.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:limestone_blue_cobble",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:limestone_blue_block", {
+	description = S("Blue Limestone Block"),
+	tiles = {"tms_limestone_blue_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:limestone_blue_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:limestone_blue_cobble", {
+	description = S("Cobbled Blue Limestone"),
+	tiles = {"tms_limestone_blue_cobble.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 2},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:limestone_blue_brick", {
+	description = S("Blue Limestone Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_limestone_blue_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+-- White Limestone
+minetest.register_node("too_many_stones:limestone_white", {
+	description = S("White Limestone"),
+	tiles = {"tms_limestone_white.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:limestone_white_cobble",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:limestone_white_block", {
+	description = S("White Limestone Block"),
+	tiles = {"tms_limestone_white_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:limestone_white_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:limestone_white_cobble", {
+	description = S("Cobbled White Limestone"),
+	tiles = {"tms_limestone_white_cobble.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 2},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:limestone_white_brick", {
+	description = S("White Limestone Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_limestone_white_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -410,95 +503,74 @@ minetest.register_node("too_many_stones:rose_quartz_brick", {
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
--- Green Granite
-minetest.register_node("too_many_stones:granite_green", {
-	description = S("Green Granite"),
-	tiles = {"tms_granite_green.png"},
-	sunlight_propagates = true,
+-- Scoria
+minetest.register_node("too_many_stones:scoria", {
+	description = S("Scoria"),
+	tiles = {"tms_scoria.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:granite_green",
+	drop = "too_many_stones:scoria_cobble",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:granite_green_block", {
-	description = S("Green Granite Block"),
-	tiles = {"tms_granite_green_block.png"},
-	sunlight_propagates = true,
+minetest.register_node("too_many_stones:scoria_block", {
+	description = S("Scoria Block"),
+	tiles = {"tms_scoria_block.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:granite_green_block",
+	drop = "too_many_stones:scoria_block",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:granite_green_brick", {
-	description = S("Green Granite Brick"),
-	sunlight_propagates = true,
+minetest.register_node("too_many_stones:scoria_cobble", {
+	description = S("Cobbled Scoria"),
+	tiles = {"tms_scoria_cobble.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 2},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:scoria_brick", {
+	description = S("Scoria Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_granite_green_brick.png"},
+	tiles = {"tms_scoria_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
--- Blue Granite
-minetest.register_node("too_many_stones:granite_blue", {
-	description = S("Blue Granite"),
-	tiles = {"tms_granite_blue.png"},
-	sunlight_propagates = true,
+-- Sugilite
+minetest.register_node("too_many_stones:sugilite", {
+	description = S("Sugilite"),
+	tiles = {"tms_sugilite.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:granite_blue",
+	drop = "too_many_stones:sugilite_cobble",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:granite_blue_block", {
-	description = S("Blue Granite Block"),
-	tiles = {"tms_granite_blue_block.png"},
-	sunlight_propagates = true,
+minetest.register_node("too_many_stones:sugilite_block", {
+	description = S("Sugilite Block"),
+	tiles = {"tms_sugilite_block.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:granite_blue_block",
+	drop = "too_many_stones:sugilite_block",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:granite_blue_brick", {
-	description = S("Blue Granite Brick"),
-	sunlight_propagates = true,
+minetest.register_node("too_many_stones:sugilite_cobble", {
+	description = S("Cobbled Sugilite"),
+	tiles = {"tms_sugilite_cobble.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 2},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:sugilite_brick", {
+	description = S("Sugilite Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_granite_blue_brick.png"},
-	is_ground_content = false,
-	groups = {cracky = 2, stone = 1},
-	sounds = default.node_sound_stone_defaults(),
-})
--- Red Granite
-minetest.register_node("too_many_stones:granite_red", {
-	description = S("Red Granite"),
-	tiles = {"tms_granite_red.png"},
-	sunlight_propagates = true,
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:granite_red",
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:granite_red_block", {
-	description = S("Red Granite Block"),
-	tiles = {"tms_granite_red_block.png"},
-	sunlight_propagates = true,
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:granite_red_block",
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:granite_red_brick", {
-	description = S("Red Granite Brick"),
-	sunlight_propagates = true,
-	paramtype2 = "facedir",
-	place_param2 = 0,
-	tiles = {"tms_granite_red_brick.png"},
+	tiles = {"tms_sugilite_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
