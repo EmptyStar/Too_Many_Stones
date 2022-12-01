@@ -1,6 +1,6 @@
 # Too Many Stones
 
-This mod is in a quite functional state, but not a polished state. It currently features 16 stone types that all spawn in the world, cobble for most of them, and bricks and blocks for all stone types. If your game supplies stairs, you will have access to stairs and slabs. If your game has walls, then you will also get walls for most stone types. The placement of the stones in the mapgen is not final. More stones may be added, and you can put a feature request on ContentDB or the repo for new ones. I probably won't add any boring stones though.
+This mod is in a quite functional state, but not a polished state. It currently features 17 stone types that all spawn in the world, cobble for most of them, and bricks and blocks for all stone types. If your game supplies stairs, you will have access to stairs and slabs. If your game has walls, then you will also get walls for most stone types. The placement of the stones in the mapgen is nearling finalization. More stones may be added, and you can put a feature request on ContentDB or the repo for new ones. I probably won't add any boring stones though.
 
 Done:
 Amazonite-(light green)
@@ -18,6 +18,7 @@ White Limestone-(yellow grey)
 Marble-(white)
 Rose Quartz-(pink)
 Scoria-(red)
+Slate-(dark grey)
 Sugilite-(purple)
 
 To Do:
@@ -25,3 +26,4 @@ Finalize stone spawn locations, blob size, and blob shape
 Get play testers
 Add Ores?
 Find and add ore mods to optional depends
+Glow Stone?
