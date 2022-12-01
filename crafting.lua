@@ -255,6 +255,23 @@ minetest.register_craft({
 		{"too_many_stones:scoria", "too_many_stones:scoria", "too_many_stones:scoria"},
 	}
 })
+-- Slase
+minetest.register_craft({
+	output = "too_many_stones:slate_brick 4",
+	recipe = {
+		{"too_many_stones:slate", "too_many_stones:slate"},
+		{"too_many_stones:slate", "too_many_stones:slate"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:slate_block 9",
+	recipe = {
+		{"too_many_stones:slate", "too_many_stones:slate", "too_many_stones:slate"},
+		{"too_many_stones:slate", "too_many_stones:slate", "too_many_stones:slate"},
+		{"too_many_stones:slate", "too_many_stones:slate", "too_many_stones:slate"},
+	}
+})
 -- Sugilite
 minetest.register_craft({
 	output = "too_many_stones:sugilite_brick 4",
@@ -284,8 +301,20 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:amazonite_cracked_brick",
+	recipe = "too_many_stones:amazonite_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:bluestone",
 	recipe = "too_many_stones:bluestone_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:bluestone_cracked_brick",
+	recipe = "too_many_stones:bluestone_brick",
 })
 
 minetest.register_craft({
@@ -296,8 +325,20 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:carnotite_cracked_brick",
+	recipe = "too_many_stones:carnotite_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:greenstone",
 	recipe = "too_many_stones:greenstone_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:greenstone_cracked_brick",
+	recipe = "too_many_stones:greenstone_brick",
 })
 
 minetest.register_craft({
@@ -308,8 +349,20 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:ilvaite_cracked_brick",
+	recipe = "too_many_stones:ilvaite_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:kyanite",
 	recipe = "too_many_stones:kyanite_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:kyanite_cracked_brick",
+	recipe = "too_many_stones:kyanite_brick",
 })
 
 minetest.register_craft({
@@ -320,8 +373,20 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:limestone_blue_cracked_brick",
+	recipe = "too_many_stones:limestone_blue_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:limestone_white",
 	recipe = "too_many_stones:limestone_white_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:limestone_white_cracked_brick",
+	recipe = "too_many_stones:limestone_white_brick",
 })
 
 minetest.register_craft({
@@ -332,13 +397,43 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:marble_cracked_brick",
+	recipe = "too_many_stones:marble_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:scoria",
 	recipe = "too_many_stones:scoria_cobble",
 })
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:scoria_cracked_brick",
+	recipe = "too_many_stones:scoria_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:slate",
+	recipe = "too_many_stones:slate_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:slate_cracked_brick",
+	recipe = "too_many_stones:slate_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:sugilite",
 	recipe = "too_many_stones:sugilite_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:sugilite_cracked_brick",
+	recipe = "too_many_stones:sugilite_brick",
 })
 
