@@ -4,13 +4,13 @@ This mod is in a quite functional state, but not a polished state. It currently 
 
 Done:
 Amazonite-(light green)
-Bluestone-(dark blue)
+Sodalite-(dark blue)
 Calcite-(light grey)
 Carnotite-(mustard yellow)
 Blue Granite-(blue)
 Green Granite-(green)
 Red Granite-(red)
-Greenstone-(dark green)
+Jade-(dark green)
 Ilvaite-(black)
 Kyanite-(light blue)
 Blue Limestone-(blue grey)
@@ -22,6 +22,5 @@ Slate-(dark grey)
 Sugilite-(purple)
 
 To Do:
-Add Ores?
 Find and add ore mods to optional depends
 Glow Stone?
