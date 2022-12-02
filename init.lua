@@ -14,7 +14,9 @@ default.get_translator = S
 local default_path = minetest.get_modpath("too_many_stones")
 
 dofile(default_path.."/nodes.lua")
+dofile(default_path.."/nodes_ore.lua")
 dofile(default_path.."/crafting.lua")
 dofile(default_path.."/mapgen.lua")
+dofile(default_path.."/mapgen_ore.lua")
 dofile(default_path.."/wall.lua")
 dofile(default_path.."/stairs.lua")

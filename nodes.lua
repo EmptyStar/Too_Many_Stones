@@ -60,9 +60,9 @@ minetest.register_node("too_many_stones:amazonite_cracked_brick", {
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
--- Bluestone
+-- Sodalite
 minetest.register_node("too_many_stones:bluestone", {
-	description = S("Bluestone"),
+	description = S("Sodalite"),
 	tiles = {"tms_bluestone.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
@@ -71,7 +71,7 @@ minetest.register_node("too_many_stones:bluestone", {
 })
 
 minetest.register_node("too_many_stones:bluestone_block", {
-	description = S("Bluestone Block"),
+	description = S("Sodalite Block"),
 	tiles = {"tms_bluestone_block.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
@@ -80,7 +80,7 @@ minetest.register_node("too_many_stones:bluestone_block", {
 })
 
 minetest.register_node("too_many_stones:bluestone_cobble", {
-	description = S("Cobbled Bluestone"),
+	description = S("Cobbled Sodalite"),
 	tiles = {"tms_bluestone_cobble.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 2},
@@ -88,7 +88,7 @@ minetest.register_node("too_many_stones:bluestone_cobble", {
 })
 
 minetest.register_node("too_many_stones:bluestone_brick", {
-	description = S("Bluestone Brick"),
+	description = S("Sodalite Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_bluestone_brick.png"},
@@ -98,7 +98,7 @@ minetest.register_node("too_many_stones:bluestone_brick", {
 })
 
 minetest.register_node("too_many_stones:bluestone_cracked_brick", {
-	description = S("Cracked Bluestone Brick"),
+	description = S("Cracked Sodalite Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_bluestone_brick.png^tms_brick_crack_overlay.png"},
@@ -117,6 +117,7 @@ minetest.register_node("too_many_stones:calcite", {
 	groups = {cracky = 3, stone = 1},
 	drop = "too_many_stones:calcite",
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:calcite_block", {
@@ -129,6 +130,7 @@ minetest.register_node("too_many_stones:calcite_block", {
 	groups = {cracky = 3, stone = 1},
 	drop = "too_many_stones:calcite_block",
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:calcite_brick", {
@@ -142,6 +144,7 @@ minetest.register_node("too_many_stones:calcite_brick", {
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:calcite_cracked_brick", {
@@ -155,6 +158,7 @@ minetest.register_node("too_many_stones:calcite_cracked_brick", {
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 -- Carnotite
 minetest.register_node("too_many_stones:carnotite", {
@@ -325,9 +329,9 @@ minetest.register_node("too_many_stones:granite_red_cracked_brick", {
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
---Greenstone
+--Jade
 minetest.register_node("too_many_stones:greenstone", {
-	description = S("Greenstone"),
+	description = S("Jade"),
 	tiles = {"tms_greenstone.png"},
 	groups = {cracky = 3, stone = 1},
 	drop = "too_many_stones:greenstone_cobble",
@@ -335,7 +339,7 @@ minetest.register_node("too_many_stones:greenstone", {
 })
 
 minetest.register_node("too_many_stones:greenstone_block", {
-	description = S("Greenstone Block"),
+	description = S("Jade Block"),
 	tiles = {"tms_greenstone_block.png"},
 	groups = {cracky = 3, stone = 1},
 	drop = "too_many_stones:greenstone_block",
@@ -343,7 +347,7 @@ minetest.register_node("too_many_stones:greenstone_block", {
 })
 
 minetest.register_node("too_many_stones:greenstone_cobble", {
-	description = S("Cobbled Greenstone"),
+	description = S("Cobbled Jade"),
 	tiles = {"tms_greenstone_cobble.png"},
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 2},
@@ -351,7 +355,7 @@ minetest.register_node("too_many_stones:greenstone_cobble", {
 })
 
 minetest.register_node("too_many_stones:greenstone_brick", {
-	description = S("Greenstone Brick"),
+	description = S("Jade Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_greenstone_brick.png"},
@@ -361,7 +365,7 @@ minetest.register_node("too_many_stones:greenstone_brick", {
 })
 
 minetest.register_node("too_many_stones:greenstone_cracked_brick", {
-	description = S("Cracked Greenstone Brick"),
+	description = S("Cracked Jade Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_greenstone_brick.png^tms_brick_crack_overlay.png"},
@@ -610,6 +614,7 @@ minetest.register_node("too_many_stones:rose_quartz", {
 	groups = {cracky = 3, stone = 1},
 	drop = "too_many_stones:rose_quartz",
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:rose_quartz_block", {
@@ -622,6 +627,7 @@ minetest.register_node("too_many_stones:rose_quartz_block", {
 	groups = {cracky = 3, stone = 1},
 	drop = "too_many_stones:rose_quartz_block",
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:rose_quartz_brick", {
@@ -635,6 +641,7 @@ minetest.register_node("too_many_stones:rose_quartz_brick", {
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:rose_quartz_cracked_brick", {
@@ -648,6 +655,7 @@ minetest.register_node("too_many_stones:rose_quartz_cracked_brick", {
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 -- Scoria
 minetest.register_node("too_many_stones:scoria", {
@@ -789,7 +797,7 @@ minetest.register_node("too_many_stones:sugilite_cracked_brick", {
 })
 --[[
 minetest.register_node("too_many_stones:bluestone", {
-	description = S("Bluestone"),
+	description = S("Sodalite"),
 	drawtype = "glasslike",
 	tiles = {"tms_bluestone.png"},
 	paramtype = "light",
