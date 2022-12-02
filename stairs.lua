@@ -55,14 +55,14 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
--- Bluestone
+-- Sodalite
 stairs.register_stair_and_slab(
 	"bluestone",
 	"too_many_stones:bluestone",
 	{cracky = 3},
 	{"tms_bluestone.png"},
-	"Bluestone Stair",
-	"Bluestone Slab",
+	"Sodalite Stair",
+	"Sodalite Slab",
 	default.node_sound_stone_defaults(),
 	true
 )
@@ -72,8 +72,8 @@ stairs.register_stair_and_slab(
 	"too_many_stones:bluestone_cobble",
 	{cracky = 3},
 	{"tms_bluestone_cobble.png"},
-	"Cobbled Bluestone Stair",
-	"Cobbled Bluestone Slab",
+	"Cobbled Sodalite Stair",
+	"Cobbled Sodalite Slab",
 	default.node_sound_stone_defaults(),
 	true
 )
@@ -83,8 +83,8 @@ stairs.register_stair_and_slab(
 	"too_many_stones:bluestone_brick",
 	{cracky = 2},
 	{"tms_bluestone_brick.png"},
-	"Bluestone Brick Stair",
-	"Bluestone Brick Slab",
+	"Sodalite Brick Stair",
+	"Sodalite Brick Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -94,8 +94,8 @@ stairs.register_stair_and_slab(
 	"too_many_stones:bluestone_cracked_brick",
 	{cracky = 2},
 	{"tms_bluestone_brick.png^tms_brick_crack_overlay.png"},
-	"Cracked Bluestone Brick Stair",
-	"Cracked Bluestone Brick Slab",
+	"Cracked Sodalite Brick Stair",
+	"Cracked Sodalite Brick Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -105,8 +105,8 @@ stairs.register_stair_and_slab(
 	"too_many_stones:bluestone_block",
 	{cracky = 2},
 	{"tms_bluestone_block.png"},
-	"Bluestone Block Stair",
-	"Bluestone Block Slab",
+	"Sodalite Block Stair",
+	"Sodalite Block Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -341,14 +341,14 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
--- Greenstone
+-- Jade
 stairs.register_stair_and_slab(
 	"greenstone",
 	"too_many_stones:greenstone",
 	{cracky = 3},
 	{"tms_greenstone.png"},
-	"Greenstone Stair",
-	"Greenstone Slab",
+	"Jade Stair",
+	"Jade Slab",
 	default.node_sound_stone_defaults(),
 	true
 )
@@ -358,8 +358,8 @@ stairs.register_stair_and_slab(
 	"too_many_stones:greenstone_cobble",
 	{cracky = 3},
 	{"tms_greenstone_cobble.png"},
-	"Cobbled Greenstone Stair",
-	"Cobbled Greenstone Slab",
+	"Cobbled Jade Stair",
+	"Cobbled Jade Slab",
 	default.node_sound_stone_defaults(),
 	true
 )
@@ -369,8 +369,8 @@ stairs.register_stair_and_slab(
 	"too_many_stones:greenstone_brick",
 	{cracky = 2},
 	{"tms_greenstone_brick.png"},
-	"Greenstone Brick Stair",
-	"Greenstone Brick Slab",
+	"Jade Brick Stair",
+	"Jade Brick Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -380,8 +380,8 @@ stairs.register_stair_and_slab(
 	"too_many_stones:greenstone_cracked_brick",
 	{cracky = 2},
 	{"tms_greenstone_brick.png^tms_brick_crack_overlay.png"},
-	"Cracked Greenstone Brick Stair",
-	"Cracked Greenstone Brick Slab",
+	"Cracked Jade Brick Stair",
+	"Cracked Jade Brick Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -391,8 +391,8 @@ stairs.register_stair_and_slab(
 	"too_many_stones:greenstone_block",
 	{cracky = 2},
 	{"tms_greenstone_block.png"},
-	"Greenstone Block Stair",
-	"Greenstone Block Slab",
+	"Jade Block Stair",
+	"Jade Block Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
