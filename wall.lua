@@ -239,4 +239,19 @@ walls.register("too_many_stones:sugilite_block_wall", "Sugilite Block Wall", "tm
 
 walls.register("too_many_stones:sugilite_cobble_wall", "Cobbled Sugilite Wall", "tms_sugilite_cobble.png",
 		"too_many_stones:sugilite_cobble", default.node_sound_stone_defaults())
+-- Turquoise
+walls.register("too_many_stones:turquoise_wall", "Turquoise Wall", "tms_turquoise.png",
+		"too_many_stones:turquoise", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:turquoise_brick_wall", "Turquoise Brick Wall", "tms_turquoise_brick.png",
+		"too_many_stones:turquoise_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:turquoise_cracked_brick_wall", "Cracked Turquoise Brick Wall", "tms_turquoise_brick.png^tms_brick_crack_overlay.png",
+		"too_many_stones:turquoise_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:turquoise_block_wall", "Turquoise Block Wall", "tms_turquoise_block.png",
+		"too_many_stones:turquoise_block", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:turquoise_cobble_wall", "Cobbled Turquoise Wall", "tms_turquoise_cobble.png",
+		"too_many_stones:turquoise_cobble", default.node_sound_stone_defaults())
 end
