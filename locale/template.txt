@@ -83,6 +83,11 @@ Sugilite Block=
 Sugilite Brick=
 Cracked Sugilite Brick=
 Cobbled Sugilite=
+Turquoise=
+Turquoise Block=
+Turquoise Brick=
+Cracked Turquoise Brick=
+Cobbled Turquoise=
 
 ### wall.lua ###
 
@@ -166,6 +171,11 @@ Sugilite Brick Wall=
 Sugilite Block Wall=
 Cracked Sugilite Brick Wall=
 Cobbled Sugilite Wall=
+Turquoise Wall=
+Turquoise Brick Wall=
+Turquoise Block Wall=
+Cracked Turquoise Brick Wall=
+Cobbled Turquoise Wall=
 
 ### stairs.lua ###
 
@@ -249,6 +259,11 @@ Sugilite Brick Slab=
 Sugilite Block Slab=
 Cracked Sugilite Brick Slab=
 Cobbled Sugilite Slab=
+Turquoise Slab=
+Turquoise Brick Slab=
+Turquoise Block Slab=
+Cracked Turquoise Brick Slab=
+Cobbled Turquoise Slab=
 Amazonite Stair=
 Cobbled Amazonite Stair=
 Amazonite Brick Stair=
@@ -329,3 +344,8 @@ Sugilite Brick Stair=
 Sugilite Block Stair=
 Cracked Sugilite Brick Stair=
 Cobbled Sugilite Stair=
+Turquoise Stair=
+Turquoise Brick Stair=
+Turquoise Block Stair=
+Cracked Turquoise Brick Stair=
+Cobbled Turquoise Stair=
