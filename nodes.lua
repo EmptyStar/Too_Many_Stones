@@ -795,6 +795,84 @@ minetest.register_node("too_many_stones:sugilite_cracked_brick", {
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
+-- Turquoise
+minetest.register_node("too_many_stones:sandstone_with_turquoise", {
+	description = S("Turquoise Ore"),
+	tiles = {"default_sandstone.png^tms_mineral_turquoise.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:turquoise_pebble 9",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:desert_sandstone_with_turquoise", {
+	description = S("Turquoise Ore"),
+	tiles = {"default_desert_sandstone.png^tms_mineral_turquoise.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:turquoise_pebble 9",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:silver_sandstone_with_turquoise", {
+	description = S("Turquoise Ore"),
+	tiles = {"default_silver_sandstone.png^tms_mineral_turquoise.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:turquoise_pebble 9",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_craftitem("too_many_stones:turquoise_pebble", {
+	description = S("Turquoise Pebble"),
+	inventory_image = "tms_turquoise_pebble.png"
+})
+
+minetest.register_node("too_many_stones:turquoise", {
+	description = S("Turquoise"),
+	tiles = {"tms_turquoise.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:turquoise",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:turquoise_block", {
+	description = S("Turquoise Block"),
+	tiles = {"tms_turquoise_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:turquoise_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:turquoise_cobble", {
+	description = S("Cobbled Turquoise"),
+	tiles = {"tms_turquoise_cobble.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 2},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:turquoise_brick", {
+	description = S("Turquoise Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_turquoise_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:turquoise_cracked_brick", {
+	description = S("Cracked Turquoise Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_turquoise_brick.png^tms_brick_crack_overlay.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
 --[[
 minetest.register_node("too_many_stones:bluestone", {
 	description = S("Sodalite"),

@@ -1043,3 +1043,62 @@
 			persist = 0.0
 		},
 	})
+
+-- Turquoise
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:sandstone_with_turquoise",
+		wherein         = {"default:sandstone"},
+		clust_scarcity  = 32 * 32 * 32,
+		clust_size      = 20,
+		y_max           = 300,
+		y_min           = -60,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			seed = 61,
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:desert_sandstone_with_turquoise",
+		wherein         = {"default:desert_sandstone"},
+		clust_scarcity  = 32 * 32 * 32,
+		clust_size      = 20,
+		y_max           = 300,
+		y_min           = -60,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			seed = 61,
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:silver_sandstone_with_turquoise",
+		wherein         = {"default:silver_sandstone"},
+		clust_scarcity  = 32 * 32 * 32,
+		clust_size      = 20,
+		y_max           = 300,
+		y_min           = -60,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			seed = 61,
+			octaves = 1,
+			persist = 0.0
+		},
+	})

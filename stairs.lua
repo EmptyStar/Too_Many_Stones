@@ -880,4 +880,59 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
+-- Turquoise
+stairs.register_stair_and_slab(
+	"turquoise",
+	"too_many_stones:turquoise",
+	{cracky = 3},
+	{"tms_turquoise.png"},
+	"Turquoise Stair",
+	"Turquoise Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"turquoise_cobble",
+	"too_many_stones:turquoise_cobble",
+	{cracky = 3},
+	{"tms_turquoise_cobble.png"},
+	"Cobbled Turquoise Stair",
+	"Cobbled Turquoise Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"turquoise_brick",
+	"too_many_stones:turquoise_brick",
+	{cracky = 2},
+	{"tms_turquoise_brick.png"},
+	"Turquoise Brick Stair",
+	"Turquoise Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"turquoise_cracked_brick",
+	"too_many_stones:turquoise_cracked_brick",
+	{cracky = 2},
+	{"tms_turquoise_brick.png^tms_brick_crack_overlay.png"},
+	"Cracked Turquoise Brick Stair",
+	"Cracked Turquoise Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"turquoise_block",
+	"too_many_stones:turquoise_block",
+	{cracky = 2},
+	{"tms_turquoise_block.png"},
+	"Turquoise Block Stair",
+	"Turquoise Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
 end

@@ -289,6 +289,32 @@ minetest.register_craft({
 		{"too_many_stones:sugilite", "too_many_stones:sugilite", "too_many_stones:sugilite"},
 	}
 })
+-- Turquoise
+minetest.register_craft({
+	output = "too_many_stones:turquoise_cobble",
+	recipe = {
+		{"too_many_stones:turquoise_pebble", "too_many_stones:turquoise_pebble", "too_many_stones:turquoise_pebble"},
+		{"too_many_stones:turquoise_pebble", "too_many_stones:turquoise_pebble", "too_many_stones:turquoise_pebble"},
+		{"too_many_stones:turquoise_pebble", "too_many_stones:turquoise_pebble", "too_many_stones:turquoise_pebble"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:turquoise_brick 4",
+	recipe = {
+		{"too_many_stones:turquoise", "too_many_stones:turquoise"},
+		{"too_many_stones:turquoise", "too_many_stones:turquoise"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:turquoise_block 9",
+	recipe = {
+		{"too_many_stones:turquoise", "too_many_stones:turquoise", "too_many_stones:turquoise"},
+		{"too_many_stones:turquoise", "too_many_stones:turquoise", "too_many_stones:turquoise"},
+		{"too_many_stones:turquoise", "too_many_stones:turquoise", "too_many_stones:turquoise"},
+	}
+})
 --
 -- Cooking recipes
 --
@@ -435,5 +461,17 @@ minetest.register_craft({
 	type = "cooking",
 	output = "too_many_stones:sugilite_cracked_brick",
 	recipe = "too_many_stones:sugilite_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:turquoise",
+	recipe = "too_many_stones:turquoise_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:turquoise_cracked_brick",
+	recipe = "too_many_stones:turquoise_brick",
 })
 
