@@ -55,53 +55,7 @@ minetest.register_node("too_many_stones:amazonite_cracked_brick", {
 	description = S("Cracked Amazonite Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_amazonite_brick.png^tms_brick_crack_overlay.png"},
-	is_ground_content = false,
-	groups = {cracky = 2, stone = 1},
-	sounds = default.node_sound_stone_defaults(),
-})
--- Sodalite
-minetest.register_node("too_many_stones:bluestone", {
-	description = S("Sodalite"),
-	tiles = {"tms_bluestone.png"},
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:bluestone_cobble",
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:bluestone_block", {
-	description = S("Sodalite Block"),
-	tiles = {"tms_bluestone_block.png"},
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:bluestone_block",
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:bluestone_cobble", {
-	description = S("Cobbled Sodalite"),
-	tiles = {"tms_bluestone_cobble.png"},
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 2},
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:bluestone_brick", {
-	description = S("Sodalite Brick"),
-	paramtype2 = "facedir",
-	place_param2 = 0,
-	tiles = {"tms_bluestone_brick.png"},
-	is_ground_content = false,
-	groups = {cracky = 2, stone = 1},
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:bluestone_cracked_brick", {
-	description = S("Cracked Sodalite Brick"),
-	paramtype2 = "facedir",
-	place_param2 = 0,
-	tiles = {"tms_bluestone_brick.png^tms_brick_crack_overlay.png"},
+	tiles = {"tms_amazonite_cracked_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -154,7 +108,7 @@ minetest.register_node("too_many_stones:calcite_cracked_brick", {
 	sunlight_propagates = true,
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_calcite_brick.png^tms_brick_crack_overlay.png"},
+	tiles = {"tms_calcite_cracked_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -201,7 +155,48 @@ minetest.register_node("too_many_stones:carnotite_cracked_brick", {
 	description = S("Cracked Carnotite Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_carnotite_brick.png^tms_brick_crack_overlay.png"},
+	tiles = {"tms_carnotite_cracked_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+-- Black Granite
+minetest.register_node("too_many_stones:granite_black", {
+	description = S("Black Granite"),
+	tiles = {"tms_granite_black.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_black",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_black_block", {
+	description = S("Black Granite Block"),
+	tiles = {"tms_granite_black_block.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_black_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_black_brick", {
+	description = S("Black Granite Brick"),
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_granite_black_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_black_cracked_brick", {
+	description = S("Cracked Black Granite Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_granite_black_cracked_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -247,6 +242,47 @@ minetest.register_node("too_many_stones:granite_blue_cracked_brick", {
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
+-- Gray Granite
+minetest.register_node("too_many_stones:granite_gray", {
+	description = S("Gray Granite"),
+	tiles = {"tms_granite_gray.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_gray",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_gray_block", {
+	description = S("Gray Granite Block"),
+	tiles = {"tms_granite_gray_block.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_gray_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_gray_brick", {
+	description = S("Gray Granite Brick"),
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_granite_gray_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_gray_cracked_brick", {
+	description = S("Cracked Gray Granite Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_granite_gray_brick.png^tms_brick_crack_overlay.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
 -- Green Granite
 minetest.register_node("too_many_stones:granite_green", {
 	description = S("Green Granite"),
@@ -284,6 +320,47 @@ minetest.register_node("too_many_stones:granite_green_cracked_brick", {
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_granite_green_brick.png^tms_brick_crack_overlay.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+-- Pink Granite
+minetest.register_node("too_many_stones:granite_pink", {
+	description = S("Pink Granite"),
+	tiles = {"tms_granite_pink.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_pink",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_pink_block", {
+	description = S("Pink Granite Block"),
+	tiles = {"tms_granite_pink_block.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_pink_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_pink_brick", {
+	description = S("Pink Granite Brick"),
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_granite_pink_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_pink_cracked_brick", {
+	description = S("Cracked Pink Granite Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_granite_pink_brick.png^tms_brick_crack_overlay.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -329,46 +406,43 @@ minetest.register_node("too_many_stones:granite_red_cracked_brick", {
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
---Jade
-minetest.register_node("too_many_stones:greenstone", {
-	description = S("Jade"),
-	tiles = {"tms_greenstone.png"},
-	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:greenstone_cobble",
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:greenstone_block", {
-	description = S("Jade Block"),
-	tiles = {"tms_greenstone_block.png"},
-	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:greenstone_block",
-	sounds = default.node_sound_stone_defaults(),
-})
-
-minetest.register_node("too_many_stones:greenstone_cobble", {
-	description = S("Cobbled Jade"),
-	tiles = {"tms_greenstone_cobble.png"},
+-- White Granite
+minetest.register_node("too_many_stones:granite_white", {
+	description = S("White Granite"),
+	tiles = {"tms_granite_white.png"},
+	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 2},
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_white",
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:greenstone_brick", {
-	description = S("Jade Brick"),
+minetest.register_node("too_many_stones:granite_white_block", {
+	description = S("White Granite Block"),
+	tiles = {"tms_granite_white_block.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:granite_white_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:granite_white_brick", {
+	description = S("White Granite Brick"),
+	sunlight_propagates = true,
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_greenstone_brick.png"},
+	tiles = {"tms_granite_white_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
 
-minetest.register_node("too_many_stones:greenstone_cracked_brick", {
-	description = S("Cracked Jade Brick"),
+minetest.register_node("too_many_stones:granite_white_cracked_brick", {
+	description = S("Cracked White Granite Brick"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
-	tiles = {"tms_greenstone_brick.png^tms_brick_crack_overlay.png"},
+	tiles = {"tms_granite_white_brick.png^tms_brick_crack_overlay.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -415,6 +489,56 @@ minetest.register_node("too_many_stones:ilvaite_cracked_brick", {
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_ilvaite_brick.png^tms_brick_crack_overlay.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+--Jade
+minetest.register_alias("too_many_stones:greenstone", "too_many_stones:jade")
+minetest.register_alias("too_many_stones:greenstone_block", "too_many_stones:jade_block")
+minetest.register_alias("too_many_stones:greenstone_cobble", "too_many_stones:jade_cobble")
+minetest.register_alias("too_many_stones:greenstone_brick", "too_many_stones:jade_brick")
+minetest.register_alias("too_many_stones:greenstone_cracked_brick", "too_many_stones:jade_cracked_brick")
+
+minetest.register_node("too_many_stones:jade", {
+	description = S("Jade"),
+	tiles = {"tms_jade.png"},
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:jade_cobble",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:jade_block", {
+	description = S("Jade Block"),
+	tiles = {"tms_jade_block.png"},
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:jade_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:jade_cobble", {
+	description = S("Cobbled Jade"),
+	tiles = {"tms_jade_cobble.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 2},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:jade_brick", {
+	description = S("Jade Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_jade_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:jade_cracked_brick", {
+	description = S("Cracked Jade Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_jade_brick.png^tms_brick_crack_overlay.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
@@ -745,6 +869,58 @@ minetest.register_node("too_many_stones:slate_cracked_brick", {
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_slate_brick.png^tms_brick_crack_overlay.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+-- Sodalite
+minetest.register_alias("too_many_stones:bluestone", "too_many_stones:sodalite")
+minetest.register_alias("too_many_stones:bluestone_block", "too_many_stones:sodalite_block")
+minetest.register_alias("too_many_stones:bluestone_cobble", "too_many_stones:sodalite_cobble")
+minetest.register_alias("too_many_stones:bluestone_brick", "too_many_stones:sodalite_brick")
+minetest.register_alias("too_many_stones:bluestone_cracked_brick", "too_many_stones:sodalite_cracked_brick")
+
+minetest.register_node("too_many_stones:sodalite", {
+	description = S("Sodalite"),
+	tiles = {"tms_sodalite.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:sodalite_cobble",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:sodalite_block", {
+	description = S("Sodalite Block"),
+	tiles = {"tms_sodalite_block.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:sodalite_block",
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:sodalite_cobble", {
+	description = S("Cobbled Sodalite"),
+	tiles = {"tms_sodalite_cobble.png"},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 2},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:sodalite_brick", {
+	description = S("Sodalite Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_sodalite_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("too_many_stones:sodalite_cracked_brick", {
+	description = S("Cracked Sodalite Brick"),
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_sodalite_brick.png^tms_brick_crack_overlay.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
