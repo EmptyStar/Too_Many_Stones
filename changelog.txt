@@ -1,0 +1,8 @@
+No changes available for versions before v0.2.0 Beta
+
+V0.2.0
+Added Pink Granite
+Added White Granite
+Added Gray Granite
+Added Black Granite
+Fixed the internal names of Sodalite and Jade
