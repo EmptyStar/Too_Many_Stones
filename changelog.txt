@@ -6,3 +6,19 @@ Added White Granite
 Added Gray Granite
 Added Black Granite
 Fixed the internal names of Sodalite and Jade
+Changed all cracked bricks to be unique
+Added several new geodes if you have it installed
+Added Amber
+Added Amethyst
+Added Citrine
+Added Crocoite
+Added Eudialite
+Added Gabbro
+Added Mudstone
+Added Opal
+Added Pyrite
+Added Serpentine
+Added Smokey Quartz
+Added Travertine
+Added Vivianite
+Made the translation template easier to read
