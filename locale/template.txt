@@ -8,102 +8,192 @@ Amazonite Block=
 Cobbled Amazonite=
 Amazonite Brick=
 Cracked Amazonite Brick=
-Sodalite=
-Sodalite Block=
-Cobbled Sodalite=
-Sodalite Brick=
-Cracked Sodalite Brick=
+
+Amber=
+Amber Block=
+Amber Brick=
+Cracked Amber Brick=
+
+Amethyst=
+Amethyst Block=
+Amethyst Brick=
+Cracked Amethyst Brick=
+
 Calcite=
 Calcite Block=
 Calcite Brick=
 Cracked Calcite Brick=
+
 Carnotite=
 Carnotite Block=
 Carnotite Brick=
 Cracked Carnotite Brick=
 Cobbled Carnotite=
+
+Citrine=
+Citrine Block=
+Citrine Brick=
+Cracked Citrine Brick=
+
+Crocoite=
+Crocoite Block=
+Crocoite Brick=
+Cracked Crocoite Brick=
+
+Eudialite=
+Eudialite Block=
+Eudialite Brick=
+Cracked Eudialite Brick=
+
+Gabbro=
+Gabbro Block=
+Cobbled Gabbro=
+Gabbro Brick=
+Cracked Gabbro Brick=
+
 Black Granite=
 Black Granite Block=
 Black Granite Brick=
 Cracked Black Granite Brick=
+
 Blue Granite=
 Blue Granite Block=
 Blue Granite Brick=
 Cracked Blue Granite Brick=
+
 Gray Granite=
 Gray Granite Block=
 Gray Granite Brick=
 Cracked Gray Granite Brick=
+
 Green Granite=
 Green Granite Block=
 Green Granite Brick=
 Cracked Green Granite Brick=
+
 Pink Granite=
 Pink Granite Block=
 Pink Granite Brick=
 Cracked Pink Granite Brick=
+
 Red Granite=
 Red Granite Block=
 Red Granite Brick=
 Cracked Red Granite Brick=
+
 White Granite=
 White Granite Block=
 White Granite Brick=
 Cracked White Granite Brick=
-Jade=
-Jade Block=
-Jade Brick=
-Cracked Jade Brick=
-Cobbled Jade=
+
 Ilvaite=
 Ilvaite Block=
 Ilvaite Brick=
 Cracked Ilvaite Brick=
 Cobbled Ilvaite=
+
+Jade=
+Jade Block=
+Jade Brick=
+Cracked Jade Brick=
+Cobbled Jade=
+
 Kyanite=
 Kyanite Block=
 Kyanite Brick=
 Cracked Kyanite Brick=
 Cobbled Kyanite=
-Marble=
-Marble Block=
-Marble Brick=
-Cracked Marble Brick=
-Cobbled Marble=
+
 Blue Limestone=
 Blue Limestone Block=
 Blue Limestone Brick=
 Cracked Blue Limestone Brick=
 Cobbled Blue Limestone=
+
 White Limestone=
 White Limestone Block=
 White Limestone Brick=
 Cracked White Limestone Brick=
 Cobbled White Limestone=
+
+Marble=
+Marble Block=
+Marble Brick=
+Cracked Marble Brick=
+Cobbled Marble=
+
+Mudstone=
+Mudstone Block=
+Cobbled Mudstone=
+Mudstone Brick=
+Cracked Mudstone Brick=
+
+Opal=
+
+Pyrite=
+Pyrite Block=
+Cobbled Pyrite=
+Pyrite Brick=
+Cracked Pyrite Brick=
+
 Rose Quartz=
 Rose Quartz Block=
 Rose Quartz Brick=
 Cracked Rose Quartz Brick=
+
 Scoria=
 Scoria Block=
 Scoria Brick=
 Cracked Scoria Brick=
 Cobbled Scoria=
+
+Serpentine=
+Serpentine Block=
+Cobbled Serpentine=
+Serpentine Brick=
+Cracked Serpentine Brick=
+
 Slate=
 Slate Block=
 Slate Brick=
 Cracked Slate Brick=
 Cobbled Slate=
+
+Smokey Quartz=
+Smokey Quartz Block=
+Cobbled Smokey Quartz=
+Smokey Quartz Brick=
+Cracked Smokey Quartz Brick=
+
+Sodalite=
+Sodalite Block=
+Cobbled Sodalite=
+Sodalite Brick=
+Cracked Sodalite Brick=
+
 Sugilite=
 Sugilite Block=
 Sugilite Brick=
 Cracked Sugilite Brick=
 Cobbled Sugilite=
+
+Travertine=
+Travertine Block=
+Cobbled Travertine=
+Travertine Brick=
+Cracked Travertine Brick=
+
 Turquoise=
 Turquoise Block=
 Turquoise Brick=
 Cracked Turquoise Brick=
 Cobbled Turquoise=
+
+Vivianite=
+Vivianite Block=
+Cobbled Vivianite=
+Vivianite Brick=
+Cracked Vivianite Brick=
 
 ### wall.lua ###
 
@@ -112,102 +202,187 @@ Cobbled Amazonite Wall=
 Amazonite Brick Wall=
 Amazonite Block Wall=
 Cracked Amazonite Brick Wall=
-Sodalite Wall=
-Cobbled Sodalite Wall=
-Sodalite Brick Wall=
-Sodalite Block Wall=
-Cracked Sodalite Brick Wall=
+
+Amber Wall=
+Amber Brick Wall=
+Amber Block Wall=
+Cracked Amber Brick Wall=
+
+Amethyst Wall=
+Amethyst Brick Wall=
+Amethyst Block Wall=
+Cracked Amethyst Brick Wall=
+
 Calcite Wall=
 Calcite Brick Wall=
 Calcite Block Wall=
 Cracked Calcite Brick Wall=
+
 Carnotite Wall=
 Carnotite Brick Wall=
 Carnotite Block Wall=
 Cracked Carnotite Brick Wall=
 Cobbled Carnotite Wall=
+
+Citrine Wall=
+Citrine Brick Wall=
+Citrine Block Wall=
+Cracked Citrine Brick Wall=
+
+Crocoite Wall=
+Crocoite Brick Wall=
+Crocoite Block Wall=
+Cracked Crocoite Brick Wall=
+
+Eudialite Wall=
+Eudialite Brick Wall=
+Eudialite Block Wall=
+Cracked Eudialite Brick Wall=
+
+Gabbro Wall=
+Cobbled Gabbro Wall=
+Gabbro Brick Wall=
+Gabbro Block Wall=
+Cracked Gabbro Brick Wall=
+
 Black Granite Wall=
 Black Granite Brick Wall=
 Black Granite Block Wall=
 Cracked Black Granite Brick Wall=
+
 Blue Granite Wall=
 Blue Granite Brick Wall=
 Blue Granite Block Wall=
 Cracked Blue Granite Brick Wall=
+
 Gray Granite Wall=
 Gray Granite Brick Wall=
 Gray Granite Block Wall=
 Cracked Gray Granite Brick Wall=
+
 Green Granite Wall=
 Green Granite Brick Wall=
 Green Granite Block Wall=
 Cracked Green Granite Brick Wall=
+
 Pink Granite Wall=
 Pink Granite Brick Wall=
 Pink Granite Block Wall=
 Cracked Pink Granite Brick Wall=
+
 Red Granite Wall=
 Red Granite Brick Wall=
 Red Granite Block Wall=
 Cracked Red Granite Brick Wall=
+
 White Granite Wall=
 White Granite Brick Wall=
 White Granite Block Wall=
 Cracked White Granite Brick Wall=
-Jade Wall=
-Jade Brick Wall=
-Jade Block Wall=
-Cracked Jade Brick Wall=
-Cobbled Jade Wall=
+
 Ilvaite Wall=
 Ilvaite Brick Wall=
 Ilvaite Block Wall=
 Cracked Ilvaite Brick Wall=
 Cobbled Ilvaite Wall=
+
+Jade Wall=
+Jade Brick Wall=
+Jade Block Wall=
+Cracked Jade Brick Wall=
+Cobbled Jade Wall=
+
 Kyanite Wall=
 Kyanite Brick Wall=
 Kyanite Block Wall=
 Cracked Kyanite Brick Wall=
 Cobbled Kyanite Wall=
-Marble Wall=
-Marble Brick Wall=
-Marble Block Wall=
-Cracked Marble Brick Wall=
-Cobbled Marble Wall=
+
 Blue Limestone Wall=
 Blue Limestone Brick Wall=
 Blue Limestone Block Wall=
 Cracked Blue Limestone Brick Wall=
 Cobbled Blue Limestone Wall=
+
 White Limestone Wall=
 White Limestone Brick Wall=
 White Limestone Block Wall=
 Cracked White Limestone Brick Wall=
 Cobbled White Limestone Wall=
+
+Marble Wall=
+Marble Brick Wall=
+Marble Block Wall=
+Cracked Marble Brick Wall=
+Cobbled Marble Wall=
+
+Mudstone Wall=
+Cobbled Mudstone Wall=
+Mudstone Brick Wall=
+Mudstone Block Wall=
+Cracked Mudstone Brick Wall=
+
+Pyrite Wall=
+Pyrite Brick Wall=
+Pyrite Block Wall=
+Cracked Pyrite Brick Wall=
+
 Rose Quartz Wall=
 Rose Quartz Brick Wall=
 Rose Quartz Block Wall=
 Cracked Rose Quartz Brick Wall=
+
 Scoria Wall=
 Scoria Brick Wall=
 Scoria Block Wall=
 Cracked Scoria Brick Wall=
 Cobbled Scoria Wall=
+
+Serpentine Wall=
+Cobbled Serpentine Wall=
+Serpentine Brick Wall=
+Serpentine Block Wall=
+Cracked Serpentine Brick Wall=
+
 Slate Wall=
 Slate Brick Wall=
 Slate Block Wall=
 Cracked Slate Brick Wall=
 Cobbled Slate Wall=
+
+Smokey Quartz Wall=
+Smokey Quartz Brick Wall=
+Smokey Quartz Block Wall=
+Cracked Smokey Quartz Brick Wall=
+
+Sodalite Wall=
+Cobbled Sodalite Wall=
+Sodalite Brick Wall=
+Sodalite Block Wall=
+Cracked Sodalite Brick Wall=
+
 Sugilite Wall=
 Sugilite Brick Wall=
 Sugilite Block Wall=
 Cracked Sugilite Brick Wall=
 Cobbled Sugilite Wall=
+
+Travertine Wall=
+Cobbled Travertine Wall=
+Travertine Brick Wall=
+Travertine Block Wall=
+Cracked Travertine Brick Wall=
+
 Turquoise Wall=
 Turquoise Brick Wall=
 Turquoise Block Wall=
 Cracked Turquoise Brick Wall=
 Cobbled Turquoise Wall=
+
+Vivianite Wall=
+Vivianite Brick Wall=
+Vivianite Block Wall=
+Cracked Vivianite Brick Wall=
 
 ### stairs.lua ###
 
@@ -216,200 +391,373 @@ Cobbled Amazonite Slab=
 Amazonite Brick Slab=
 Amazonite Block Slab=
 Cracked Amazonite Brick Slab=
-Sodalite Slab=
-Cobbled Sodalite Slab=
-Sodalite Brick Slab=
-Sodalite Block Slab=
-Cracked Sodalite Brick Slab=
+
+Amber Slab=
+Amber Brick Slab=
+Amber Block Slab=
+Cracked Amber Brick Slab=
+
+Amethyst Slab=
+Amethyst Brick Slab=
+Amethyst Block Slab=
+Cracked Amethyst Brick Slab=
+
 Calcite Slab=
 Calcite Brick Slab=
 Calcite Block Slab=
 Cracked Calcite Brick Slab=
+
 Carnotite Slab=
 Carnotite Brick Slab=
 Carnotite Block Slab=
 Cracked Carnotite Brick Slab=
 Cobbled Carnotite Slab=
+
+Citrine Slab=
+Citrine Brick Slab=
+Citrine Block Slab=
+Cracked Citrine Brick Slab=
+
+Crocoite Slab=
+Crocoite Brick Slab=
+Crocoite Block Slab=
+Cracked Crocoite Brick Slab=
+
+Eudialite Slab=
+Eudialite Brick Slab=
+Eudialite Block Slab=
+Cracked Eudialite Brick Slab=
+
+Gabbro Slab=
+Cobbled Gabbro Slab=
+Gabbro Brick Slab=
+Gabbro Block Slab=
+Cracked Gabbro Brick Slab=
+
 Black Granite Slab=
 Black Granite Brick Slab=
 Black Granite Block Slab=
 Cracked Black Granite Brick Slab=
+
 Blue Granite Slab=
 Blue Granite Brick Slab=
 Blue Granite Block Slab=
 Cracked Blue Granite Brick Slab=
+
 Gray Granite Slab=
 Gray Granite Brick Slab=
 Gray Granite Block Slab=
 Cracked Gray Granite Brick Slab=
+
 Green Granite Slab=
 Green Granite Brick Slab=
 Green Granite Block Slab=
 Cracked Green Granite Brick Slab=
+
 Pink Granite Slab=
 Pink Granite Brick Slab=
 Pink Granite Block Slab=
 Cracked Pink Granite Brick Slab=
+
 Red Granite Slab=
 Red Granite Brick Slab=
 Red Granite Block Slab=
 Cracked Red Granite Brick Slab=
+
 White Granite Slab=
 White Granite Brick Slab=
 White Granite Block Slab=
 Cracked White Granite Brick Slab=
-Jade Slab=
-Jade Brick Slab=
-Jade Block Slab=
-Cracked Jade Brick Slab=
-Cobbled Jade Slab=
+
 Ilvaite Slab=
 Ilvaite Brick Slab=
 Ilvaite Block Slab=
 Cracked Ilvaite Brick Slab=
 Cobbled Ilvaite Slab=
+
+Jade Slab=
+Jade Brick Slab=
+Jade Block Slab=
+Cracked Jade Brick Slab=
+Cobbled Jade Slab=
+
 Kyanite Slab=
 Kyanite Brick Slab=
 Kyanite Block Slab=
 Cracked Kyanite Brick Slab=
 Cobbled Kyanite Slab=
-Marble Slab=
-Marble Brick Slab=
-Marble Block Slab=
-Cracked Marble Brick Slab=
-Cobbled Marble Slab=
+
 Blue Limestone Slab=
 Blue Limestone Brick Slab=
 Blue Limestone Block Slab=
 Cracked Blue Limestone Brick Slab=
 Cobbled Blue Limestone Slab=
+
 White Limestone Slab=
 White Limestone Brick Slab=
 White Limestone Block Slab=
 Cracked White Limestone Brick Slab=
 Cobbled White Limestone Slab=
+
+Marble Slab=
+Marble Brick Slab=
+Marble Block Slab=
+Cracked Marble Brick Slab=
+Cobbled Marble Slab=
+
+Mudstone Slab=
+Cobbled Mudstone Slab=
+Mudstone Brick Slab=
+Mudstone Block Slab=
+Cracked Mudstone Brick Slab=
+
+Pyrite Slab=
+Pyrite Brick Slab=
+Pyrite Block Slab=
+Cracked Pyrite Brick Slab=
+
 Rose Quartz Slab=
 Rose Quartz Brick Slab=
 Rose Quartz Block Slab=
 Cracked Rose Quartz Brick Slab=
+
 Scoria Slab=
 Scoria Brick Slab=
 Scoria Block Slab=
 Cracked Scoria Brick Slab=
 Cobbled Scoria Slab=
+
+Serpentine Slab=
+Cobbled Serpentine Slab=
+Serpentine Brick Slab=
+Serpentine Block Slab=
+Cracked Serpentine Brick Slab=
+
 Slate Slab=
 Slate Brick Slab=
 Slate Block Slab=
 Cracked Slate Brick Slab=
 Cobbled Slate Slab=
+
+Smokey Quartz Slab=
+Smokey Quartz Brick Slab=
+Smokey Quartz Block Slab=
+Cracked Smokey Quartz Brick Slab=
+
+Sodalite Slab=
+Cobbled Sodalite Slab=
+Sodalite Brick Slab=
+Sodalite Block Slab=
+Cracked Sodalite Brick Slab=
+
 Sugilite Slab=
 Sugilite Brick Slab=
 Sugilite Block Slab=
 Cracked Sugilite Brick Slab=
 Cobbled Sugilite Slab=
+
+Travertine Slab=
+Cobbled Travertine Slab=
+Travertine Brick Slab=
+Travertine Block Slab=
+Cracked Travertine Brick Slab=
+
 Turquoise Slab=
 Turquoise Brick Slab=
 Turquoise Block Slab=
 Cracked Turquoise Brick Slab=
 Cobbled Turquoise Slab=
+
+Vivianite Slab=
+Cobbled Vivianite Slab=
+Vivianite Brick Slab=
+Vivianite Block Slab=
+Cracked Vivianite Brick Slab=
+
+
 Amazonite Stair=
 Cobbled Amazonite Stair=
 Amazonite Brick Stair=
 Amazonite Block Stair=
 Cracked Amazonite Brick Stair=
-Sodalite Stair=
-Cobbled Sodalite Stair=
-Sodalite Brick Stair=
-Sodalite Block Stair=
-Cracked Sodalite Brick Stair=
+
+Amber Stair=
+Amber Brick Stair=
+Amber Block Stair=
+Cracked Amber Brick Stair=
+
+Amethyst Stair=
+Amethyst Brick Stair=
+Amethyst Block Stair=
+Cracked Amethyst Brick Stair=
+
 Calcite Stair=
 Calcite Brick Stair=
 Calcite Block Stair=
 Cracked Calcite Brick Stair=
+
 Carnotite Stair=
 Carnotite Brick Stair=
 Carnotite Block Stair=
 Cracked Carnotite Brick Stair=
 Cobbled Carnotite Stair=
+
+Citrine Stair=
+Citrine Brick Stair=
+Citrine Block Stair=
+Cracked Citrine Brick Stair=
+
+Crocoite Stair=
+Crocoite Brick Stair=
+Crocoite Block Stair=
+Cracked Crocoite Brick Stair=
+
+Eudialite Stair=
+Eudialite Brick Stair=
+Eudialite Block Stair=
+Cracked Eudialite Brick Stair=
+
+Gabbro Stair=
+Cobbled Gabbro Stair=
+Gabbro Brick Stair=
+Gabbro Block Stair=
+Cracked Gabbro Brick Stair=
+
 Black Granite Stair=
 Black Granite Brick Stair=
 Black Granite Block Stair=
 Cracked Black Granite Brick Stair=
+
 Blue Granite Stair=
 Blue Granite Brick Stair=
 Blue Granite Block Stair=
 Cracked Blue Granite Brick Stair=
+
 Gray Granite Stair=
 Gray Granite Brick Stair=
 Gray Granite Block Stair=
 Cracked Gray Granite Brick Stair=
+
 Green Granite Stair=
 Green Granite Brick Stair=
 Green Granite Block Stair=
 Cracked Green Granite Brick Stair=
+
 Pink Granite Stair=
 Pink Granite Brick Stair=
 Pink Granite Block Stair=
 Cracked Pink Granite Brick Stair=
+
 Red Granite Stair=
 Red Granite Brick Stair=
 Red Granite Block Stair=
 Cracked Red Granite Brick Stair=
+
 White Granite Stair=
 White Granite Brick Stair=
 White Granite Block Stair=
 Cracked White Granite Brick Stair=
-Jade Stair=
-Jade Brick Stair=
-Jade Block Stair=
-Cracked Jade Brick Stair=
-Cobbled Jade Stair=
+
 Ilvaite Stair=
 Ilvaite Brick Stair=
 Ilvaite Block Stair=
 Cracked Ilvaite Brick Stair=
 Cobbled Ilvaite Stair=
+
+Jade Stair=
+Jade Brick Stair=
+Jade Block Stair=
+Cracked Jade Brick Stair=
+Cobbled Jade Stair=
+
 Kyanite Stair=
 Kyanite Brick Stair=
 Kyanite Block Stair=
 Cracked Kyanite Brick Stair=
 Cobbled Kyanite Stair=
-Marble Stair=
-Marble Brick Stair=
-Marble Block Stair=
-Cracked Marble Brick Stair=
-Cobbled Marble Stair=
+
 Blue Limestone Stair=
 Blue Limestone Brick Stair=
 Blue Limestone Block Stair=
 Cracked Blue Limestone Brick Stair=
 Cobbled Blue Limestone Stair=
+
 White Limestone Stair=
 White Limestone Brick Stair=
 White Limestone Block Stair=
 Cracked White Limestone Brick Stair=
 Cobbled White Limestone Stair=
+
+Marble Stair=
+Marble Brick Stair=
+Marble Block Stair=
+Cracked Marble Brick Stair=
+Cobbled Marble Stair=
+
+Mudstone Stair=
+Cobbled Mudstone Stair=
+Mudstone Brick Stair=
+Mudstone Block Stair=
+Cracked Mudstone Brick Stair=
+
+Pyrite Stair=
+Pyrite Brick Stair=
+Pyrite Block Stair=
+Cracked Pyrite Brick Stair=
+
 Rose Quartz Stair=
 Rose Quartz Brick Stair=
 Rose Quartz Block Stair=
 Cracked Rose Quartz Brick Stair=
+
 Scoria Stair=
 Scoria Brick Stair=
 Scoria Block Stair=
 Cracked Scoria Brick Stair=
 Cobbled Scoria Stair=
+
+Serpentine Stair=
+Cobbled Serpentine Stair=
+Serpentine Brick Stair=
+Serpentine Block Stair=
+Cracked Serpentine Brick Stair=
+
 Slate Stair=
 Slate Brick Stair=
 Slate Block Stair=
 Cracked Slate Brick Stair=
 Cobbled Slate Stair=
+
+Smokey Quartz Stair=
+Smokey Quartz Brick Stair=
+Smokey Quartz Block Stair=
+Cracked Smokey Quartz Brick Stair=
+
+Sodalite Stair=
+Cobbled Sodalite Stair=
+Sodalite Brick Stair=
+Sodalite Block Stair=
+Cracked Sodalite Brick Stair=
+
 Sugilite Stair=
 Sugilite Brick Stair=
 Sugilite Block Stair=
 Cracked Sugilite Brick Stair=
 Cobbled Sugilite Stair=
+
+Travertine Stair=
+Cobbled Travertine Stair=
+Travertine Brick Stair=
+Travertine Block Stair=
+Cracked Travertine Brick Stair=
+
 Turquoise Stair=
 Turquoise Brick Stair=
 Turquoise Block Stair=
 Cracked Turquoise Brick Stair=
 Cobbled Turquoise Stair=
+
+Vivianite Stair=
+Vivianite Brick Stair=
+Vivianite Block Stair=
+Cracked Vivianite Brick Stair=
