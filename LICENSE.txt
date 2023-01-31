@@ -86,3 +86,11 @@ rights may limit how you use the material.
 
 For more details:
 http://creativecommons.org/licenses/by/3.0/
+
+
+License of geode generation
+---------------------------
+
+(C) AwesomeDragon97
+
+LGPL-3.0
