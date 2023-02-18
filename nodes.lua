@@ -168,6 +168,28 @@ minetest.register_node("too_many_stones:amethyst_cracked_brick", {
 	sounds = default.node_sound_stone_defaults(),
     paramtype = "light",
 })
+-- Black Opal
+minetest.register_node("too_many_stones:black_opal", {
+	description = S("Black Opal"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	tiles = {
+		{
+			name = "tms_black_opal_animated.png",
+			backface_culling = false,
+			animation = {
+				type = "vertical_frames",
+				aspect_w = 16,
+				aspect_h = 16,
+				length = 6.0,
+			},
+		},
+},
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
 -- Calcite
 minetest.register_node("too_many_stones:calcite", {
 	description = S("Calcite"),
@@ -736,6 +758,60 @@ minetest.register_node("too_many_stones:granite_white_cracked_brick", {
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+})
+-- Heliodor
+minetest.register_node("too_many_stones:heliodor", {
+	description = S("Heliodor"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	tiles = {"tms_heliodor.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:heliodor",
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
+
+minetest.register_node("too_many_stones:heliodor_block", {
+	description = S("Heliodor Block"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	tiles = {"tms_heliodor_block.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:heliodor_block",
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
+
+minetest.register_node("too_many_stones:heliodor_brick", {
+	description = S("Heliodor Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_heliodor_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
+
+minetest.register_node("too_many_stones:heliodor_cracked_brick", {
+	description = S("Cracked Heliodor Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_heliodor_cracked_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 -- Ilvaite
 minetest.register_node("too_many_stones:ilvaite", {
@@ -1640,17 +1716,3 @@ minetest.register_node("too_many_stones:vivianite_cracked_brick", {
 	sounds = default.node_sound_stone_defaults(),
     paramtype = "light",
 })
---[[
-minetest.register_node("too_many_stones:bluestone", {
-	description = S("Sodalite"),
-	drawtype = "glasslike",
-	tiles = {"tms_bluestone.png"},
-	paramtype = "light",
-	sunlight_propagates = true,
-	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
-	drop = "too_many_stones:bluestone_cobble",
-	sounds = default.node_sound_stone_defaults(),
-	light_source = default.LIGHT_MAX,
-})
---]]

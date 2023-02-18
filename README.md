@@ -1,17 +1,25 @@
 # Too Many Stones
 
-This mod is in a quite functional state, but not a polished state. It currently features 35 stone types that all spawn in the world, cobble for most of them, and bricks, cracked brick, and blocks for all stone types. If your game supplies stairs, you will have access to stairs and slabs. If your game has walls, then you will also get walls for most stone types. If you have the mod "geodes" installed, you will get several geodes as well. The placement of the stones in the mapgen is nearing finalization. More stones may be added, and you can put a feature request on ContentDB or the repo for new ones. I probably won't add any boring stones though.
+This mod is in a quite functional state, but not a polished state. It currently features 44 stone types (7 of which glow) that all spawn in the world, cobble for most of them, and bricks, cracked brick, and blocks for all stone types. If your game supplies stairs, you will have access to stairs and slabs. If your game has walls, then you will also get walls for most stone types. If you have the either "geodes" or "geodes_lib" installed, you will get several geodes as well. The placement of the stones in the mapgen is nearing finalization. More stones may be added, and you can put a feature request on ContentDB or the repo for new ones. I probably won't add any boring stones though.
 
 Done:
 Amazonite-(light green)
 Amber-(dark orange)
 Amethyst-(dark purple)
+Black Opal-(black to green)
 Calcite-(light grey)
 Carnotite-(mustard yellow)
 Citrine-(dark yellow)
 Crocoite-(bright orange)
 Eudialite-(dark red)
 Gabbro-(dark grey)
+Glow Apatite-(light purple)
+Glow Calcite-(red)
+Glow Esperite-(yellow)
+Glow Fluorite-(indigo)
+Glow Selenite-(light blue)
+Glow Sodalite-(orange)
+Glow Willemite-(lime green)
 Black Granite-(black)
 Blue Granite-(bright blue)
 Gray Granite-(light gray)
@@ -19,6 +27,7 @@ Green Granite-(green)
 Pink Granite-(pale pink)
 Red Granite-(red)
 White Granite-(white)
+Heliodor-(yellow)
 Ilvaite-(black)
 Jade-(dark green)
 Kyanite-(light blue)
@@ -41,4 +50,4 @@ Vivianite-(dark green)
 
 To Do:
 Find and add ore mods to optional depends
-Glow Stone?
+Crystal Sounds
