@@ -272,6 +272,23 @@ minetest.register_craft({
 		{"too_many_stones:granite_white", "too_many_stones:granite_white", "too_many_stones:granite_white"},
 	}
 })
+-- Heliodor
+minetest.register_craft({
+	output = "too_many_stones:heliodor_brick 4",
+	recipe = {
+		{"too_many_stones:heliodor", "too_many_stones:heliodor"},
+		{"too_many_stones:heliodor", "too_many_stones:heliodor"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:heliodor_block 9",
+	recipe = {
+		{"too_many_stones:heliodor", "too_many_stones:heliodor", "too_many_stones:heliodor"},
+		{"too_many_stones:heliodor", "too_many_stones:heliodor", "too_many_stones:heliodor"},
+		{"too_many_stones:heliodor", "too_many_stones:heliodor", "too_many_stones:heliodor"},
+	}
+})
 -- Ilvaite
 minetest.register_craft({
 	output = "too_many_stones:ilvaite_brick 4",
@@ -587,6 +604,7 @@ minetest.register_craft({
 		{"too_many_stones:vivianite", "too_many_stones:vivianite", "too_many_stones:vivianite"},
 	}
 })
+
 --
 -- Cooking recipes
 --
@@ -608,6 +626,7 @@ minetest.register_craft({
 	output = "too_many_stones:amber_cracked_brick",
 	recipe = "too_many_stones:amber_brick",
 })
+
 minetest.register_craft({
 	type = "cooking",
 	output = "too_many_stones:amethyst_cracked_brick",
@@ -673,6 +692,7 @@ minetest.register_craft({
 	output = "too_many_stones:granite_blue_cracked_brick",
 	recipe = "too_many_stones:granite_blue_brick",
 })
+
 minetest.register_craft({
 	type = "cooking",
 	output = "too_many_stones:granite_gray_cracked_brick",
@@ -701,6 +721,12 @@ minetest.register_craft({
 	type = "cooking",
 	output = "too_many_stones:granite_white_cracked_brick",
 	recipe = "too_many_stones:granite_white_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:heliodor_cracked_brick",
+	recipe = "too_many_stones:heliodor_brick",
 })
 
 minetest.register_craft({

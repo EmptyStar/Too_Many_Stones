@@ -22,3 +22,15 @@ Added Smokey Quartz
 Added Travertine
 Added Vivianite
 Made the translation template easier to read
+
+V0.2.1
+Added Glow Apatite
+Added Glow Calcite
+Added Glow Esperite
+Added Glow Fluorite
+Added Glow Selenite
+Added Glow Sodalite
+Added Glow Willemite
+Added Geodes Library comapatibility
+Added Heliodor
+Added Black Opal
