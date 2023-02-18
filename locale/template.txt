@@ -86,6 +86,11 @@ White Granite Block=
 White Granite Brick=
 Cracked White Granite Brick=
 
+Heliodor=
+Heliodor Block=
+Heliodor Brick=
+Cracked Heliodor Brick=
+
 Ilvaite=
 Ilvaite Block=
 Ilvaite Brick=
@@ -279,6 +284,11 @@ White Granite Wall=
 White Granite Brick Wall=
 White Granite Block Wall=
 Cracked White Granite Brick Wall=
+
+Heliodor Wall=
+Heliodor Brick Wall=
+Heliodor Block Wall=
+Cracked Heliodor Brick Wall=
 
 Ilvaite Wall=
 Ilvaite Brick Wall=
@@ -602,10 +612,10 @@ Carnotite Block Stair=
 Cracked Carnotite Brick Stair=
 Cobbled Carnotite Stair=
 
-Citrine Stair=
-Citrine Brick Stair=
-Citrine Block Stair=
-Cracked Citrine Brick Stair=
+Heliodor Stair=
+Heliodor Brick Stair=
+Heliodor Block Stair=
+Cracked Heliodor Brick Stair=
 
 Crocoite Stair=
 Crocoite Brick Stair=
@@ -761,3 +771,47 @@ Vivianite Stair=
 Vivianite Brick Stair=
 Vivianite Block Stair=
 Cracked Vivianite Brick Stair=
+
+### nodes_glowing.lua ###
+
+Glowing Apatite=
+Glowing Apatite Block=
+Cobbled Glowing Apatite=
+Glowing Apatite Brick=
+Cracked Glowing Apatite Brick=
+
+Glowing Calcite=
+Glowing Calcite Block=
+Cobbled Glowing Calcite=
+Glowing Calcite Brick=
+Cracked Glowing Calcite Brick=
+
+Glowing Esperite=
+Glowing Esperite Block=
+Cobbled Glowing Esperite=
+Glowing Esperite Brick=
+Cracked Glowing Esperite Brick=
+
+Glowing Fluorite=
+Glowing Fluorite Block=
+Cobbled Glowing Fluorite=
+Glowing Fluorite Brick=
+Cracked Glowing Fluorite Brick=
+
+Glowing Selenite=
+Glowing Selenite Block=
+Cobbled Glowing Selenite=
+Glowing Selenite Brick=
+Cracked Glowing Selenite Brick=
+
+Glowing Sodalite=
+Glowing Sodalite Block=
+Cobbled Glowing Sodalite=
+Glowing Sodalite Brick=
+Cracked Glowing Sodalite Brick=
+
+Glowing Willemite=
+Glowing Willemite Block=
+Cobbled Glowing Willemite=
+Glowing Willemite Brick=
+Cracked Glowing Willemite Brick=
