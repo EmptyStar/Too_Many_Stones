@@ -94,3 +94,11 @@ License of geode generation
 (C) AwesomeDragon97
 
 LGPL-3.0
+
+
+License of geodes_lib geode generation
+--------------------------------------
+
+(C) alerikaisattera
+
+LGPL-3.0
