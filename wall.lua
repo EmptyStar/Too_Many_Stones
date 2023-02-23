@@ -65,6 +65,30 @@ walls.register("too_many_stones:carnotite_block_wall", "Carnotite Block Wall", "
 
 walls.register("too_many_stones:carnotite_cobble_wall", "Cobbled Carnotite Wall", "tms_carnotite_cobble.png",
 		"too_many_stones:carnotite_cobble", default.node_sound_stone_defaults())
+-- Celestine
+walls.register("too_many_stones:celestine_wall", "Celestine Wall", "tms_celestine.png",
+		"too_many_stones:celestine", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:celestine_brick_wall", "Celestine Brick Wall", "tms_celestine_brick.png",
+		"too_many_stones:celestine_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:celestine_cracked_brick_wall", "Cracked Celestine Brick Wall", "tms_celestine_cracked_brick.png",
+		"too_many_stones:celestine_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:celestine_block_wall", "Celestine Block Wall", "tms_celestine_block.png",
+		"too_many_stones:celestine_block", default.node_sound_stone_defaults())
+-- Chrysoprase
+walls.register("too_many_stones:chrysoprase_wall", "Chrysoprase Wall", "tms_chrysoprase.png",
+		"too_many_stones:chrysoprase", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:chrysoprase_brick_wall", "Chrysoprase Brick Wall", "tms_chrysoprase_brick.png",
+		"too_many_stones:chrysoprase_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:chrysoprase_cracked_brick_wall", "Cracked Chrysoprase Brick Wall", "tms_chrysoprase_cracked_brick.png",
+		"too_many_stones:chrysoprase_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:chrysoprase_block_wall", "Chrysoprase Block Wall", "tms_chrysoprase_block.png",
+		"too_many_stones:chrysoprase_block", default.node_sound_stone_defaults())
 -- Citrine
 walls.register("too_many_stones:citrine_wall", "Citrine Wall", "tms_citrine.png",
 		"too_many_stones:citrine", default.node_sound_stone_defaults())
@@ -77,6 +101,18 @@ walls.register("too_many_stones:citrine_cracked_brick_wall", "Cracked Citrine Br
 
 walls.register("too_many_stones:citrine_block_wall", "Citrine Block Wall", "tms_citrine_block.png",
 		"too_many_stones:citrine_block", default.node_sound_stone_defaults())
+-- Covellite
+walls.register("too_many_stones:covellite_wall", "Covellite Wall", "tms_covellite.png",
+		"too_many_stones:covellite", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:covellite_brick_wall", "Covellite Brick Wall", "tms_covellite_brick.png",
+		"too_many_stones:covellite_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:covellite_cracked_brick_wall", "Cracked Covellite Brick Wall", "tms_covellite_cracked_brick.png",
+		"too_many_stones:covellite_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:covellite_block_wall", "Covellite Block Wall", "tms_covellite_block.png",
+		"too_many_stones:covellite_block", default.node_sound_stone_defaults())
 -- Crocoite
 walls.register("too_many_stones:crocoite_wall", "Crocoite Wall", "tms_crocoite.png",
 		"too_many_stones:crocoite", default.node_sound_stone_defaults())
@@ -89,6 +125,18 @@ walls.register("too_many_stones:crocoite_cracked_brick_wall", "Cracked Crocoite 
 
 walls.register("too_many_stones:crocoite_block_wall", "Crocoite Block Wall", "tms_crocoite_block.png",
 		"too_many_stones:crocoite_block", default.node_sound_stone_defaults())
+-- Erythrite
+walls.register("too_many_stones:erythrite_wall", "Erythrite Wall", "tms_erythrite.png",
+		"too_many_stones:erythrite", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:erythrite_brick_wall", "Erythrite Brick Wall", "tms_erythrite_brick.png",
+		"too_many_stones:erythrite_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:erythrite_cracked_brick_wall", "Cracked Erythrite Brick Wall", "tms_erythrite_cracked_brick.png",
+		"too_many_stones:erythrite_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:erythrite_block_wall", "Erythrite Block Wall", "tms_erythrite_block.png",
+		"too_many_stones:erythrite_block", default.node_sound_stone_defaults())
 -- Eudialite
 walls.register("too_many_stones:eudialite_wall", "Eudialite Wall", "tms_eudialite.png",
 		"too_many_stones:eudialite", default.node_sound_stone_defaults())
@@ -116,6 +164,18 @@ walls.register("too_many_stones:gabbro_block_wall", "Gabbro Block Wall", "tms_ga
 
 walls.register("too_many_stones:gabbro_cobble_wall", "Cobbled Gabbro Wall", "tms_gabbro_cobble.png",
 		"too_many_stones:gabbro_cobble", default.node_sound_stone_defaults())
+-- Galena
+walls.register("too_many_stones:galena_wall", "Galena Wall", "tms_galena.png",
+		"too_many_stones:galena", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:galena_brick_wall", "Galena Brick Wall", "tms_galena_brick.png",
+		"too_many_stones:galena_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:galena_cracked_brick_wall", "Cracked Galena Brick Wall", "tms_galena_cracked_brick.png",
+		"too_many_stones:galena_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:galena_block_wall", "Galena Block Wall", "tms_galena_block.png",
+		"too_many_stones:galena_block", default.node_sound_stone_defaults())
 -- Black Granite
 walls.register("too_many_stones:granite_black_wall", "Black Granite Wall", "tms_granite_black.png",
 		"too_many_stones:granite_black", default.node_sound_stone_defaults())
@@ -212,6 +272,18 @@ walls.register("too_many_stones:heliodor_cracked_brick_wall", "Cracked Heliodor 
 
 walls.register("too_many_stones:heliodor_block_wall", "Heliodor Block Wall", "tms_heliodor_block.png",
 		"too_many_stones:heliodor_block", default.node_sound_stone_defaults())
+-- Howlite
+walls.register("too_many_stones:howlite_wall", "Howlite Wall", "tms_howlite.png",
+		"too_many_stones:howlite", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:howlite_brick_wall", "Howlite Brick Wall", "tms_howlite_brick.png",
+		"too_many_stones:howlite_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:howlite_cracked_brick_wall", "Cracked Howlite Brick Wall", "tms_howlite_cracked_brick.png",
+		"too_many_stones:howlite_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:howlite_block_wall", "Howlite Block Wall", "tms_howlite_block.png",
+		"too_many_stones:howlite_block", default.node_sound_stone_defaults())
 -- Ilvaite
 walls.register("too_many_stones:ilvaite_wall", "Ilvaite Wall", "tms_ilvaite.png",
 		"too_many_stones:ilvaite", default.node_sound_stone_defaults())
@@ -263,6 +335,18 @@ walls.register("too_many_stones:kyanite_block_wall", "Kyanite Block Wall", "tms_
 
 walls.register("too_many_stones:kyanite_cobble_wall", "Cobbled Kyanite Wall", "tms_kyanite_cobble.png",
 		"too_many_stones:kyanite_cobble", default.node_sound_stone_defaults())
+-- Lapis Lazuli
+walls.register("too_many_stones:lapis_lazuli_wall", "Lapis Lazuli Wall", "tms_lapis_lazuli.png",
+		"too_many_stones:lapis_lazuli", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:lapis_lazuli_brick_wall", "Lapis Lazuli Brick Wall", "tms_lapis_lazuli_brick.png",
+		"too_many_stones:lapis_lazuli_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:lapis_lazuli_cracked_brick_wall", "Cracked Lapis Lazuli Brick Wall", "tms_lapis_lazuli_cracked_brick.png",
+		"too_many_stones:lapis_lazuli_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:lapis_lazuli_block_wall", "Lapis Lazuli Block Wall", "tms_lapis_lazuli_block.png",
+		"too_many_stones:lapis_lazuli_block", default.node_sound_stone_defaults())
 -- Blue Limestone
 walls.register("too_many_stones:limestone_blue_wall", "Blue Limestone Wall", "tms_limestone_blue.png",
 		"too_many_stones:limestone_blue", default.node_sound_stone_defaults())
@@ -323,6 +407,18 @@ walls.register("too_many_stones:mudstone_block_wall", "Mudstone Block Wall", "tm
 
 walls.register("too_many_stones:mudstone_cobble_wall", "Cobbled Mudstone Wall", "tms_mudstone_cobble.png",
 		"too_many_stones:mudstone_cobble", default.node_sound_stone_defaults())
+-- Pumice
+walls.register("too_many_stones:pumice_wall", "Pumice Wall", "tms_pumice.png",
+		"too_many_stones:pumice", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:pumice_brick_wall", "Pumice Brick Wall", "tms_pumice_brick.png",
+		"too_many_stones:pumice_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:pumice_cracked_brick_wall", "Cracked Pumice Brick Wall", "tms_pumice_cracked_brick.png",
+		"too_many_stones:pumice_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:pumice_block_wall", "Pumice Block Wall", "tms_pumice_block.png",
+		"too_many_stones:pumice_block", default.node_sound_stone_defaults())
 -- Pyrite
 walls.register("too_many_stones:pyrite_wall", "Pyrite Wall", "tms_pyrite.png",
 		"too_many_stones:pyrite", default.node_sound_stone_defaults())
@@ -404,6 +500,18 @@ walls.register("too_many_stones:smokey_quartz_cracked_brick_wall", "Cracked Smok
 
 walls.register("too_many_stones:smokey_quartz_block_wall", "Smokey Quartz Block Wall", "tms_smokey_quartz_block.png",
 		"too_many_stones:smokey_quartz_block", default.node_sound_stone_defaults())
+-- Soapstone
+walls.register("too_many_stones:soapstone_wall", "Soapstone Wall", "tms_soapstone.png",
+		"too_many_stones:soapstone", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:soapstone_brick_wall", "Soapstone Brick Wall", "tms_soapstone_brick.png",
+		"too_many_stones:soapstone_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:soapstone_cracked_brick_wall", "Cracked Soapstone Brick Wall", "tms_soapstone_cracked_brick.png",
+		"too_many_stones:soapstone_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:soapstone_block_wall", "Soapstone Block Wall", "tms_soapstone_block.png",
+		"too_many_stones:soapstone_block", default.node_sound_stone_defaults())
 -- Sodalite
 minetest.register_alias("too_many_stones:bluestone_wall", "too_many_stones:sodalite_wall")
 minetest.register_alias("too_many_stones:bluestone_brick_wall", "too_many_stones:sodalite_brick_wall")
