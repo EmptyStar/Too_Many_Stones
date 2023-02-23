@@ -331,39 +331,56 @@ minetest.register_node("too_many_stones:carnotite_cracked_brick", {
 -- Celestine
 minetest.register_node("too_many_stones:celestine", {
 	description = S("Celestine"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
 	tiles = {"tms_celestine.png"},
+	sunlight_propagates = true,
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:celestine",
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:celestine_block", {
 	description = S("Celestine Block"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
 	tiles = {"tms_celestine_block.png"},
+	sunlight_propagates = true,
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
 	drop = "too_many_stones:celestine_block",
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:celestine_brick", {
 	description = S("Celestine Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_celestine_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:celestine_cracked_brick", {
 	description = S("Cracked Celestine Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_celestine_cracked_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 -- Chrysoprase
 minetest.register_node("too_many_stones:chrysoprase", {
@@ -535,38 +552,56 @@ minetest.register_node("too_many_stones:crocoite_cracked_brick", {
 -- Erythrite
 minetest.register_node("too_many_stones:erythrite", {
 	description = S("Erythrite"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
 	tiles = {"tms_erythrite.png"},
+	sunlight_propagates = true,
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:erythrite",
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:erythrite_block", {
 	description = S("Erythrite Block"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
 	tiles = {"tms_erythrite_block.png"},
+	sunlight_propagates = true,
 	is_ground_content = false,
 	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:erythrite_block",
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:erythrite_brick", {
 	description = S("Erythrite Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_erythrite_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 
 minetest.register_node("too_many_stones:erythrite_cracked_brick", {
 	description = S("Cracked Erythrite Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"tms_erythrite_cracked_brick.png"},
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 -- Eudialite
 minetest.register_node("too_many_stones:eudialite", {
