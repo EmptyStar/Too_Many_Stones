@@ -136,6 +136,26 @@
 		},
 	})
 
+-- Celestine
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:celestine",
+		wherein         = {"default:silver_sandstone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 14,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
 -- Citrine
 
 	minetest.register_ore({
@@ -184,6 +204,26 @@
 		wherein         = {"default:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 20,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Galena
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:galena",
+		wherein         = {"default:stone", "default:sandstone", "default:desert_sandstone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 14,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -358,6 +398,26 @@
 		},
 	})
 
+-- Howlite
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:howlite",
+		wherein         = {"default:stone", "default:silver_sandstone", "default:desert_sandstone"},
+		clust_scarcity  = 48 * 48 * 48,
+		clust_size      = 7,
+		y_max           = 1000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
 -- Ilvaite
 
 	minetest.register_ore({
@@ -405,6 +465,26 @@
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = -300,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Lapis Lazuli
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:lapis_lazuli",
+		wherein         = {"default:sandstone", "default:desert_stone", "default:silver_sandstone"},
+		clust_scarcity  = 64 * 16 * 64,
+		clust_size      = 14,
+		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
 		noise_params    = {
@@ -487,6 +567,44 @@
 		clust_size      = 10,
 		y_max           = 31000,
 		y_min           = -100,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Pumice
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:pumice",
+		wherein         = {"default:stone", "default:gravel"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 10,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:pumice",
+		wherein         = {"default:water_source"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 10,
+		y_max           = 31000,
+		y_min           = -1,
 		noise_threshold = 0.0,
 		noise_params    = {
 			offset = 0.5,
@@ -604,6 +722,44 @@
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Soapstone
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:soapstone",
+		wherein         = {"default:sandstone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 14,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:soapstone",
+		wherein         = {"default:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 14,
+		y_max           = -400,
 		y_min           = -31000,
 		noise_threshold = 0.0,
 		noise_params    = {
