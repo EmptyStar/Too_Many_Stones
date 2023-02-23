@@ -34,3 +34,16 @@ Added Glow Willemite
 Added Geodes Library comapatibility
 Added Heliodor
 Added Black Opal
+
+V0.2.2
+Added Celestine
+Added Crysoprase
+Added Covellite
+Added Erythrite
+Added Galena
+Added Howlite
+Adjusted Some cobblestone colors to match their stone types better
+Added Lapis Lazuli
+Change the crack pattern on several stones
+Added Soapstone
+Added Pumice

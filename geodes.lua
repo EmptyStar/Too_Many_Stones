@@ -24,4 +24,6 @@ geodes.register_geode("too_many_stones:serpentine", "too_many_stones:calcite", "
 
 geodes.register_geode("too_many_stones:travertine", "too_many_stones:calcite", "too_many_stones:black_opal", "too_many_stones:black_opal")
 
+geodes.register_geode("too_many_stones:pumice", "too_many_stones:calcite", "too_many_stones:celestine", "too_many_stones:celestine")
+
 end

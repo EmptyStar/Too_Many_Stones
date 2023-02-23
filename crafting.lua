@@ -35,6 +35,17 @@ minetest.register_craft({
 	}
 })
 -- Amethyst
+
+minetest.register_craft({
+	output = "too_many_stones:amethyst",
+	recipe = {
+		{"too_many_stones:amethyst_crystal", "too_many_stones:amethyst_crystal", "too_many_stones:amethyst_crystal"},
+		{"too_many_stones:amethyst_crystal", "too_many_stones:amethyst_crystal", "too_many_stones:amethyst_crystal"},
+		{"too_many_stones:amethyst_crystal", "too_many_stones:amethyst_crystal", "too_many_stones:amethyst_crystal"},
+	}
+})
+
+
 minetest.register_craft({
 	output = "too_many_stones:amethyst_brick 4",
 	recipe = {
@@ -85,6 +96,40 @@ minetest.register_craft({
 		{"too_many_stones:carnotite", "too_many_stones:carnotite", "too_many_stones:carnotite"},
 	}
 })
+-- Celestine
+minetest.register_craft({
+	output = "too_many_stones:celestine_brick 4",
+	recipe = {
+		{"too_many_stones:celestine", "too_many_stones:celestine"},
+		{"too_many_stones:celestine", "too_many_stones:celestine"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:celestine_block 9",
+	recipe = {
+		{"too_many_stones:celestine", "too_many_stones:celestine", "too_many_stones:celestine"},
+		{"too_many_stones:celestine", "too_many_stones:celestine", "too_many_stones:celestine"},
+		{"too_many_stones:celestine", "too_many_stones:celestine", "too_many_stones:celestine"},
+	}
+})
+-- Chrysoprase
+minetest.register_craft({
+	output = "too_many_stones:chrysoprase_brick 4",
+	recipe = {
+		{"too_many_stones:chrysoprase", "too_many_stones:chrysoprase"},
+		{"too_many_stones:chrysoprase", "too_many_stones:chrysoprase"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:chrysoprase_block 9",
+	recipe = {
+		{"too_many_stones:chrysoprase", "too_many_stones:chrysoprase", "too_many_stones:chrysoprase"},
+		{"too_many_stones:chrysoprase", "too_many_stones:chrysoprase", "too_many_stones:chrysoprase"},
+		{"too_many_stones:chrysoprase", "too_many_stones:chrysoprase", "too_many_stones:chrysoprase"},
+	}
+})
 -- Citrine
 minetest.register_craft({
 	output = "too_many_stones:citrine_brick 4",
@@ -102,6 +147,23 @@ minetest.register_craft({
 		{"too_many_stones:citrine", "too_many_stones:citrine", "too_many_stones:citrine"},
 	}
 })
+-- Covellite
+minetest.register_craft({
+	output = "too_many_stones:covellite_brick 4",
+	recipe = {
+		{"too_many_stones:covellite", "too_many_stones:covellite"},
+		{"too_many_stones:covellite", "too_many_stones:covellite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:covellite_block 9",
+	recipe = {
+		{"too_many_stones:covellite", "too_many_stones:covellite", "too_many_stones:covellite"},
+		{"too_many_stones:covellite", "too_many_stones:covellite", "too_many_stones:covellite"},
+		{"too_many_stones:covellite", "too_many_stones:covellite", "too_many_stones:covellite"},
+	}
+})
 -- Crocoite
 minetest.register_craft({
 	output = "too_many_stones:crocoite_brick 4",
@@ -117,6 +179,23 @@ minetest.register_craft({
 		{"too_many_stones:crocoite", "too_many_stones:crocoite", "too_many_stones:crocoite"},
 		{"too_many_stones:crocoite", "too_many_stones:crocoite", "too_many_stones:crocoite"},
 		{"too_many_stones:crocoite", "too_many_stones:crocoite", "too_many_stones:crocoite"},
+	}
+})
+-- Erythrite
+minetest.register_craft({
+	output = "too_many_stones:erythrite_brick 4",
+	recipe = {
+		{"too_many_stones:erythrite", "too_many_stones:erythrite"},
+		{"too_many_stones:erythrite", "too_many_stones:erythrite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:erythrite_block 9",
+	recipe = {
+		{"too_many_stones:erythrite", "too_many_stones:erythrite", "too_many_stones:erythrite"},
+		{"too_many_stones:erythrite", "too_many_stones:erythrite", "too_many_stones:erythrite"},
+		{"too_many_stones:erythrite", "too_many_stones:erythrite", "too_many_stones:erythrite"},
 	}
 })
 -- Eudialite
@@ -151,6 +230,23 @@ minetest.register_craft({
 		{"too_many_stones:gabbro", "too_many_stones:gabbro", "too_many_stones:gabbro"},
 		{"too_many_stones:gabbro", "too_many_stones:gabbro", "too_many_stones:gabbro"},
 		{"too_many_stones:gabbro", "too_many_stones:gabbro", "too_many_stones:gabbro"},
+	}
+})
+-- Galena
+minetest.register_craft({
+	output = "too_many_stones:galena_brick 4",
+	recipe = {
+		{"too_many_stones:galena", "too_many_stones:galena"},
+		{"too_many_stones:galena", "too_many_stones:galena"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:galena_block 9",
+	recipe = {
+		{"too_many_stones:galena", "too_many_stones:galena", "too_many_stones:galena"},
+		{"too_many_stones:galena", "too_many_stones:galena", "too_many_stones:galena"},
+		{"too_many_stones:galena", "too_many_stones:galena", "too_many_stones:galena"},
 	}
 })
 -- Black Granite
@@ -289,6 +385,23 @@ minetest.register_craft({
 		{"too_many_stones:heliodor", "too_many_stones:heliodor", "too_many_stones:heliodor"},
 	}
 })
+-- Howlite
+minetest.register_craft({
+	output = "too_many_stones:howlite_brick 4",
+	recipe = {
+		{"too_many_stones:howlite", "too_many_stones:howlite"},
+		{"too_many_stones:howlite", "too_many_stones:howlite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:howlite_block 9",
+	recipe = {
+		{"too_many_stones:howlite", "too_many_stones:howlite", "too_many_stones:howlite"},
+		{"too_many_stones:howlite", "too_many_stones:howlite", "too_many_stones:howlite"},
+		{"too_many_stones:howlite", "too_many_stones:howlite", "too_many_stones:howlite"},
+	}
+})
 -- Ilvaite
 minetest.register_craft({
 	output = "too_many_stones:ilvaite_brick 4",
@@ -338,6 +451,23 @@ minetest.register_craft({
 		{"too_many_stones:kyanite", "too_many_stones:kyanite", "too_many_stones:kyanite"},
 		{"too_many_stones:kyanite", "too_many_stones:kyanite", "too_many_stones:kyanite"},
 		{"too_many_stones:kyanite", "too_many_stones:kyanite", "too_many_stones:kyanite"},
+	}
+})
+-- Lapis Lazuli
+minetest.register_craft({
+	output = "too_many_stones:lapis_lazuli_brick 4",
+	recipe = {
+		{"too_many_stones:lapis_lazuli", "too_many_stones:lapis_lazuli"},
+		{"too_many_stones:lapis_lazuli", "too_many_stones:lapis_lazuli"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:lapis_lazuli_block 9",
+	recipe = {
+		{"too_many_stones:lapis_lazuli", "too_many_stones:lapis_lazuli", "too_many_stones:lapis_lazuli"},
+		{"too_many_stones:lapis_lazuli", "too_many_stones:lapis_lazuli", "too_many_stones:lapis_lazuli"},
+		{"too_many_stones:lapis_lazuli", "too_many_stones:lapis_lazuli", "too_many_stones:lapis_lazuli"},
 	}
 })
 -- Blue Limestone
@@ -406,6 +536,23 @@ minetest.register_craft({
 		{"too_many_stones:mudstone", "too_many_stones:mudstone", "too_many_stones:mudstone"},
 		{"too_many_stones:mudstone", "too_many_stones:mudstone", "too_many_stones:mudstone"},
 		{"too_many_stones:mudstone", "too_many_stones:mudstone", "too_many_stones:mudstone"},
+	}
+})
+-- Pumice
+minetest.register_craft({
+	output = "too_many_stones:pumice_brick 4",
+	recipe = {
+		{"too_many_stones:pumice", "too_many_stones:pumice"},
+		{"too_many_stones:pumice", "too_many_stones:pumice"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:pumice_block 9",
+	recipe = {
+		{"too_many_stones:pumice", "too_many_stones:pumice", "too_many_stones:pumice"},
+		{"too_many_stones:pumice", "too_many_stones:pumice", "too_many_stones:pumice"},
+		{"too_many_stones:pumice", "too_many_stones:pumice", "too_many_stones:pumice"},
 	}
 })
 -- Pyrite
@@ -508,6 +655,23 @@ minetest.register_craft({
 		{"too_many_stones:smokey_quartz", "too_many_stones:smokey_quartz", "too_many_stones:smokey_quartz"},
 		{"too_many_stones:smokey_quartz", "too_many_stones:smokey_quartz", "too_many_stones:smokey_quartz"},
 		{"too_many_stones:smokey_quartz", "too_many_stones:smokey_quartz", "too_many_stones:smokey_quartz"},
+	}
+})
+-- Soapstone
+minetest.register_craft({
+	output = "too_many_stones:soapstone_brick 4",
+	recipe = {
+		{"too_many_stones:soapstone", "too_many_stones:soapstone"},
+		{"too_many_stones:soapstone", "too_many_stones:soapstone"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:soapstone_block 9",
+	recipe = {
+		{"too_many_stones:soapstone", "too_many_stones:soapstone", "too_many_stones:soapstone"},
+		{"too_many_stones:soapstone", "too_many_stones:soapstone", "too_many_stones:soapstone"},
+		{"too_many_stones:soapstone", "too_many_stones:soapstone", "too_many_stones:soapstone"},
 	}
 })
 -- Sodalite
@@ -653,14 +817,44 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:celestine_cracked_brick",
+	recipe = "too_many_stones:celestine_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:chrysoprase",
+	recipe = "too_many_stones:chrysoprase_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:chrysoprase_cracked_brick",
+	recipe = "too_many_stones:chrysoprase_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:citrine_cracked_brick",
 	recipe = "too_many_stones:citrine_brick",
 })
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:covellite_cracked_brick",
+	recipe = "too_many_stones:covellite_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:crocoite_cracked_brick",
 	recipe = "too_many_stones:crocoite_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:erythrite_cracked_brick",
+	recipe = "too_many_stones:erythrite_brick",
 })
 
 minetest.register_craft({
@@ -679,6 +873,12 @@ minetest.register_craft({
 	type = "cooking",
 	output = "too_many_stones:gabbro_cracked_brick",
 	recipe = "too_many_stones:gabbro_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:galena_cracked_brick",
+	recipe = "too_many_stones:galena_brick",
 })
 
 minetest.register_craft({
@@ -731,6 +931,12 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:howlite_cracked_brick",
+	recipe = "too_many_stones:howlite_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:ilvaite",
 	recipe = "too_many_stones:ilvaite_cobble",
 })
@@ -763,6 +969,12 @@ minetest.register_craft({
 	type = "cooking",
 	output = "too_many_stones:kyanite_cracked_brick",
 	recipe = "too_many_stones:kyanite_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:lapis_lazuli_cracked_brick",
+	recipe = "too_many_stones:lapis_lazuli_brick",
 })
 
 minetest.register_craft({
@@ -815,14 +1027,8 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
-	output = "too_many_stones:pyrite",
-	recipe = "too_many_stones:pyrite_cobble",
-})
-
-minetest.register_craft({
-	type = "cooking",
-	output = "too_many_stones:pyrite_cracked_brick",
-	recipe = "too_many_stones:pyrite_brick",
+	output = "too_many_stones:pumice_cracked_brick",
+	recipe = "too_many_stones:pumice_brick",
 })
 
 minetest.register_craft({
@@ -871,6 +1077,12 @@ minetest.register_craft({
 	type = "cooking",
 	output = "too_many_stones:smokey_quartz_cracked_brick",
 	recipe = "too_many_stones:smokey_quartz_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:soapstone_cracked_brick",
+	recipe = "too_many_stones:soapstone_brick",
 })
 
 minetest.register_craft({
