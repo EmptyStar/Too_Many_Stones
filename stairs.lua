@@ -242,6 +242,94 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
+-- Celestine
+stairs.register_stair_and_slab(
+	"celestine",
+	"too_many_stones:celestine",
+	{cracky = 3},
+	{"tms_celestine.png"},
+	"Celestine Stair",
+	"Celestine Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"celestine_brick",
+	"too_many_stones:celestine_brick",
+	{cracky = 2},
+	{"tms_celestine_brick.png"},
+	"Celestine Brick Stair",
+	"Celestine Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"celestine_cracked_brick",
+	"too_many_stones:celestine_cracked_brick",
+	{cracky = 2},
+	{"tms_celestine_cracked_brick.png"},
+	"Cracked Celestine Brick Stair",
+	"Cracked Celestine Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"celestine_block",
+	"too_many_stones:celestine_block",
+	{cracky = 2},
+	{"tms_celestine_block.png"},
+	"Celestine Block Stair",
+	"Celestine Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Chrysoprase
+stairs.register_stair_and_slab(
+	"chrysoprase",
+	"too_many_stones:chrysoprase",
+	{cracky = 3},
+	{"tms_chrysoprase.png"},
+	"Chrysoprase Stair",
+	"Chrysoprase Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"chrysoprase_brick",
+	"too_many_stones:chrysoprase_brick",
+	{cracky = 2},
+	{"tms_chrysoprase_brick.png"},
+	"Chrysoprase Brick Stair",
+	"Chrysoprase Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"chrysoprase_cracked_brick",
+	"too_many_stones:chrysoprase_cracked_brick",
+	{cracky = 2},
+	{"tms_chrysoprase_cracked_brick.png"},
+	"Cracked Chrysoprase Brick Stair",
+	"Cracked Chrysoprase Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"chrysoprase_block",
+	"too_many_stones:chrysoprase_block",
+	{cracky = 2},
+	{"tms_chrysoprase_block.png"},
+	"Chrysoprase Block Stair",
+	"Chrysoprase Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
 -- Citrine
 stairs.register_stair_and_slab(
 	"citrine",
@@ -286,6 +374,50 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
+-- Covellite
+stairs.register_stair_and_slab(
+	"covellite",
+	"too_many_stones:covellite",
+	{cracky = 3},
+	{"tms_covellite.png"},
+	"Covellite Stair",
+	"Covellite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"covellite_brick",
+	"too_many_stones:covellite_brick",
+	{cracky = 2},
+	{"tms_covellite_brick.png"},
+	"Covellite Brick Stair",
+	"Covellite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"covellite_cracked_brick",
+	"too_many_stones:covellite_cracked_brick",
+	{cracky = 2},
+	{"tms_covellite_cracked_brick.png"},
+	"Cracked Covellite Brick Stair",
+	"Cracked Covellite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"covellite_block",
+	"too_many_stones:covellite_block",
+	{cracky = 2},
+	{"tms_covellite_block.png"},
+	"Covellite Block Stair",
+	"Covellite Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
 -- Crocoite
 stairs.register_stair_and_slab(
 	"crocoite",
@@ -327,6 +459,50 @@ stairs.register_stair_and_slab(
 	{"tms_crocoite_block.png"},
 	"Crocoite Block Stair",
 	"Crocoite Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Erythrite
+stairs.register_stair_and_slab(
+	"erythrite",
+	"too_many_stones:erythrite",
+	{cracky = 3},
+	{"tms_erythrite.png"},
+	"Erythrite Stair",
+	"Erythrite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"erythrite_brick",
+	"too_many_stones:erythrite_brick",
+	{cracky = 2},
+	{"tms_erythrite_brick.png"},
+	"Erythrite Brick Stair",
+	"Erythrite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"erythrite_cracked_brick",
+	"too_many_stones:erythrite_cracked_brick",
+	{cracky = 2},
+	{"tms_erythrite_cracked_brick.png"},
+	"Cracked Erythrite Brick Stair",
+	"Cracked Erythrite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"erythrite_block",
+	"too_many_stones:erythrite_block",
+	{cracky = 2},
+	{"tms_erythrite_block.png"},
+	"Erythrite Block Stair",
+	"Erythrite Block Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -426,6 +602,50 @@ stairs.register_stair_and_slab(
 	{"tms_gabbro_block.png"},
 	"Gabbro Block Stair",
 	"Gabbro Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Galena
+stairs.register_stair_and_slab(
+	"galena",
+	"too_many_stones:galena",
+	{cracky = 3},
+	{"tms_galena.png"},
+	"Galena Stair",
+	"Galena Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"galena_brick",
+	"too_many_stones:galena_brick",
+	{cracky = 2},
+	{"tms_galena_brick.png"},
+	"Galena Brick Stair",
+	"Galena Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"galena_cracked_brick",
+	"too_many_stones:galena_cracked_brick",
+	{cracky = 2},
+	{"tms_galena_cracked_brick.png"},
+	"Cracked Galena Brick Stair",
+	"Cracked Galena Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"galena_block",
+	"too_many_stones:galena_block",
+	{cracky = 2},
+	{"tms_galena_block.png"},
+	"Galena Block Stair",
+	"Galena Block Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -781,6 +1001,50 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
+-- Howlite
+stairs.register_stair_and_slab(
+	"howlite",
+	"too_many_stones:howlite",
+	{cracky = 3},
+	{"tms_howlite.png"},
+	"Howlite Stair",
+	"Howlite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"howlite_brick",
+	"too_many_stones:howlite_brick",
+	{cracky = 2},
+	{"tms_howlite_brick.png"},
+	"Howlite Brick Stair",
+	"Howlite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"howlite_cracked_brick",
+	"too_many_stones:howlite_cracked_brick",
+	{cracky = 2},
+	{"tms_howlite_cracked_brick.png"},
+	"Cracked Howlite Brick Stair",
+	"Cracked Howlite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"howlite_block",
+	"too_many_stones:howlite_block",
+	{cracky = 2},
+	{"tms_howlite_block.png"},
+	"Howlite Block Stair",
+	"Howlite Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
 -- Ilvaite
 stairs.register_stair_and_slab(
 	"ilvaite",
@@ -967,6 +1231,50 @@ stairs.register_stair_and_slab(
 	{"tms_kyanite_block.png"},
 	"Kyanite Block Stair",
 	"Kyanite Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Lapis Lazuli
+stairs.register_stair_and_slab(
+	"lapis_lazuli",
+	"too_many_stones:lapis_lazuli",
+	{cracky = 3},
+	{"tms_lapis_lazuli.png"},
+	"Lapis Lazuli Stair",
+	"Lapis Lazuli Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"lapis_lazuli_brick",
+	"too_many_stones:lapis_lazuli_brick",
+	{cracky = 2},
+	{"tms_lapis_lazuli_brick.png"},
+	"Lapis Lazuli Brick Stair",
+	"Lapis Lazuli Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"lapis_lazuli_cracked_brick",
+	"too_many_stones:lapis_lazuli_cracked_brick",
+	{cracky = 2},
+	{"tms_lapis_lazuli_cracked_brick.png"},
+	"Cracked Lapis Lazuli Brick Stair",
+	"Cracked Lapis Lazuli Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"lapis_lazuli_block",
+	"too_many_stones:lapis_lazuli_block",
+	{cracky = 2},
+	{"tms_lapis_lazuli_block.png"},
+	"Lapis Lazuli Block Stair",
+	"Lapis Lazuli Block Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -1187,6 +1495,50 @@ stairs.register_stair_and_slab(
 	{"tms_mudstone_block.png"},
 	"Mudstone Block Stair",
 	"Mudstone Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Pumice
+stairs.register_stair_and_slab(
+	"pumice",
+	"too_many_stones:pumice",
+	{cracky = 3},
+	{"tms_pumice.png"},
+	"Pumice Stair",
+	"Pumice Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"pumice_brick",
+	"too_many_stones:pumice_brick",
+	{cracky = 2},
+	{"tms_pumice_brick.png"},
+	"Pumice Brick Stair",
+	"Pumice Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"pumice_cracked_brick",
+	"too_many_stones:pumice_cracked_brick",
+	{cracky = 2},
+	{"tms_pumice_cracked_brick.png"},
+	"Cracked Pumice Brick Stair",
+	"Cracked Pumice Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"pumice_block",
+	"too_many_stones:pumice_block",
+	{cracky = 2},
+	{"tms_pumice_block.png"},
+	"Pumice Block Stair",
+	"Pumice Block Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
@@ -1484,6 +1836,50 @@ stairs.register_stair_and_slab(
 	{"tms_smokey_quartz_block.png"},
 	"Smokey Quartz Block Stair",
 	"Smokey Quartz Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Soapstone
+stairs.register_stair_and_slab(
+	"soapstone",
+	"too_many_stones:soapstone",
+	{cracky = 3},
+	{"tms_soapstone.png"},
+	"Soapstone Stair",
+	"Soapstone Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"soapstone_brick",
+	"too_many_stones:soapstone_brick",
+	{cracky = 2},
+	{"tms_soapstone_brick.png"},
+	"Soapstone Brick Stair",
+	"Soapstone Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"soapstone_cracked_brick",
+	"too_many_stones:soapstone_cracked_brick",
+	{cracky = 2},
+	{"tms_soapstone_cracked_brick.png"},
+	"Cracked Soapstone Brick Stair",
+	"Cracked Soapstone Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"soapstone_block",
+	"too_many_stones:soapstone_block",
+	{cracky = 2},
+	{"tms_soapstone_block.png"},
+	"Soapstone Block Stair",
+	"Soapstone Block Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
