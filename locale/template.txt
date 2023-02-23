@@ -19,6 +19,8 @@ Amethyst Block=
 Amethyst Brick=
 Cracked Amethyst Brick=
 
+Black Opal=
+
 Calcite=
 Calcite Block=
 Calcite Brick=
@@ -30,15 +32,35 @@ Carnotite Brick=
 Cracked Carnotite Brick=
 Cobbled Carnotite=
 
+Celestine=
+Celestine Block=
+Celestine Brick=
+Cracked Celestine Brick=
+
+Chrysoprase=
+Chrysoprase Block=
+Chrysoprase Brick=
+Cracked Chrysoprase Brick=
+
 Citrine=
 Citrine Block=
 Citrine Brick=
 Cracked Citrine Brick=
 
+Covellite=
+Covellite Block=
+Covellite Brick=
+Cracked Covellite Brick=
+
 Crocoite=
 Crocoite Block=
 Crocoite Brick=
 Cracked Crocoite Brick=
+
+Erythrite=
+Erythrite Block=
+Erythrite Brick=
+Cracked Erythrite Brick=
 
 Eudialite=
 Eudialite Block=
@@ -50,6 +72,11 @@ Gabbro Block=
 Cobbled Gabbro=
 Gabbro Brick=
 Cracked Gabbro Brick=
+
+Galena=
+Galena Block=
+Galena Brick=
+Cracked Galena Brick=
 
 Black Granite=
 Black Granite Block=
@@ -91,6 +118,11 @@ Heliodor Block=
 Heliodor Brick=
 Cracked Heliodor Brick=
 
+Howlite=
+Howlite Block=
+Howlite Brick=
+Cracked Howlite Brick=
+
 Ilvaite=
 Ilvaite Block=
 Ilvaite Brick=
@@ -108,6 +140,11 @@ Kyanite Block=
 Kyanite Brick=
 Cracked Kyanite Brick=
 Cobbled Kyanite=
+
+Lapis Lazuli=
+Lapis Lazuli Block=
+Lapis Lazuli Brick=
+Cracked Lapis Lazuli Brick=
 
 Blue Limestone=
 Blue Limestone Block=
@@ -134,6 +171,11 @@ Mudstone Brick=
 Cracked Mudstone Brick=
 
 Opal=
+
+Pumice=
+Pumice Block=
+Pumice Brick=
+Cracked Pumice Brick=
 
 Pyrite=
 Pyrite Block=
@@ -166,9 +208,13 @@ Cobbled Slate=
 
 Smokey Quartz=
 Smokey Quartz Block=
-Cobbled Smokey Quartz=
 Smokey Quartz Brick=
 Cracked Smokey Quartz Brick=
+
+Soapstone=
+Soapstone Block=
+Soapstone Brick=
+Cracked Soapstone Brick=
 
 Sodalite=
 Sodalite Block=
@@ -196,7 +242,6 @@ Cobbled Turquoise=
 
 Vivianite=
 Vivianite Block=
-Cobbled Vivianite=
 Vivianite Brick=
 Cracked Vivianite Brick=
 
@@ -229,15 +274,35 @@ Carnotite Block Wall=
 Cracked Carnotite Brick Wall=
 Cobbled Carnotite Wall=
 
+Celestine Wall=
+Celestine Brick Wall=
+Celestine Block Wall=
+Cracked Celestine Brick Wall=
+
+Chrysoprase Wall=
+Chrysoprase Brick Wall=
+Chrysoprase Block Wall=
+Cracked Chrysoprase Brick Wall=
+
 Citrine Wall=
 Citrine Brick Wall=
 Citrine Block Wall=
 Cracked Citrine Brick Wall=
 
+Covellite Wall=
+Covellite Brick Wall=
+Covellite Block Wall=
+Cracked Covellite Brick Wall=
+
 Crocoite Wall=
 Crocoite Brick Wall=
 Crocoite Block Wall=
 Cracked Crocoite Brick Wall=
+
+Erythrite Wall=
+Erythrite Brick Wall=
+Erythrite Block Wall=
+Cracked Erythrite Brick Wall=
 
 Eudialite Wall=
 Eudialite Brick Wall=
@@ -249,6 +314,11 @@ Cobbled Gabbro Wall=
 Gabbro Brick Wall=
 Gabbro Block Wall=
 Cracked Gabbro Brick Wall=
+
+Galena Wall=
+Galena Brick Wall=
+Galena Block Wall=
+Cracked Galena Brick Wall=
 
 Black Granite Wall=
 Black Granite Brick Wall=
@@ -290,6 +360,11 @@ Heliodor Brick Wall=
 Heliodor Block Wall=
 Cracked Heliodor Brick Wall=
 
+Howlite Wall=
+Howlite Brick Wall=
+Howlite Block Wall=
+Cracked Howlite Brick Wall=
+
 Ilvaite Wall=
 Ilvaite Brick Wall=
 Ilvaite Block Wall=
@@ -307,6 +382,11 @@ Kyanite Brick Wall=
 Kyanite Block Wall=
 Cracked Kyanite Brick Wall=
 Cobbled Kyanite Wall=
+
+Lapis Lazuli Wall=
+Lapis Lazuli Brick Wall=
+Lapis Lazuli Block Wall=
+Cracked Lapis Lazuli Brick Wall=
 
 Blue Limestone Wall=
 Blue Limestone Brick Wall=
@@ -331,6 +411,11 @@ Cobbled Mudstone Wall=
 Mudstone Brick Wall=
 Mudstone Block Wall=
 Cracked Mudstone Brick Wall=
+
+Pumice Wall=
+Pumice Brick Wall=
+Pumice Block Wall=
+Cracked Pumice Brick Wall=
 
 Pyrite Wall=
 Pyrite Brick Wall=
@@ -364,6 +449,11 @@ Smokey Quartz Wall=
 Smokey Quartz Brick Wall=
 Smokey Quartz Block Wall=
 Cracked Smokey Quartz Brick Wall=
+
+Soapstone Wall=
+Soapstone Brick Wall=
+Soapstone Block Wall=
+Cracked Soapstone Brick Wall=
 
 Sodalite Wall=
 Cobbled Sodalite Wall=
@@ -423,15 +513,35 @@ Carnotite Block Slab=
 Cracked Carnotite Brick Slab=
 Cobbled Carnotite Slab=
 
+Celestine Slab=
+Celestine Brick Slab=
+Celestine Block Slab=
+Cracked Celestine Brick Slab=
+
+Chrysoprase Slab=
+Chrysoprase Brick Slab=
+Chrysoprase Block Slab=
+Cracked Chrysoprase Brick Slab=
+
 Citrine Slab=
 Citrine Brick Slab=
 Citrine Block Slab=
 Cracked Citrine Brick Slab=
 
+Covellite Slab=
+Covellite Brick Slab=
+Covellite Block Slab=
+Cracked Covellite Brick Slab=
+
 Crocoite Slab=
 Crocoite Brick Slab=
 Crocoite Block Slab=
 Cracked Crocoite Brick Slab=
+
+Erythrite Slab=
+Erythrite Brick Slab=
+Erythrite Block Slab=
+Cracked Erythrite Brick Slab=
 
 Eudialite Slab=
 Eudialite Brick Slab=
@@ -443,6 +553,11 @@ Cobbled Gabbro Slab=
 Gabbro Brick Slab=
 Gabbro Block Slab=
 Cracked Gabbro Brick Slab=
+
+Galena Slab=
+Galena Brick Slab=
+Galena Block Slab=
+Cracked Galena Brick Slab=
 
 Black Granite Slab=
 Black Granite Brick Slab=
@@ -479,6 +594,16 @@ White Granite Brick Slab=
 White Granite Block Slab=
 Cracked White Granite Brick Slab=
 
+Heliodor Slab=
+Heliodor Brick Slab=
+Heliodor Block Slab=
+Cracked Heliodor Brick Slab=
+
+Howlite Slab=
+Howlite Brick Slab=
+Howlite Block Slab=
+Cracked Howlite Brick Slab=
+
 Ilvaite Slab=
 Ilvaite Brick Slab=
 Ilvaite Block Slab=
@@ -496,6 +621,11 @@ Kyanite Brick Slab=
 Kyanite Block Slab=
 Cracked Kyanite Brick Slab=
 Cobbled Kyanite Slab=
+
+Lapis Lazuli Slab=
+Lapis Lazuli Brick Slab=
+Lapis Lazuli Block Slab=
+Cracked Lapis Lazuli Brick Slab=
 
 Blue Limestone Slab=
 Blue Limestone Brick Slab=
@@ -520,6 +650,11 @@ Cobbled Mudstone Slab=
 Mudstone Brick Slab=
 Mudstone Block Slab=
 Cracked Mudstone Brick Slab=
+
+Pumice Slab=
+Pumice Brick Slab=
+Pumice Block Slab=
+Cracked Pumice Brick Slab=
 
 Pyrite Slab=
 Pyrite Brick Slab=
@@ -553,6 +688,11 @@ Smokey Quartz Slab=
 Smokey Quartz Brick Slab=
 Smokey Quartz Block Slab=
 Cracked Smokey Quartz Brick Slab=
+
+Soapstone Slab=
+Soapstone Brick Slab=
+Soapstone Block Slab=
+Cracked Soapstone Brick Slab=
 
 Sodalite Slab=
 Cobbled Sodalite Slab=
@@ -612,15 +752,35 @@ Carnotite Block Stair=
 Cracked Carnotite Brick Stair=
 Cobbled Carnotite Stair=
 
-Heliodor Stair=
-Heliodor Brick Stair=
-Heliodor Block Stair=
-Cracked Heliodor Brick Stair=
+Celestine Stair=
+Celestine Brick Stair=
+Celestine Block Stair=
+Cracked Celestine Brick Stair=
+
+Chrysoprase Stair=
+Chrysoprase Brick Stair=
+Chrysoprase Block Stair=
+Cracked Chrysoprase Brick Stair=
+
+Citrine Stair=
+Citrine Brick Stair=
+Citrine Block Stair=
+Cracked Citrine Brick Stair=
+
+Covellite Stair=
+Covellite Brick Stair=
+Covellite Block Stair=
+Cracked Covellite Brick Stair=
 
 Crocoite Stair=
 Crocoite Brick Stair=
 Crocoite Block Stair=
 Cracked Crocoite Brick Stair=
+
+Erythrite Stair=
+Erythrite Brick Stair=
+Erythrite Block Stair=
+Cracked Erythrite Brick Stair=
 
 Eudialite Stair=
 Eudialite Brick Stair=
@@ -632,6 +792,11 @@ Cobbled Gabbro Stair=
 Gabbro Brick Stair=
 Gabbro Block Stair=
 Cracked Gabbro Brick Stair=
+
+Galena Stair=
+Galena Brick Stair=
+Galena Block Stair=
+Cracked Galena Brick Stair=
 
 Black Granite Stair=
 Black Granite Brick Stair=
@@ -668,6 +833,16 @@ White Granite Brick Stair=
 White Granite Block Stair=
 Cracked White Granite Brick Stair=
 
+Heliodor Stair=
+Heliodor Brick Stair=
+Heliodor Block Stair=
+Cracked Heliodor Brick Stair=
+
+Howlite Stair=
+Howlite Brick Stair=
+Howlite Block Stair=
+Cracked Howlite Brick Stair=
+
 Ilvaite Stair=
 Ilvaite Brick Stair=
 Ilvaite Block Stair=
@@ -685,6 +860,11 @@ Kyanite Brick Stair=
 Kyanite Block Stair=
 Cracked Kyanite Brick Stair=
 Cobbled Kyanite Stair=
+
+Lapis Lazuli Stair=
+Lapis Lazuli Brick Stair=
+Lapis Lazuli Block Stair=
+Cracked Lapis Lazuli Brick Stair=
 
 Blue Limestone Stair=
 Blue Limestone Brick Stair=
@@ -709,6 +889,11 @@ Cobbled Mudstone Stair=
 Mudstone Brick Stair=
 Mudstone Block Stair=
 Cracked Mudstone Brick Stair=
+
+Pumice Stair=
+Pumice Brick Stair=
+Pumice Block Stair=
+Cracked Pumice Brick Stair=
 
 Pyrite Stair=
 Pyrite Brick Stair=
@@ -742,6 +927,11 @@ Smokey Quartz Stair=
 Smokey Quartz Brick Stair=
 Smokey Quartz Block Stair=
 Cracked Smokey Quartz Brick Stair=
+
+Soapstone Stair=
+Soapstone Brick Stair=
+Soapstone Block Stair=
+Cracked Soapstone Brick Stair=
 
 Sodalite Stair=
 Cobbled Sodalite Stair=
