@@ -1498,6 +1498,50 @@ stairs.register_stair_and_slab(
 	default.node_sound_stone_defaults(),
 	false
 )
+-- Prasiolite
+stairs.register_stair_and_slab(
+	"prasiolite",
+	"too_many_stones:prasiolite",
+	{cracky = 3},
+	{"tms_prasiolite.png"},
+	"Prasiolite Stair",
+	"Prasiolite Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"prasiolite_brick",
+	"too_many_stones:prasiolite_brick",
+	{cracky = 2},
+	{"tms_prasiolite_brick.png"},
+	"Prasiolite Brick Stair",
+	"Prasiolite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"prasiolite_cracked_brick",
+	"too_many_stones:prasiolite_cracked_brick",
+	{cracky = 2},
+	{"tms_prasiolite_cracked_brick.png"},
+	"Cracked Prasiolite Brick Stair",
+	"Cracked Prasiolite Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"prasiolite_block",
+	"too_many_stones:prasiolite_block",
+	{cracky = 2},
+	{"tms_prasiolite_block.png"},
+	"Prasiolite Block Stair",
+	"Prasiolite Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
 -- Pumice
 stairs.register_stair_and_slab(
 	"pumice",
@@ -1583,6 +1627,50 @@ stairs.register_stair_and_slab(
 	{"tms_pyrite_block.png"},
 	"Pyrite Block Stair",
 	"Pyrite Block Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+-- Quartz
+stairs.register_stair_and_slab(
+	"quartz",
+	"too_many_stones:quartz",
+	{cracky = 3},
+	{"tms_quartz.png"},
+	"Quartz Stair",
+	"Quartz Slab",
+	default.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"quartz_brick",
+	"too_many_stones:quartz_brick",
+	{cracky = 2},
+	{"tms_quartz_brick.png"},
+	"Quartz Brick Stair",
+	"Quartz Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"quartz_cracked_brick",
+	"too_many_stones:quartz_cracked_brick",
+	{cracky = 2},
+	{"tms_quartz_cracked_brick.png"},
+	"Cracked Quartz Brick Stair",
+	"Cracked Quartz Brick Slab",
+	default.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"quartz_block",
+	"too_many_stones:quartz_block",
+	{cracky = 2},
+	{"tms_quartz_block.png"},
+	"Quartz Block Stair",
+	"Quartz Block Slab",
 	default.node_sound_stone_defaults(),
 	false
 )
