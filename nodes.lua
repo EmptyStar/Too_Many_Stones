@@ -33,8 +33,10 @@ Limestone
 Marble
 Mudstone
 Opal
+Prasiolite
 Pumice
 Pyrite
+Quartz
 Rose Quartz
 Scoria
 Serpentine
@@ -1485,6 +1487,61 @@ minetest.register_node("too_many_stones:opal", {
 	groups = {cracky = 3, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
 })
+
+-- Prasiolite
+minetest.register_node("too_many_stones:prasiolite", {
+	description = S("Prasiolite"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	tiles = {"tms_prasiolite.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:prasiolite",
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
+
+minetest.register_node("too_many_stones:prasiolite_block", {
+	description = S("Prasiolite Block"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	tiles = {"tms_prasiolite_block.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:prasiolite_block",
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
+
+minetest.register_node("too_many_stones:prasiolite_brick", {
+	description = S("Prasiolite Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_prasiolite_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
+
+minetest.register_node("too_many_stones:prasiolite_cracked_brick", {
+	description = S("Cracked Prasiolite Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_prasiolite_cracked_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
 -- Pumice
 minetest.register_node("too_many_stones:pumice", {
 	description = S("Pumice"),
@@ -1555,6 +1612,61 @@ minetest.register_node("too_many_stones:pyrite_cracked_brick", {
 	is_ground_content = false,
 	groups = {cracky = 2, stone = 1},
 	sounds = default.node_sound_stone_defaults(),
+})
+
+-- Quartz
+minetest.register_node("too_many_stones:quartz", {
+	description = S("Quartz"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	tiles = {"tms_quartz.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:quartz",
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
+
+minetest.register_node("too_many_stones:quartz_block", {
+	description = S("Quartz Block"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	tiles = {"tms_quartz_block.png"},
+	sunlight_propagates = true,
+	is_ground_content = false,
+	groups = {cracky = 3, stone = 1},
+	drop = "too_many_stones:quartz_block",
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
+
+minetest.register_node("too_many_stones:quartz_brick", {
+	description = S("Quartz Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_quartz_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
+})
+
+minetest.register_node("too_many_stones:quartz_cracked_brick", {
+	description = S("Cracked Quartz Brick"),
+    use_texture_alpha = "blend",
+	drawtype = "glasslike",
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
+	place_param2 = 0,
+	tiles = {"tms_quartz_cracked_brick.png"},
+	is_ground_content = false,
+	groups = {cracky = 2, stone = 1},
+	sounds = default.node_sound_stone_defaults(),
+    paramtype = "light",
 })
 -- Rose Quartz
 minetest.register_node("too_many_stones:rose_quartz", {
