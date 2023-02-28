@@ -1,6 +1,6 @@
 # Too Many Stones
 
-This mod is in a quite functional state, but not a polished state. It currently features 53 stone types (7 of which glow) that all spawn in the world, cobble for most of them, and bricks, cracked brick, and blocks for all stone types. If your game supplies stairs, you will have access to stairs and slabs. If your game has walls, then you will also get walls for most stone types. If you have the either "geodes" or "geodes_lib" installed, you will get several geodes as well. The placement of the stones in the mapgen is nearing finalization. More stones may be added, and you can put a feature request on ContentDB or the repo for new ones. I probably won't add any boring stones though.
+This mod is in a quite functional state, but not a polished state. It currently features 55 stone types (7 of which glow) that all spawn in the world, cobble for most of them, and bricks, cracked brick, and blocks for all stone types. If your game supplies stairs, you will have access to stairs and slabs. If your game has walls, then you will also get walls for most stone types. If you have the either "geodes" or "geodes_lib" installed, you will get several geodes as well. The placement of the stones in the mapgen is nearing finalization. Crystals are renewable now as well. More stones may be added, and you can put a feature request on ContentDB or the repo for new ones. I probably won't add any boring stones though.
 
 ## Done:
 ##### Amazonite-(light green)
@@ -42,9 +42,11 @@ This mod is in a quite functional state, but not a polished state. It currently 
 ##### White Limestone-(yellow grey)
 ##### Marble-(white)
 ##### Mudstone-(brown)
+##### Prasiolite-(glass bottle green)
 ##### Opal-(white to blue)
 ##### Pumice-(grey)
 ##### Pyrite-(bright yellow)
+##### Quartz-(white)
 ##### Rose Quartz-(pink)
 ##### Scoria-(red)
 ##### Serpentine-(dark green)
