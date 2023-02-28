@@ -47,3 +47,14 @@ Added Lapis Lazuli
 Change the crack pattern on several stones
 Added Soapstone
 Added Pumice
+
+V0.2.3
+Added Budding crystals
+Added Crystal items and crystal blocks
+Improve Geodes
+Redo some textures
+
+V0.2.4
+Added Prasiolite
+Added Quartz
+
