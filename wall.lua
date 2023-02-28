@@ -407,6 +407,18 @@ walls.register("too_many_stones:mudstone_block_wall", "Mudstone Block Wall", "tm
 
 walls.register("too_many_stones:mudstone_cobble_wall", "Cobbled Mudstone Wall", "tms_mudstone_cobble.png",
 		"too_many_stones:mudstone_cobble", default.node_sound_stone_defaults())
+-- Prasiolite
+walls.register("too_many_stones:prasiolite_wall", "Vivinite Wall", "tms_prasiolite.png",
+		"too_many_stones:prasiolite", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:prasiolite_brick_wall", "Vivinite Brick Wall", "tms_prasiolite_brick.png",
+		"too_many_stones:prasiolite_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:prasiolite_cracked_brick_wall", "Cracked Vivinite Brick Wall", "tms_prasiolite_cracked_brick.png",
+		"too_many_stones:prasiolite_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:prasiolite_block_wall", "Vivinite Block Wall", "tms_prasiolite_block.png",
+		"too_many_stones:prasiolite_block", default.node_sound_stone_defaults())
 -- Pumice
 walls.register("too_many_stones:pumice_wall", "Pumice Wall", "tms_pumice.png",
 		"too_many_stones:pumice", default.node_sound_stone_defaults())
@@ -431,6 +443,18 @@ walls.register("too_many_stones:pyrite_cracked_brick_wall", "Cracked Pyrite Bric
 
 walls.register("too_many_stones:pyrite_block_wall", "Pyrite Block Wall", "tms_pyrite_block.png",
 		"too_many_stones:pyrite_block", default.node_sound_stone_defaults())
+-- Quartz
+walls.register("too_many_stones:quartz_wall", "Vivinite Wall", "tms_quartz.png",
+		"too_many_stones:quartz", default.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:quartz_brick_wall", "Vivinite Brick Wall", "tms_quartz_brick.png",
+		"too_many_stones:quartz_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:quartz_cracked_brick_wall", "Cracked Vivinite Brick Wall", "tms_quartz_cracked_brick.png",
+		"too_many_stones:quartz_cracked_brick", default.node_sound_stone_defaults())
+
+walls.register("too_many_stones:quartz_block_wall", "Vivinite Block Wall", "tms_quartz_block.png",
+		"too_many_stones:quartz_block", default.node_sound_stone_defaults())
 -- Rose Quartz
 walls.register("too_many_stones:rose_quartz_wall", "Rose Quartz Wall", "tms_rose_quartz.png",
 		"too_many_stones:rose_quartz", default.node_sound_stone_defaults())
@@ -575,7 +599,7 @@ walls.register("too_many_stones:turquoise_block_wall", "Turquoise Block Wall", "
 
 walls.register("too_many_stones:turquoise_cobble_wall", "Cobbled Turquoise Wall", "tms_turquoise_cobble.png",
 		"too_many_stones:turquoise_cobble", default.node_sound_stone_defaults())
--- Vivinite
+-- Vivianite
 walls.register("too_many_stones:vivianite_wall", "Vivinite Wall", "tms_vivianite.png",
 		"too_many_stones:vivianite", default.node_sound_stone_defaults())
 		
