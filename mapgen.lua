@@ -577,6 +577,44 @@
 		},
 	})
 
+-- Prasiolite
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:prasiolite",
+		wherein         = {"default:stone", "default:silver_sandstone"},
+		clust_scarcity  = 48 * 48 * 48,
+		clust_size      = 7,
+		y_max           = -50,
+		y_min           = -1000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:prasiolite",
+		wherein         = {"default:sand", "default:silver_sand", "default:desert_sand"},
+		clust_scarcity  = 32 * 48 * 32,
+		clust_size      = 7,
+		y_max           = -2,
+		y_min           = -50,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
 -- Pumice
 
 	minetest.register_ore({
@@ -605,6 +643,44 @@
 		clust_size      = 10,
 		y_max           = 31000,
 		y_min           = -1,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Quartz
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:quartz",
+		wherein         = {"default:stone", "default:desert_stone"},
+		clust_scarcity  = 48 * 48 * 48,
+		clust_size      = 7,
+		y_max           = -300,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:quartz",
+		wherein         = {"default:sand", "default:silver_sand", "default:desert_sand"},
+		clust_scarcity  = 32 * 48 * 32,
+		clust_size      = 7,
+		y_max           = -2,
+		y_min           = -50,
 		noise_threshold = 0.0,
 		noise_params    = {
 			offset = 0.5,

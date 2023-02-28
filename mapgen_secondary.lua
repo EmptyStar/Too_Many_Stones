@@ -1,3 +1,16 @@
+-- Amber
+
+	minetest.register_ore({
+		ore_type       = "scatter",
+		ore            = "too_many_stones:amber_budding",
+		wherein        = "too_many_stones:amber",
+		clust_scarcity = 8 * 8 * 8,
+		clust_num_ores = 9,
+		clust_size     = 3,
+		y_max          = 31000,
+		y_min          = -100,
+	})
+
 -- Black Opal
 
 	minetest.register_ore({
