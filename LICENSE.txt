@@ -96,8 +96,8 @@ License of geode generation
 LGPL-3.0
 
 
-License of geodes_lib geode generation
---------------------------------------
+License of geodes_lib geode generation and nodes_crystal functionality
+----------------------------------------------------------------------
 
 (C) alerikaisattera
 
