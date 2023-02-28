@@ -172,6 +172,11 @@ Cracked Mudstone Brick=
 
 Opal=
 
+Prasiolite=
+Prasiolite Block=
+Prasiolite Brick=
+Cracked Prasiolite Brick=
+
 Pumice=
 Pumice Block=
 Pumice Brick=
@@ -182,6 +187,11 @@ Pyrite Block=
 Cobbled Pyrite=
 Pyrite Brick=
 Cracked Pyrite Brick=
+
+Quartz=
+Quartz Block=
+Quartz Brick=
+Cracked Quartz Brick=
 
 Rose Quartz=
 Rose Quartz Block=
@@ -412,6 +422,11 @@ Mudstone Brick Wall=
 Mudstone Block Wall=
 Cracked Mudstone Brick Wall=
 
+Prasiolite Wall=
+Prasiolite Brick Wall=
+Prasiolite Block Wall=
+Cracked Prasiolite Brick Wall=
+
 Pumice Wall=
 Pumice Brick Wall=
 Pumice Block Wall=
@@ -421,6 +436,11 @@ Pyrite Wall=
 Pyrite Brick Wall=
 Pyrite Block Wall=
 Cracked Pyrite Brick Wall=
+
+Quartz Wall=
+Quartz Brick Wall=
+Quartz Block Wall=
+Cracked Quartz Brick Wall=
 
 Rose Quartz Wall=
 Rose Quartz Brick Wall=
@@ -651,6 +671,12 @@ Mudstone Brick Slab=
 Mudstone Block Slab=
 Cracked Mudstone Brick Slab=
 
+Prasiolite Slab=
+Cobbled Prasiolite Slab=
+Prasiolite Brick Slab=
+Prasiolite Block Slab=
+Cracked Prasiolite Brick Slab=
+
 Pumice Slab=
 Pumice Brick Slab=
 Pumice Block Slab=
@@ -660,6 +686,12 @@ Pyrite Slab=
 Pyrite Brick Slab=
 Pyrite Block Slab=
 Cracked Pyrite Brick Slab=
+
+Quartz Slab=
+Cobbled Quartz Slab=
+Quartz Brick Slab=
+Quartz Block Slab=
+Cracked Quartz Brick Slab=
 
 Rose Quartz Slab=
 Rose Quartz Brick Slab=
@@ -890,6 +922,11 @@ Mudstone Brick Stair=
 Mudstone Block Stair=
 Cracked Mudstone Brick Stair=
 
+Prasiolite Stair=
+Prasiolite Brick Stair=
+Prasiolite Block Stair=
+Cracked Prasiolite Brick Stair=
+
 Pumice Stair=
 Pumice Brick Stair=
 Pumice Block Stair=
@@ -899,6 +936,11 @@ Pyrite Stair=
 Pyrite Brick Stair=
 Pyrite Block Stair=
 Cracked Pyrite Brick Stair=
+
+Quartz Stair=
+Quartz Brick Stair=
+Quartz Block Stair=
+Cracked Quartz Brick Stair=
 
 Rose Quartz Stair=
 Rose Quartz Brick Stair=
