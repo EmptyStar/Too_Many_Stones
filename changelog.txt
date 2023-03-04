@@ -58,3 +58,10 @@ V0.2.4
 Added Prasiolite
 Added Quartz
 
+V0.3.0
+Default is now optional
+Stair and Slab names can now be translated into other languages
+Hades Revisted is now a mapgen supported game and can spawn Geodes with geodes_lib only
+Turquoise ore no longer uses default textures from MTG, TMS supplies them
+TMS now uses its own sound library
+Crystals and polished Crystals now make crystalline sounds

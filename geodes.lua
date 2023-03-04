@@ -1,4 +1,4 @@
-if minetest.get_modpath("geodes") ~= nil then
+if minetest.get_modpath("geodes") and minetest.get_modpath("default") ~= nil then
 
 geodes.register_geode("too_many_stones:mudstone", "too_many_stones:calcite", "too_many_stones:amazonite", "too_many_stones:amazonite_crystal")
 
