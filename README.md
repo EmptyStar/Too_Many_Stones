@@ -1,6 +1,6 @@
 # Too Many Stones
 
-This mod is in a quite functional state, but not a polished state. It currently features 55 stone types (7 of which glow) that all spawn in the world, cobble for most of them, and bricks, cracked brick, and blocks for all stone types. If your game supplies stairs, you will have access to stairs and slabs. If your game has walls, then you will also get walls for most stone types. If you have the either "geodes" or "geodes_lib" installed, you will get several geodes as well. The placement of the stones in the mapgen is nearing finalization. Crystals are renewable now as well. More stones may be added, and you can put a feature request on ContentDB or the repo for new ones. I probably won't add any boring stones though.
+Default is now optional. Hades now has TMS mapgen. TMS currently features 55 stone types (7 of which glow), cobble for most of them, and bricks, cracked bricks, and blocks for all stone types. There are optional features that each require different mods to add: Mapgen requires default or hades_core, Stairs and Slabs require stairs, Walls require walls, and geodes require either geode mod. More stones will be added, and you can put a feature request on ContentDB or the repo for new ones. I will prioritize stones that are unique.
 
 ## Done:
 ##### Amazonite-(light green)
@@ -61,4 +61,3 @@ This mod is in a quite functional state, but not a polished state. It currently 
 
 ## To Do:
 ##### Find and add ore mods to optional depends
-##### Crystal Sounds
