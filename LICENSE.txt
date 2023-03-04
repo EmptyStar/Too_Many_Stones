@@ -102,3 +102,19 @@ License of geodes_lib geode generation and nodes_crystal functionality
 (C) alerikaisattera
 
 LGPL-3.0
+
+
+License of all node sounds
+--------------------------
+
+(C) OpenGameArt.Org
+
+CC0
+
+(C) freesound.org
+
+CC0
+
+(C) JoeEnderman
+
+CC0
