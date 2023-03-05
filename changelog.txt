@@ -65,3 +65,4 @@ Hades Revisted is now a mapgen supported game and can spawn Geodes with geodes_l
 Turquoise ore no longer uses default textures from MTG, TMS supplies them
 TMS now uses its own sound library
 Crystals and polished Crystals now make crystalline sounds
+French now supported by TMS
