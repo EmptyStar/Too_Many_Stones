@@ -1,12 +1,26 @@
 if minetest.get_modpath("geodes") and minetest.get_modpath("default") ~= nil then
 
+geodes.register_geode("too_many_stones:limestone_white", "too_many_stones:calcite", "too_many_stones:agate_blue", "too_many_stones:agate_blue", "too_many_stones:agate_blue")
+
+geodes.register_geode("too_many_stones:pumice", "too_many_stones:calcite", "too_many_stones:agate_gray", "too_many_stones:agate_gray", "too_many_stones:agate_gray")
+
+geodes.register_geode("too_many_stones:basalt", "too_many_stones:calcite", "too_many_stones:agate_green", "too_many_stones:agate_green", "too_many_stones:agate_green")
+
+geodes.register_geode("too_many_stones:mudstone", "too_many_stones:calcite", "too_many_stones:agate_moss", "too_many_stones:agate_moss", "too_many_stones:agate_moss")
+
+geodes.register_geode("too_many_stones:limestone_blue", "too_many_stones:calcite", "too_many_stones:agate_orange", "too_many_stones:agate_orange", "too_many_stones:agate_orange")
+
+geodes.register_geode("too_many_stones:gabbro", "too_many_stones:calcite", "too_many_stones:agate_purple", "too_many_stones:agate_purple", "too_many_stones:agate_purple")
+
+geodes.register_geode("too_many_stones:limestone_white", "too_many_stones:calcite", "too_many_stones:agate_red", "too_many_stones:agate_red", "too_many_stones:agate_red")
+
 geodes.register_geode("too_many_stones:mudstone", "too_many_stones:calcite", "too_many_stones:amazonite", "too_many_stones:amazonite_crystal")
 
 geodes.register_geode("too_many_stones:gabbro", "too_many_stones:calcite", "too_many_stones:amethyst", "too_many_stones:amethyst_crystal")
 
-geodes.register_geode("too_many_stones:slate", "too_many_stones:calcite", "too_many_stones:citrine", "too_many_stones:citrine_crystal")
+geodes.register_geode("too_many_stones:basalt", "too_many_stones:calcite", "too_many_stones:citrine", "too_many_stones:citrine_crystal")
 
-geodes.register_geode("too_many_stones:mudstone", "too_many_stones:calcite", "too_many_stones:crocoite", "too_many_stones:crocoite_crystal")
+geodes.register_geode("too_many_stones:basalt", "too_many_stones:calcite", "too_many_stones:crocoite", "too_many_stones:crocoite_crystal")
 
 geodes.register_geode("too_many_stones:mudstone", "too_many_stones:calcite", "too_many_stones:eudialite", "too_many_stones:eudialite_crystal")
 

@@ -66,3 +66,23 @@ Turquoise ore no longer uses default textures from MTG, TMS supplies them
 TMS now uses its own sound library
 Crystals and polished Crystals now make crystalline sounds
 French now supported by TMS
+
+V0.3.1
+Cave Game is now supported with mapgen and optional geodes
+Fogblox is now supported with mapgen and optional geodes
+Minebase is now supported with mapgen and optional geodes
+Nodecore is now supported with mapgen and optional geodes
+Fixed the no sound bug from 0.3.0 by registering sounds for nodes that don't exist and including sound files for them
+
+V0.3.2
+Added Blue Agate
+Added Gray Agate
+Added Green Agate
+Added Moss Agate
+Added Orange Agate
+Added Purple Agate
+Added Red Agate
+Added Basalt
+Added Columnar Basalt
+Added more geodes (mostly agate) and removed slate as a geode shell for realism
+Each Geode mod now supplies a vastly different experience, geodes does not supply budding blocks, but has full agate geodes, geodes_lib supplies geodes in every game I made mapgen for and has budding blocks

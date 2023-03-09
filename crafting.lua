@@ -80,6 +80,23 @@ minetest.register_craft({
 		{"too_many_stones:amethyst", "too_many_stones:amethyst", "too_many_stones:amethyst"},
 	}
 })
+-- Basalt
+minetest.register_craft({
+	output = "too_many_stones:basalt_brick 4",
+	recipe = {
+		{"too_many_stones:basalt", "too_many_stones:basalt"},
+		{"too_many_stones:basalt", "too_many_stones:basalt"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:basalt_block 9",
+	recipe = {
+		{"too_many_stones:basalt", "too_many_stones:basalt", "too_many_stones:basalt"},
+		{"too_many_stones:basalt", "too_many_stones:basalt", "too_many_stones:basalt"},
+		{"too_many_stones:basalt", "too_many_stones:basalt", "too_many_stones:basalt"},
+	}
+})
 -- Calcite
 minetest.register_craft({
 	output = "too_many_stones:calcite_brick 4",
@@ -965,6 +982,18 @@ minetest.register_craft({
 	type = "cooking",
 	output = "too_many_stones:amethyst_budding",
 	recipe = "too_many_stones:amethyst",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:basalt",
+	recipe = "too_many_stones:basalt_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:basalt_cracked_brick",
+	recipe = "too_many_stones:basalt_brick",
 })
 
 minetest.register_craft({
