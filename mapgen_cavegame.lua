@@ -1,13 +1,13 @@
--- Minetest Game, Mesecraft, and Others
+-- Cavegame
 
-if minetest.get_modpath("default") ~= nil then
+if minetest.get_modpath("cavegame_mapgen") ~= nil then
 
 -- Blue Agate
 
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_blue",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -27,7 +27,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_gray",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -47,7 +47,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_green",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -67,7 +67,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_moss",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -87,7 +87,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_orange",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -107,7 +107,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_purple",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -127,27 +127,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_red",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
-		clust_size      = 7,
-		y_max           = 31000,
-		y_min           = -31000,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
--- Amber
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:amber",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -167,7 +147,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amazonite",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -187,7 +167,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amber",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -207,7 +187,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amethyst",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 0,
@@ -225,7 +205,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amethyst",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -245,7 +225,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:basalt",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -265,7 +245,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:basalt_columnar",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -280,12 +260,13 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
+
 -- Calcite
 
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:calcite",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -304,7 +285,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:calcite",
-		wherein         = {"default:sand", "default:silver_sand"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 10,
 		y_max           = 0,
@@ -325,7 +306,7 @@ if minetest.get_modpath("default") ~= nil then
 		minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:carnotite",
-		wherein         = {"default:stone", "default:desert_stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = -300,
@@ -345,7 +326,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:celestine",
-		wherein         = {"default:silver_sandstone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -365,7 +346,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:citrine",
-		wherein         = {"default:desert_stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -385,7 +366,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:eudialite",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -405,7 +386,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:gabbro",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 20,
 		y_max           = 31000,
@@ -425,7 +406,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:galena",
-		wherein         = {"default:stone", "default:sandstone", "default:desert_sandstone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -445,7 +426,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_black",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -465,7 +446,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_blue",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 30,
@@ -485,7 +466,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_gray",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -505,7 +486,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_green",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -526,7 +507,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_pink",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 10,
@@ -546,7 +527,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_red",
-		wherein         = {"default:stone", "default:desert_stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -567,7 +548,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_white",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -587,7 +568,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:heliodor",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = -30,
@@ -607,7 +588,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:howlite",
-		wherein         = {"default:stone", "default:silver_sandstone", "default:desert_sandstone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 1000,
@@ -627,7 +608,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:ilvaite",
-		wherein         = {"default:stone", "default:desert_stone", "default:permafrost"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -647,7 +628,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:kyanite",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 300,
@@ -665,7 +646,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:kyanite",
-		wherein         = {"default:silver_sand"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = -300,
@@ -685,10 +666,10 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:lapis_lazuli",
-		wherein         = {"default:sandstone", "default:desert_stone", "default:silver_sandstone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 16 * 64,
 		clust_size      = 14,
-		y_max           = 31000,
+		y_max           = -10,
 		y_min           = -31000,
 		noise_threshold = 0.0,
 		noise_params    = {
@@ -705,7 +686,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:limestone_blue",
-		wherein         = {"default:stone", "default:sand", "default:desert_sand"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 300,
@@ -725,7 +706,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:limestone_white",
-		wherein         = {"default:stone", "default:silver_sand"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -745,7 +726,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:marble",
-		wherein         = {"default:stone", "default:sandstone", "default:silver_sandstone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -766,7 +747,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:mudstone",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 10,
 		y_max           = 31000,
@@ -786,7 +767,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:prasiolite",
-		wherein         = {"default:stone", "default:silver_sandstone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = -50,
@@ -804,7 +785,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:prasiolite",
-		wherein         = {"default:sand", "default:silver_sand", "default:desert_sand"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 32 * 48 * 32,
 		clust_size      = 7,
 		y_max           = -2,
@@ -824,7 +805,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:pumice",
-		wherein         = {"default:stone", "default:gravel"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 10,
 		y_max           = 31000,
@@ -842,7 +823,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:pumice",
-		wherein         = {"default:water_source"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 10,
 		y_max           = 31000,
@@ -862,7 +843,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:quartz",
-		wherein         = {"default:stone", "default:desert_stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = -300,
@@ -880,7 +861,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:quartz",
-		wherein         = {"default:sand", "default:silver_sand", "default:desert_sand"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 32 * 48 * 32,
 		clust_size      = 7,
 		y_max           = -2,
@@ -900,7 +881,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:rose_quartz",
-		wherein         = {"default:stone", "default:desert_stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = -300,
@@ -918,7 +899,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:rose_quartz",
-		wherein         = {"default:sand", "default:silver_sand", "default:desert_sand"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 32 * 48 * 32,
 		clust_size      = 7,
 		y_max           = -2,
@@ -938,7 +919,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:scoria",
-		wherein         = {"default:stone", "default:desert_stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -958,7 +939,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:serpentine",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -978,7 +959,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:slate",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 300,
@@ -998,7 +979,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:smokey_quartz",
-		wherein         = {"default:sandstone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1018,7 +999,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:soapstone",
-		wherein         = {"default:sandstone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1036,7 +1017,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:soapstone",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = -400,
@@ -1056,7 +1037,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sodalite",
-		wherein         = {"default:stone", "default:desert_stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1076,7 +1057,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sugilite",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 30,
@@ -1096,27 +1077,9 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:travertine",
-		wherein         = {"default:stone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
-		y_max           = 31000,
-		y_min           = -31000,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:travertine",
-		wherein         = {"default:sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
-		clust_size      = 30,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1133,46 +1096,8 @@ if minetest.get_modpath("default") ~= nil then
 
 	minetest.register_ore({
 		ore_type        = "blob",
-		ore             = "too_many_stones:sandstone_with_turquoise",
-		wherein         = {"default:sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
-		clust_size      = 15,
-		y_max           = 300,
-		y_min           = -60,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			seed = 61,
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:desert_sandstone_with_turquoise",
-		wherein         = {"default:desert_sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
-		clust_size      = 15,
-		y_max           = 300,
-		y_min           = -60,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			seed = 61,
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:silver_sandstone_with_turquoise",
-		wherein         = {"default:silver_sandstone"},
+		ore             = "too_many_stones:turquoise",
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 32 * 48 * 32,
 		clust_size      = 15,
 		y_max           = 300,
@@ -1193,7 +1118,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:vivianite",
-		wherein         = {"default:stone", "default:silver_sandstone"},
+		wherein         = {"minecraft:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1210,16 +1135,16 @@ if minetest.get_modpath("default") ~= nil then
 
 end
 
--- Minebase Version
+-- Fogblox
 
-if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~= nil then
+if minetest.get_modpath("fogblox") ~= nil then
 
 -- Blue Agate
 
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_blue",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1239,7 +1164,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_gray",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1259,7 +1184,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_green",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1279,7 +1204,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_moss",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1299,7 +1224,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_orange",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1319,7 +1244,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_purple",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1339,7 +1264,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_red",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1359,7 +1284,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amazonite",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1379,7 +1304,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amber",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1399,7 +1324,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amethyst",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 0,
@@ -1417,7 +1342,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amethyst",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1437,7 +1362,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:basalt",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1457,7 +1382,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:basalt_columnar",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1478,7 +1403,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:calcite",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1497,7 +1422,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:calcite",
-		wherein         = {"base_earth:sand", "base_earth:silver_sand"},
+		wherein         = {"fogblox:sand"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 10,
 		y_max           = 0,
@@ -1518,7 +1443,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:carnotite",
-		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = -300,
@@ -1538,7 +1463,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:celestine",
-		wherein         = {"base_earth:silver_sandstone"},
+		wherein         = {"fogblox:sandstone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1558,7 +1483,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:citrine",
-		wherein         = {"base_earth:desert_stone"},
+		wherein         = {"fogblox:desert_stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1578,7 +1503,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:eudialite",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1598,7 +1523,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:gabbro",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 20,
 		y_max           = 31000,
@@ -1618,7 +1543,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:galena",
-		wherein         = {"base_earth:stone", "base_earth:sandstone", "base_earth:desert_sandstone"},
+		wherein         = {"fogblox:stone", "fogblox:sandstone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1638,7 +1563,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_black",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1658,7 +1583,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_blue",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 30,
@@ -1678,7 +1603,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_gray",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1698,7 +1623,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_green",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1719,7 +1644,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_pink",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 10,
@@ -1739,7 +1664,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_red",
-		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
+		wherein         = {"fogblox:stone", "fogblox:desert_stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1760,7 +1685,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_white",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1780,7 +1705,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:heliodor",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = -30,
@@ -1800,7 +1725,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:howlite",
-		wherein         = {"base_earth:stone", "base_earth:silver_sandstone", "base_earth:desert_sandstone"},
+		wherein         = {"fogblox:stone", "fogblox:sandstone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 1000,
@@ -1820,7 +1745,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:ilvaite",
-		wherein         = {"base_earth:stone", "base_earth:desert_stone", "base_earth:permafrost"},
+		wherein         = {"fogblox:stone", "fogblox:desert_stone", "fogblox:permafrost"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1840,7 +1765,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:kyanite",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 300,
@@ -1858,7 +1783,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:kyanite",
-		wherein         = {"base_earth:silver_sand"},
+		wherein         = {"fogblox:sand"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = -300,
@@ -1878,7 +1803,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:lapis_lazuli",
-		wherein         = {"base_earth:sandstone", "base_earth:desert_stone", "base_earth:silver_sandstone"},
+		wherein         = {"fogblox:sandstone", "fogblox:stone"},
 		clust_scarcity  = 64 * 16 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -1898,7 +1823,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:limestone_blue",
-		wherein         = {"base_earth:stone", "base_earth:sand", "base_earth:desert_sand"},
+		wherein         = {"fogblox:stone", "fogblox:sand"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 300,
@@ -1918,7 +1843,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:limestone_white",
-		wherein         = {"base_earth:stone", "base_earth:silver_sand"},
+		wherein         = {"fogblox:stone", "fogblox:sand"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1938,7 +1863,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:marble",
-		wherein         = {"base_earth:stone", "base_earth:sandstone", "base_earth:silver_sandstone"},
+		wherein         = {"fogblox:stone", "fogblox:sandstone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -1959,7 +1884,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:mudstone",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 10,
 		y_max           = 31000,
@@ -1979,7 +1904,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:prasiolite",
-		wherein         = {"base_earth:stone", "base_earth:silver_sandstone"},
+		wherein         = {"fogblox:stone", "fogblox:sandstone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = -50,
@@ -1997,7 +1922,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:prasiolite",
-		wherein         = {"base_earth:sand", "base_earth:silver_sand", "base_earth:desert_sand"},
+		wherein         = {"fogblox:sand"},
 		clust_scarcity  = 32 * 48 * 32,
 		clust_size      = 7,
 		y_max           = -2,
@@ -2017,29 +1942,11 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:pumice",
-		wherein         = {"base_earth:stone", "base_earth:gravel"},
+		wherein         = {"fogblox:stone", "fogblox:gravel"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 10,
 		y_max           = 31000,
 		y_min           = -31000,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:pumice",
-		wherein         = {"base_liquids:water_source"},
-		clust_scarcity  = 64 * 64 * 64,
-		clust_size      = 10,
-		y_max           = 31000,
-		y_min           = -1,
 		noise_threshold = 0.0,
 		noise_params    = {
 			offset = 0.5,
@@ -2055,7 +1962,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:quartz",
-		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
+		wherein         = {"fogblox:stone", "fogblox:sandstone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = -300,
@@ -2073,7 +1980,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:quartz",
-		wherein         = {"base_earth:sand", "base_earth:silver_sand", "base_earth:desert_sand"},
+		wherein         = {"fogblox:sand"},
 		clust_scarcity  = 32 * 48 * 32,
 		clust_size      = 7,
 		y_max           = -2,
@@ -2093,7 +2000,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:rose_quartz",
-		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
+		wherein         = {"fogblox:stone", "fogblox:sandstone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = -300,
@@ -2111,7 +2018,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:rose_quartz",
-		wherein         = {"base_earth:sand", "base_earth:silver_sand", "base_earth:desert_sand"},
+		wherein         = {"fogblox:sand"},
 		clust_scarcity  = 32 * 48 * 32,
 		clust_size      = 7,
 		y_max           = -2,
@@ -2131,7 +2038,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:scoria",
-		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
+		wherein         = {"fogblox:stone", "fogblox:desert_stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -2151,7 +2058,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:serpentine",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -2171,7 +2078,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:slate",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 300,
@@ -2191,7 +2098,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:smokey_quartz",
-		wherein         = {"base_earth:sandstone"},
+		wherein         = {"fogblox:sandstone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -2211,7 +2118,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:soapstone",
-		wherein         = {"base_earth:sandstone"},
+		wherein         = {"fogblox:sandstone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -2229,7 +2136,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:soapstone",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = -400,
@@ -2249,7 +2156,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sodalite",
-		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
+		wherein         = {"fogblox:stone", "fogblox:desert_stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -2269,7 +2176,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sugilite",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 30,
@@ -2289,7 +2196,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:travertine",
-		wherein         = {"base_earth:stone"},
+		wherein         = {"fogblox:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -2307,7 +2214,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:travertine",
-		wherein         = {"base_earth:sandstone"},
+		wherein         = {"fogblox:sandstone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 30,
 		y_max           = 31000,
@@ -2327,45 +2234,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sandstone_with_turquoise",
-		wherein         = {"base_earth:sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
-		clust_size      = 15,
-		y_max           = 300,
-		y_min           = -60,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			seed = 61,
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:desert_sandstone_with_turquoise",
-		wherein         = {"base_earth:desert_sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
-		clust_size      = 15,
-		y_max           = 300,
-		y_min           = -60,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			seed = 61,
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:silver_sandstone_with_turquoise",
-		wherein         = {"base_earth:silver_sandstone"},
+		wherein         = {"fogblox:sandstone"},
 		clust_scarcity  = 32 * 48 * 32,
 		clust_size      = 15,
 		y_max           = 300,
@@ -2386,7 +2255,7 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:vivianite",
-		wherein         = {"base_earth:stone", "base_earth:silver_sandstone"},
+		wherein         = {"fogblox:stone", "fogblox:sandstone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = 31000,

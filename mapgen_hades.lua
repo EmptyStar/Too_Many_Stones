@@ -1,5 +1,145 @@
 if minetest.get_modpath("hades_core") ~= nil then
 
+-- Blue Agate
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:agate_blue",
+		wherein         = {"hades_core:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 7,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Gray Agate
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:agate_gray",
+		wherein         = {"hades_core:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 7,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Green Agate
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:agate_green",
+		wherein         = {"hades_core:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 7,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Moss Agate
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:agate_moss",
+		wherein         = {"hades_core:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 7,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Orange Agate
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:agate_orange",
+		wherein         = {"hades_core:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 7,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Purple Agate
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:agate_purple",
+		wherein         = {"hades_core:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 7,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Red Agate
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:agate_red",
+		wherein         = {"hades_core:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 7,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
 -- Amazonite
 
 	minetest.register_ore({
@@ -78,6 +218,47 @@ if minetest.get_modpath("hades_core") ~= nil then
 		},
 	})
 
+-- Basalt
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:basalt",
+		wherein         = {"hades_core:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 14,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Columnar Basalt
+
+	minetest.register_ore({
+		ore_type        = "blob",
+		ore             = "too_many_stones:basalt_columnar",
+		wherein         = {"hades_core:stone"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 14,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+
 -- Calcite
 
 	minetest.register_ore({
@@ -102,7 +283,7 @@ if minetest.get_modpath("hades_core") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:calcite",
-		wherein         = {"default:sand", "hades_core:ash"},
+		wherein         = {"hades_core:ash"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 10,
 		y_max           = 0,
@@ -123,7 +304,7 @@ if minetest.get_modpath("hades_core") ~= nil then
 		minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:carnotite",
-		wherein         = {"hades_core:stone", "default:desert_stone"},
+		wherein         = {"hades_core:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = -300,
@@ -163,7 +344,7 @@ if minetest.get_modpath("hades_core") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:citrine",
-		wherein         = {"default:desert_stone"},
+		wherein         = {"hades_core:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -223,7 +404,7 @@ if minetest.get_modpath("hades_core") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:galena",
-		wherein         = {"hades_core:stone", "default:sandstone", "default:desert_sandstone"},
+		wherein         = {"hades_core:stone"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
@@ -344,7 +525,7 @@ if minetest.get_modpath("hades_core") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_red",
-		wherein         = {"hades_core:stone", "default:desert_stone"},
+		wherein         = {"hades_core:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
@@ -405,7 +586,7 @@ if minetest.get_modpath("hades_core") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:howlite",
-		wherein         = {"hades_core:stone", "hades_core:ash", "default:desert_sandstone"},
+		wherein         = {"hades_core:stone", "hades_core:ash"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 1000,
@@ -425,7 +606,7 @@ if minetest.get_modpath("hades_core") ~= nil then
 	minetest.register_ore({
 		ore_type        = "blob",
 		ore             = "too_many_stones:ilvaite",
-		wherein         = {"hades_core:stone", "default:desert_stone"},
+		wherein         = {"hades_core:stone"},
 		clust_scarcity  = 48 * 48 * 48,
 		clust_size      = 7,
 		y_max           = 31000,
