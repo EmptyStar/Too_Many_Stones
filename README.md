@@ -1,12 +1,21 @@
 # Too Many Stones
 
-Default is now optional. Hades now has TMS mapgen. TMS currently features 55 stone types (7 of which glow), cobble for most of them, and bricks, cracked bricks, and blocks for all stone types. There are optional features that each require different mods to add: Mapgen requires default or hades_core, Stairs and Slabs require stairs, Walls require walls, and geodes require either geode mod. More stones will be added, and you can put a feature request on ContentDB or the repo for new ones. I will prioritize stones that are unique. French translation by me and ChatGPT.
+A Minetest mod that adds as many stones as I can make good textures for. Recent addition is support for nearly all Minetest subgames. TMS currently features 64 stone types (7 of which glow), cobble for most of them, and bricks, cracked bricks, and blocks for all stone types. There are optional features that each require different mods to add: Mapgen requires default or hades_core, Stairs and Slabs require stairs, Walls require walls, and geodes require either geode mod. More stones will be added, and you can put a feature request on ContentDB or the repo for new ones. I will prioritize stones that are unique. French translation by me and ChatGPT.
 
 ## Done:
+##### Blue Agate-(blue and white)
+##### Gray Agate-(light gray and white)
+##### Green Agate-(light green)
+##### Moss Agate-(olive and white)
+##### Orange Agate-(orange and white)
+##### Purple Agate-(indigo and lavender)
+##### Red Agate-(red and white)
 ##### Amazonite-(light green)
 ##### Amber-(dark orange)
 ##### Amethyst-(dark purple)
 ##### Black Opal-(black to green)
+##### Basalt-(dark greenish grey)
+##### Columnar Basalt-(reddish light gray)
 ##### Calcite-(light grey)
 ##### Carnotite-(mustard yellow)
 ##### Celestine-(sky blue)
