@@ -3,6 +3,14 @@
 
 ### nodes.lua ###
 
+Blue Agate=
+Gray Agate=
+Green Agate=
+Moss Agate=
+Orange Agate=
+Purple Agate=
+Red Agate=
+
 Amazonite=
 Amazonite Block=
 Cobbled Amazonite=
@@ -18,6 +26,14 @@ Amethyst=
 Amethyst Block=
 Amethyst Brick=
 Cracked Amethyst Brick=
+
+Basalt=
+Basalt Block=
+Basalt Brick=
+Cracked Basalt Brick=
+Cobbled Basalt=
+
+Columnar Basalt=
 
 Black Opal=
 
@@ -258,6 +274,14 @@ Cracked Vivianite Brick=
 
 ### wall.lua ###
 
+Blue Agate Wall=
+Gray Agate Wall=
+Green Agate Wall=
+Moss Agate Wall=
+Orange Agate Wall=
+Purple Agate Wall=
+Red Agate Wall=
+
 Amazonite Wall=
 Cobbled Amazonite Wall=
 Amazonite Brick Wall=
@@ -273,6 +297,12 @@ Amethyst Wall=
 Amethyst Brick Wall=
 Amethyst Block Wall=
 Cracked Amethyst Brick Wall=
+
+Basalt Wall=
+Basalt Block Wall=
+Basalt Brick Wall=
+Cracked Basalt Brick Wall=
+Cobbled Basalt Wall=
 
 Calcite Wall=
 Calcite Brick Wall=
@@ -507,6 +537,14 @@ Cracked Vivianite Brick Wall=
 
 ### stairs.lua ###
 
+Blue Agate Slab=
+Gray Agate Slab=
+Green Agate Slab=
+Moss Agate Slab=
+Orange Agate Slab=
+Purple Agate Slab=
+Red Agate Slab=
+
 Amazonite Slab=
 Cobbled Amazonite Slab=
 Amazonite Brick Slab=
@@ -522,6 +560,12 @@ Amethyst Slab=
 Amethyst Brick Slab=
 Amethyst Block Slab=
 Cracked Amethyst Brick Slab=
+
+Basalt Slab=
+Basalt Block Slab=
+Basalt Brick Slab=
+Cracked Basalt Brick Slab=
+Cobbled Basalt Slab=
 
 Calcite Slab=
 Calcite Brick Slab=
@@ -759,6 +803,14 @@ Cracked Vivianite Brick Slab=
 
 
 
+Blue Agate Stair=
+Gray Agate Stair=
+Green Agate Stair=
+Moss Agate Stair=
+Orange Agate Stair=
+Purple Agate Stair=
+Red Agate Stair=
+
 Amazonite Stair=
 Cobbled Amazonite Stair=
 Amazonite Brick Stair=
@@ -774,6 +826,12 @@ Amethyst Stair=
 Amethyst Brick Stair=
 Amethyst Block Stair=
 Cracked Amethyst Brick Stair=
+
+Basalt Stair=
+Basalt Block Stair=
+Basalt Brick Stair=
+Cracked Basalt Brick Stair=
+Cobbled Basalt Stair=
 
 Calcite Stair=
 Calcite Brick Stair=
@@ -1008,6 +1066,14 @@ Cracked Vivianite Brick Stair=
 
 
 
+Inner Blue Agate Stair=
+Inner Gray Agate Stair=
+Inner Green Agate Stair=
+Inner Moss Agate Stair=
+Inner Orange Agate Stair=
+Inner Purple Agate Stair=
+Inner Red Agate Stair=
+
 Inner Amazonite Stair=
 Inner Cobbled Amazonite Stair=
 Inner Amazonite Brick Stair=
@@ -1023,6 +1089,12 @@ Inner Amethyst Stair=
 Inner Amethyst Brick Stair=
 Inner Amethyst Block Stair=
 Inner Cracked Amethyst Brick Stair=
+
+Inner Basalt Stair=
+Inner Basalt Block Stair=
+Inner Basalt Brick Stair=
+Inner Cracked Basalt Brick Stair=
+Inner Cobbled Basalt Stair=
 
 Inner Calcite Stair=
 Inner Calcite Brick Stair=
@@ -1257,6 +1329,14 @@ Inner Cracked Vivianite Brick Stair=
 
 
 
+Outer Blue Agate Stair=
+Outer Gray Agate Stair=
+Outer Green Agate Stair=
+Outer Moss Agate Stair=
+Outer Orange Agate Stair=
+Outer Purple Agate Stair=
+Outer Red Agate Stair=
+
 Outer Amazonite Stair=
 Outer Cobbled Amazonite Stair=
 Outer Amazonite Brick Stair=
@@ -1272,6 +1352,12 @@ Outer Amethyst Stair=
 Outer Amethyst Brick Stair=
 Outer Amethyst Block Stair=
 Outer Cracked Amethyst Brick Stair=
+
+Outer Basalt Stair=
+Outer Basalt Block Stair=
+Outer Basalt Brick Stair=
+Outer Cracked Basalt Brick Stair=
+Outer Cobbled Basalt Stair=
 
 Outer Calcite Stair=
 Outer Calcite Brick Stair=

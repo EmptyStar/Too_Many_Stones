@@ -3,6 +3,14 @@
 
 ### nodes.lua ###
 
+Blue Agate = Agate bleue
+Gray Agate = Agate grise
+Green Agate = Agate verte
+Moss Agate = Agate mousse
+Orange Agate = Agate orange
+Purple Agate = Agate violette
+Red Agate = Agate rouge
+
 Amazonite=Amazonite
 Amazonite Block=Bloc d'Amazonite
 Cobbled Amazonite=Pierre d'Amazonite
@@ -18,6 +26,14 @@ Amethyst=Améthyste
 Amethyst Block=Bloc d'Améthyste
 Amethyst Brick=Brique d'Améthyste
 Cracked Amethyst Brick=Brique d'Améthyste Fissurée
+
+Basalt = Basalte
+Basalt Block = Bloc de basalte
+Basalt Brick = Brique de basalte
+Cracked Basalt Brick = Brique de basalte fissurée
+Cobbled Basalt = Pavé en basalte
+
+Columnar Basalt = Basalte en colonne
 
 Black Opal=Opale Noire
 
@@ -258,6 +274,14 @@ Cracked Vivianite Brick=Brique de vivianite fissurée
 
 ### wall.lua ###
 
+Blue Agate Wall=Mur en Agate bleue
+Gray Agate Wall=Mur en Agate grise
+Green Agate Wall=Mur en Agate verte
+Moss Agate Wall=Mur en Agate mousse
+Orange Agate Wall=Mur en Agate orange
+Purple Agate Wall=Mur en Agate violette
+Red Agate Wall=Mur en Agate rouge
+
 Amazonite Wall=Mur en Amazonite
 Cobbled Amazonite Wall=Mur en pavé d'Amazonite
 Amazonite Brick Wall=Mur en brique d'Amazonite
@@ -273,6 +297,12 @@ Amethyst Wall=Mur en améthyste
 Amethyst Brick Wall=Mur en brique d'améthyste
 Amethyst Block Wall=Mur en bloc d'améthyste
 Cracked Amethyst Brick Wall=Mur en brique d'améthyste fissurée
+
+Basalt Wall=Mur en basalte
+Basalt Brick Wall=Mur en brique de basalte
+Basalt Block Wall=Mur en bloc de basalte
+Cracked Basalt Brick Wall=Mur en brique de basalte fissurée
+Cobbled Basalt Wall=Mur en pavé de basalte
 
 Calcite Wall=Mur en calcite
 Calcite Brick Wall=Mur en brique de calcite
@@ -507,6 +537,14 @@ Cracked Vivianite Brick Wall=Mur en brique de vivianite fissurée
 
 ### stairs.lua ###
 
+Blue Agate Slab=Dalle en Agate bleue
+Gray Agate Slab=Dalle en Agate grise
+Green Agate Slab=Dalle en Agate verte
+Moss Agate Slab=Dalle en Agate mousse
+Orange Agate Slab=Dalle en Agate orange
+Purple Agate Slab=Dalle en Agate violette
+Red Agate Slab=Dalle en Agate rouge
+
 Amazonite Slab=Dalle en Amazonite
 Cobbled Amazonite Slab=Dalle en pavé d'Amazonite
 Amazonite Brick Slab=Dalle en brique d'Amazonite
@@ -522,6 +560,12 @@ Amethyst Slab=Dalle en améthyste
 Amethyst Brick Slab=Dalle en brique d'améthyste
 Amethyst Block Slab=Dalle en bloc d'améthyste
 Cracked Amethyst Brick Slab=Dalle en brique d'améthyste fissurée
+
+Basalt Slab=Dalle en basalte
+Basalt Brick Slab=Dalle en brique de basalte
+Basalt Block Slab=Dalle en bloc de basalte
+Cracked Basalt Brick Slab=Dalle en brique de basalte fissurée
+Cobbled Basalt Slab=Dalle en pavé de basalte
 
 Calcite Slab=Dalle en calcite
 Calcite Brick Slab=Dalle en brique de calcite
@@ -756,6 +800,14 @@ Cracked Vivianite Brick Slab=Dalle en brique de vivianite fissurée
 
 
 
+Blue Agate Stair=Escalier en Agate bleue
+Gray Agate Stair=Escalier en Agate grise
+Green Agate Stair=Escalier en Agate verte
+Moss Agate Stair=Escalier en Agate mousse
+Orange Agate Stair=Escalier en Agate orange
+Purple Agate Stair=Escalier en Agate violette
+Red Agate Stair=Escalier en Agate rouge
+
 Amazonite Stair=Escalier en Amazonite
 Cobbled Amazonite Stair=Escalier en pavé d'Amazonite
 Amazonite Brick Stair=Escalier en brique d'Amazonite
@@ -771,6 +823,12 @@ Amethyst Stair=Escalier en améthyste
 Amethyst Brick Stair=Escalier en brique d'améthyste
 Amethyst Block Stair=Escalier en bloc d'améthyste
 Cracked Amethyst Brick Stair=Escalier en brique d'améthyste fissurée
+
+Basalt Stair=Escalier en basalte
+Basalt Brick Stair=Escalier en brique de basalte
+Basalt Block Stair=Escalier en bloc de basalte
+Cracked Basalt Brick Stair=Escalier en brique de basalte fissurée
+Cobbled Basalt Stair=Escalier en pavé de basalte
 
 Calcite Stair=Escalier en calcite
 Calcite Brick Stair=Escalier en brique de calcite
@@ -1005,6 +1063,14 @@ Cracked Vivianite Brick Stair=Escalier en brique de vivianite fissurée
 
 
 
+Inner Blue Agate Stair=Escalier en Agate bleue intérieur
+Inner Gray Agate Stair=Escalier en Agate grise intérieur
+Inner Green Agate Stair=Escalier en Agate verte intérieur
+Inner Moss Agate Stair=Escalier en Agate mousse intérieur
+Inner Orange Agate Stair=Escalier en Agate orange intérieur
+Inner Purple Agate Stair=Escalier en Agate violette intérieur
+Inner Red Agate Stair=Escalier en Agate rouge intérieur
+
 Inner Amazonite Stair=Escalier en Amazonite intérieur
 Inner Cobbled Amazonite Stair=Escalier en pavé d'Amazonite intérieur
 Inner Amazonite Brick Stair=Escalier en brique d'Amazonite intérieur
@@ -1020,6 +1086,12 @@ Inner Amethyst Stair=Escalier en améthyste intérieur
 Inner Amethyst Brick Stair=Escalier en brique d'améthyste intérieur
 Inner Amethyst Block Stair=Escalier en bloc d'améthyste intérieur
 Inner Cracked Amethyst Brick Stair=Escalier en brique d'améthyste fissurée intérieur
+
+Inner Basalt Stair=Escalier en basalte intérieur
+Inner Basalt Brick Stair=Escalier en brique de basalte intérieur
+Inner Basalt Block Stair=Escalier en bloc de basalte intérieur
+Inner Cracked Basalt Brick Stair=Escalier en brique de basalte fissurée intérieur
+Inner Cobbled Basalt Stair=Escalier en pavé de basalte intérieur
 
 Inner Calcite Stair=Escalier en calcite intérieur
 Inner Calcite Brick Stair=Escalier en brique de calcite intérieur
@@ -1254,6 +1326,14 @@ Inner Cracked Vivianite Brick Stair=Escalier intérieur en brique de vivianite f
 
 
 
+Outer Blue Agate Stair=Escalier en Agate bleue extérieure
+Outer Gray Agate Stair=Escalier en Agate grise extérieure
+Outer Green Agate Stair=Escalier en Agate verte extérieure
+Outer Moss Agate Stair=Escalier en Agate mousse extérieure
+Outer Orange Agate Stair=Escalier en Agate orange extérieure
+Outer Purple Agate Stair=Escalier en Agate violette extérieure
+Outer Red Agate Stair=Escalier en Agate rouge extérieure
+
 Outer Amazonite Stair=Escalier en Amazonite extérieure
 Outer Cobbled Amazonite Stair=Escalier en pavé d'Amazonite extérieure
 Outer Amazonite Brick Stair=Escalier en brique d'Amazonite extérieure
@@ -1269,6 +1349,12 @@ Outer Amethyst Stair=Escalier en améthyste extérieure
 Outer Amethyst Brick Stair=Escalier en brique d'améthyste extérieure
 Outer Amethyst Block Stair=Escalier en bloc d'améthyste extérieure
 Outer Cracked Amethyst Brick Stair=Escalier en brique d'améthyste fissurée extérieure
+
+Outer Basalt Stair=Escalier en basalte extérieure
+Outer Basalt Brick Stair=Escalier en brique de basalte extérieure
+Outer Basalt Block Stair=Escalier en bloc de basalte extérieure
+Outer Cracked Basalt Brick Stair=Escalier en brique de basalte fissurée extérieure
+Outer Cobbled Basalt Stair=Escalier en pavé de basalte extérieure
 
 Outer Calcite Stair=Escalier en calcite extérieure
 Outer Calcite Brick Stair=Escalier en brique de calcite extérieure
