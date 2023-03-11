@@ -666,12 +666,10 @@ minetest.register_craft({
 --
 -- Mapgen
 --
-if minetest.get_modpath("default") ~= nil then
-
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_apatite",
-		wherein        = "default:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
@@ -682,7 +680,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_calcite",
-		wherein        = "default:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
@@ -693,7 +691,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_esperite",
-		wherein        = "default:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
@@ -704,7 +702,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_fluorite",
-		wherein        = "default:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
@@ -715,7 +713,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_selenite",
-		wherein        = "default:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
@@ -726,7 +724,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_sodalite",
-		wherein        = "default:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
@@ -737,7 +735,7 @@ if minetest.get_modpath("default") ~= nil then
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_willemite",
-		wherein        = "default:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
@@ -745,166 +743,86 @@ if minetest.get_modpath("default") ~= nil then
 		y_min          = -31000,
 	})
 
-end
+if minetest.get_modpath("mcl_mapgen_core") ~= nil then
 
-if minetest.get_modpath("cavegame_mapgen") ~= nil then
-
+--
+-- Mapgen MineClone
+--
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_apatite",
-		wherein        = "minecraft:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
+		y_max          = -40,
+		y_min          = -64,
 	})
 
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_calcite",
-		wherein        = "minecraft:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
+		y_max          = -40,
+		y_min          = -64,
 	})
 
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_esperite",
-		wherein        = "minecraft:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
+		y_max          = -40,
+		y_min          = -64,
 	})
 
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_fluorite",
-		wherein        = "minecraft:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
+		y_max          = -40,
+		y_min          = -64,
 	})
 
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_selenite",
-		wherein        = "minecraft:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
+		y_max          = -40,
+		y_min          = -64,
 	})
 
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_sodalite",
-		wherein        = "minecraft:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
+		y_max          = -40,
+		y_min          = -64,
 	})
 
 	minetest.register_ore({
 		ore_type       = "scatter",
 		ore            = "too_many_stones:glow_willemite",
-		wherein        = "minecraft:stone",
+		wherein        = "mapgen_stone",
 		clust_scarcity = 48 * 48 * 48,
 		clust_num_ores = 20,
 		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
-	})
-
-end
-
-if minetest.get_modpath("hades_core") ~= nil then
-
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "too_many_stones:glow_apatite",
-		wherein        = "hades_core:stone",
-		clust_scarcity = 48 * 48 * 48,
-		clust_num_ores = 20,
-		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
-	})
-
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "too_many_stones:glow_calcite",
-		wherein        = "hades_core:stone",
-		clust_scarcity = 48 * 48 * 48,
-		clust_num_ores = 20,
-		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
-	})
-
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "too_many_stones:glow_esperite",
-		wherein        = "hades_core:stone",
-		clust_scarcity = 48 * 48 * 48,
-		clust_num_ores = 20,
-		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
-	})
-
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "too_many_stones:glow_fluorite",
-		wherein        = "hades_core:stone",
-		clust_scarcity = 48 * 48 * 48,
-		clust_num_ores = 20,
-		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
-	})
-
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "too_many_stones:glow_selenite",
-		wherein        = "hades_core:stone",
-		clust_scarcity = 48 * 48 * 48,
-		clust_num_ores = 20,
-		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
-	})
-
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "too_many_stones:glow_sodalite",
-		wherein        = "hades_core:stone",
-		clust_scarcity = 48 * 48 * 48,
-		clust_num_ores = 20,
-		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
-	})
-
-	minetest.register_ore({
-		ore_type       = "scatter",
-		ore            = "too_many_stones:glow_willemite",
-		wherein        = "hades_core:stone",
-		clust_scarcity = 48 * 48 * 48,
-		clust_num_ores = 20,
-		clust_size     = 5,
-		y_max          = -1000,
-		y_min          = -31000,
+		y_max          = -40,
+		y_min          = -64,
 	})
 
 end

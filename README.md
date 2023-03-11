@@ -1,6 +1,6 @@
 # Too Many Stones
 
-A Minetest mod that adds as many stones as I can make good textures for. Recent addition is support for nearly all Minetest subgames. TMS currently features 64 stone types (7 of which glow), cobble for most of them, and bricks, cracked bricks, and blocks for all stone types. There are optional features that each require different mods to add: Mapgen requires default or hades_core, Stairs and Slabs require stairs, Walls require walls, and geodes require either geode mod. More stones will be added, and you can put a feature request on ContentDB or the repo for new ones. I will prioritize stones that are unique. French translation by me and ChatGPT.
+A Minetest mod that adds as many stones as I can make good textures for. Recent addition is support for nearly all Minetest subgames including Fogblox, Hades Revisited, Nodecore, and Mineclone2. TMS currently features 64 stone types (7 of which glow), cobble for most of them, and bricks, cracked bricks, and blocks for all stone types. There are optional features that each require different mods to add: Mapgen requires default or hades_core, Stairs and Slabs require stairs, Walls require walls, and geodes require either geode mod. More stones will be added, and you can put a feature request on ContentDB or the repo for new ones. I will prioritize stones that are unique. French translation by me and ChatGPT. So, sorry for bad grammar in advance.
 
 ## Done:
 ##### Blue Agate-(blue and white)
