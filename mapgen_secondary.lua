@@ -1,5 +1,3 @@
-if minetest.get_modpath("default") ~= nil then
-
 -- Amber
 
 	minetest.register_ore({
@@ -172,5 +170,3 @@ if minetest.get_modpath("default") ~= nil then
 			persist = 0.0
 		},
 	})
-
-end
