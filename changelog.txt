@@ -86,3 +86,8 @@ Added Basalt
 Added Columnar Basalt
 Added more geodes (mostly agate) and removed slate as a geode shell for realism
 Each Geode mod now supplies a vastly different experience, geodes does not supply budding blocks, but has full agate geodes, geodes_lib supplies geodes in every game I made mapgen for and has budding blocks
+
+V0.3.3
+Fixed a bug where several stones still required default for no reason
+All games that use mapgen_stone are now supported: i.e. Anything that actually has mapgen and not a premade map or otherwise has no terrain
+Removed several uneeded files
