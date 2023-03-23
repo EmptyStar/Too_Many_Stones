@@ -99,6 +99,32 @@ geodes_lib:register_geode({
     y_min = -31000,
     y_max = -10,
     scarcity = 80,
+    core = "too_many_stones:black_opal",
+    core_alt = "too_many_stones:black_opal",
+    core_alt_chance = 100,
+    shell = {"too_many_stones:travertine", "too_many_stones:calcite"},
+    radius_min = 2,
+    radius_max = 10,
+})
+
+geodes_lib:register_geode({
+    wherein = "mapgen_stone",
+    y_min = -31000,
+    y_max = -10,
+    scarcity = 80,
+    core = "too_many_stones:fire_opal",
+    core_alt = "too_many_stones:fire_opal",
+    core_alt_chance = 100,
+    shell = {"too_many_stones:basalt", "too_many_stones:calcite"},
+    radius_min = 2,
+    radius_max = 10,
+})
+
+geodes_lib:register_geode({
+    wherein = "mapgen_stone",
+    y_min = -31000,
+    y_max = -10,
+    scarcity = 80,
     core = "too_many_stones:amazonite",
     core_alt = "too_many_stones:amazonite_budding",
     core_alt_chance = 100,
@@ -233,19 +259,6 @@ geodes_lib:register_geode({
     core_alt = "too_many_stones:heliodor_budding",
     core_alt_chance = 100,
     shell = {"too_many_stones:serpentine", "too_many_stones:calcite"},
-    radius_min = 2,
-    radius_max = 10,
-})
-
-geodes_lib:register_geode({
-    wherein = "mapgen_stone",
-    y_min = -31000,
-    y_max = -10,
-    scarcity = 80,
-    core = "too_many_stones:black_opal",
-    core_alt = "too_many_stones:black_opal",
-    core_alt_chance = 100,
-    shell = {"too_many_stones:travertine", "too_many_stones:calcite"},
     radius_min = 2,
     radius_max = 10,
 })

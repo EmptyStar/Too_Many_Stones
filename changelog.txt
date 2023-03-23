@@ -91,3 +91,15 @@ V0.3.3
 Fixed a bug where several stones still required default for no reason
 All games that use mapgen_stone are now supported: i.e. Anything that actually has mapgen and not a premade map or otherwise has no terrain
 Removed several uneeded files
+
+V0.3.4
+Added Fire Opal
+Redo Black Opal, remove its transparency as it was ugly
+Crystals now pop off of broken blocks
+Add Covellite Cobblestone
+Add Andesite
+Add Beige tuff
+Add Grey Tuff
+Add Red Tuff
+Add Howlite Cobble
+Add Glass Batch

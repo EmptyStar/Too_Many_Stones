@@ -80,6 +80,23 @@ minetest.register_craft({
 		{"too_many_stones:amethyst", "too_many_stones:amethyst", "too_many_stones:amethyst"},
 	}
 })
+-- Andesite
+minetest.register_craft({
+	output = "too_many_stones:andesite_brick 4",
+	recipe = {
+		{"too_many_stones:andesite", "too_many_stones:andesite"},
+		{"too_many_stones:andesite", "too_many_stones:andesite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:andesite_block 9",
+	recipe = {
+		{"too_many_stones:andesite", "too_many_stones:andesite", "too_many_stones:andesite"},
+		{"too_many_stones:andesite", "too_many_stones:andesite", "too_many_stones:andesite"},
+		{"too_many_stones:andesite", "too_many_stones:andesite", "too_many_stones:andesite"},
+	}
+})
 -- Basalt
 minetest.register_craft({
 	output = "too_many_stones:basalt_brick 4",
@@ -986,6 +1003,18 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:andesite",
+	recipe = "too_many_stones:andesite_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:andesite_cracked_brick",
+	recipe = "too_many_stones:andesite_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:basalt",
 	recipe = "too_many_stones:basalt_cobble",
 })
@@ -1052,6 +1081,12 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:covellite",
+	recipe = "too_many_stones:covellite_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:covellite_cracked_brick",
 	recipe = "too_many_stones:covellite_brick",
 })
@@ -1107,8 +1142,20 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:granite_black",
+	recipe = "too_many_stones:granite_black_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:granite_black_cracked_brick",
 	recipe = "too_many_stones:granite_black_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:granite_blue",
+	recipe = "too_many_stones:granite_blue_cobble",
 })
 
 minetest.register_craft({
@@ -1119,8 +1166,20 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:granite_gray",
+	recipe = "too_many_stones:granite_gray_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:granite_gray_cracked_brick",
 	recipe = "too_many_stones:granite_gray_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:granite_green",
+	recipe = "too_many_stones:granite_green_cobble",
 })
 
 minetest.register_craft({
@@ -1131,14 +1190,32 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:granite_pink",
+	recipe = "too_many_stones:granite_pink_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:granite_pink_cracked_brick",
 	recipe = "too_many_stones:granite_pink_brick",
 })
 
 minetest.register_craft({
 	type = "cooking",
+	output = "too_many_stones:granite_red",
+	recipe = "too_many_stones:granite_red_cobble",
+})
+
+minetest.register_craft({
+	type = "cooking",
 	output = "too_many_stones:granite_red_cracked_brick",
 	recipe = "too_many_stones:granite_red_brick",
+})
+
+minetest.register_craft({
+	type = "cooking",
+	output = "too_many_stones:granite_white",
+	recipe = "too_many_stones:granite_white_cobble",
 })
 
 minetest.register_craft({
@@ -1423,17 +1500,459 @@ minetest.register_craft({
 	recipe = "too_many_stones:vivianite",
 })
 
---[[
+-- Various Stone Group Recipes
+
+minetest.register_craft({
+	output = "too_many_stones:batch",
+	recipe = {
+		{"group:quartz", "group:quartz", "group:quartz"},
+		{"group:quartz", "group:limestone", "group:quartz"},
+		{"group:quartz", "group:quartz", "group:quartz"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:lapis_lazuli",
+	recipe = {
+		{"too_many_stones:sodalite", "too_many_stones:sodalite", "too_many_stones:sodalite"},
+		{"too_many_stones:sodalite", "too_many_stones:pyrite", "too_many_stones:sodalite"},
+		{"too_many_stones:sodalite", "too_many_stones:sodalite", "too_many_stones:sodalite"},
+	}
+})
+
 if minetest.get_modpath("dye") ~= nil then
 
 minetest.register_craft({
-	output = "too_many_stones:amethyst 9",
+	output = "dye:black 9",
 	recipe = {
-		{"too_many_stones:quartz", "too_many_stones:quartz", "too_many_stones:quartz"},
-		{"too_many_stones:quartz", "dye:violet", "too_many_stones:quartz"},
-		{"too_many_stones:quartz", "too_many_stones:quartz", "too_many_stones:quartz"},
+		{"group:black_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:blue 9",
+	recipe = {
+		{"group:blue_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:brown 9",
+	recipe = {
+		{"group:brown_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:cyan 9",
+	recipe = {
+		{"group:cyan_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:dark_green 9",
+	recipe = {
+		{"group:dark_green_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:dark_grey 9",
+	recipe = {
+		{"group:dark_grey_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:green 9",
+	recipe = {
+		{"group:green_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:grey 9",
+	recipe = {
+		{"group:grey_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:magenta 9",
+	recipe = {
+		{"group:magenta_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:orange 9",
+	recipe = {
+		{"group:orange_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:pink 9",
+	recipe = {
+		{"group:pink_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:red 9",
+	recipe = {
+		{"group:red_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:violet 9",
+	recipe = {
+		{"group:violet_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:white 9",
+	recipe = {
+		{"group:white_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "dye:yellow 9",
+	recipe = {
+		{"group:yellow_stone"},
+	}
+})
+
+-- Agate
+
+minetest.register_craft({
+	output = "too_many_stones:agate_blue 8",
+	recipe = {
+		{"group:agate", "group:agate", "group:agate"},
+		{"group:agate", "dye:blue", "group:agate"},
+		{"group:agate", "group:agate", "group:agate"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:agate_gray 8",
+	recipe = {
+		{"group:agate", "group:agate", "group:agate"},
+		{"group:agate", "dye:grey", "group:agate"},
+		{"group:agate", "group:agate", "group:agate"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:agate_green 8",
+	recipe = {
+		{"group:agate", "group:agate", "group:agate"},
+		{"group:agate", "dye:green", "group:agate"},
+		{"group:agate", "group:agate", "group:agate"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:agate_moss 8",
+	recipe = {
+		{"group:agate", "group:agate", "group:agate"},
+		{"group:agate", "dye:dark_green", "group:agate"},
+		{"group:agate", "group:agate", "group:agate"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:agate_orange 8",
+	recipe = {
+		{"group:agate", "group:agate", "group:agate"},
+		{"group:agate", "dye:orange", "group:agate"},
+		{"group:agate", "group:agate", "group:agate"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:agate_purple 8",
+	recipe = {
+		{"group:agate", "group:agate", "group:agate"},
+		{"group:agate", "dye:violet", "group:agate"},
+		{"group:agate", "group:agate", "group:agate"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:agate_red 8",
+	recipe = {
+		{"group:agate", "group:agate", "group:agate"},
+		{"group:agate", "dye:red", "group:agate"},
+		{"group:agate", "group:agate", "group:agate"},
+	}
+})
+
+-- Quartz
+
+minetest.register_craft({
+	output = "too_many_stones:amethyst 8",
+	recipe = {
+		{"group:quartz", "group:quartz", "group:quartz"},
+		{"group:quartz", "dye:violet", "group:quartz"},
+		{"group:quartz", "group:quartz", "group:quartz"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:citrine 8",
+	recipe = {
+		{"group:quartz", "group:quartz", "group:quartz"},
+		{"group:quartz", "dye:yellow", "group:quartz"},
+		{"group:quartz", "group:quartz", "group:quartz"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:prasiolite 8",
+	recipe = {
+		{"group:quartz", "group:quartz", "group:quartz"},
+		{"group:quartz", "dye:dark_green", "group:quartz"},
+		{"group:quartz", "group:quartz", "group:quartz"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:quartz 8",
+	recipe = {
+		{"group:quartz", "group:quartz", "group:quartz"},
+		{"group:quartz", "dye:white", "group:quartz"},
+		{"group:quartz", "group:quartz", "group:quartz"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:rose_quartz 8",
+	recipe = {
+		{"group:quartz", "group:quartz", "group:quartz"},
+		{"group:quartz", "dye:pink", "group:quartz"},
+		{"group:quartz", "group:quartz", "group:quartz"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:smokey_quartz 8",
+	recipe = {
+		{"group:quartz", "group:quartz", "group:quartz"},
+		{"group:quartz", "dye:brown", "group:quartz"},
+		{"group:quartz", "group:quartz", "group:quartz"},
+	}
+})
+
+-- Opal
+
+minetest.register_craft({
+	output = "too_many_stones:black_opal 8",
+	recipe = {
+		{"group:opal", "group:opal", "group:opal"},
+		{"group:opal", "dye:green", "group:opal"},
+		{"group:opal", "group:opal", "group:opal"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:fire_opal 8",
+	recipe = {
+		{"group:opal", "group:opal", "group:opal"},
+		{"group:opal", "dye:orange", "group:opal"},
+		{"group:opal", "group:opal", "group:opal"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:opal 8",
+	recipe = {
+		{"group:opal", "group:opal", "group:opal"},
+		{"group:opal", "dye:cyan", "group:opal"},
+		{"group:opal", "group:opal", "group:opal"},
+	}
+})
+
+-- Granite
+
+minetest.register_craft({
+	output = "too_many_stones:granite_black 8",
+	recipe = {
+		{"group:granite", "group:granite", "group:granite"},
+		{"group:granite", "dye:black", "group:granite"},
+		{"group:granite", "group:granite", "group:granite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:granite_blue 8",
+	recipe = {
+		{"group:granite", "group:granite", "group:granite"},
+		{"group:granite", "dye:blue", "group:granite"},
+		{"group:granite", "group:granite", "group:granite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:granite_gray 8",
+	recipe = {
+		{"group:granite", "group:granite", "group:granite"},
+		{"group:granite", "dye:grey", "group:granite"},
+		{"group:granite", "group:granite", "group:granite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:granite_green 8",
+	recipe = {
+		{"group:granite", "group:granite", "group:granite"},
+		{"group:granite", "dye:dark_green", "group:granite"},
+		{"group:granite", "group:granite", "group:granite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:granite_pink 8",
+	recipe = {
+		{"group:granite", "group:granite", "group:granite"},
+		{"group:granite", "dye:pink", "group:granite"},
+		{"group:granite", "group:granite", "group:granite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:granite_red 8",
+	recipe = {
+		{"group:granite", "group:granite", "group:granite"},
+		{"group:granite", "dye:red", "group:granite"},
+		{"group:granite", "group:granite", "group:granite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:granite_white 8",
+	recipe = {
+		{"group:granite", "group:granite", "group:granite"},
+		{"group:granite", "dye:white", "group:granite"},
+		{"group:granite", "group:granite", "group:granite"},
+	}
+})
+
+-- Glow Stones
+
+minetest.register_craft({
+	output = "too_many_stones:glow_apatite 8",
+	recipe = {
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+		{"group:glow_stone", "dye:violet", "group:glow_stone"},
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:glow_calcite 8",
+	recipe = {
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+		{"group:glow_stone", "dye:red", "group:glow_stone"},
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:glow_esperite 8",
+	recipe = {
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+		{"group:glow_stone", "dye:yellow", "group:glow_stone"},
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:glow_fluorite 8",
+	recipe = {
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+		{"group:glow_stone", "dye:blue", "group:glow_stone"},
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:glow_selenite 8",
+	recipe = {
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+		{"group:glow_stone", "dye:cyan", "group:glow_stone"},
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:glow_sodalite 8",
+	recipe = {
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+		{"group:glow_stone", "dye:orange", "group:glow_stone"},
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:glow_willemite 8",
+	recipe = {
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+		{"group:glow_stone", "dye:green", "group:glow_stone"},
+		{"group:glow_stone", "group:glow_stone", "group:glow_stone"},
+	}
+})
+
+-- Dyed stones to represent how many fakes are made
+
+minetest.register_craft({
+	output = "too_many_stones:turquoise 8",
+	recipe = {
+		{"too_many_stones:howlite", "too_many_stones:howlite", "too_many_stones:howlite"},
+		{"too_many_stones:howlite", "dye:cyan", "too_many_stones:howlite"},
+		{"too_many_stones:howlite", "too_many_stones:howlite", "too_many_stones:howlite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:sugilite 8",
+	recipe = {
+		{"too_many_stones:serpentine", "too_many_stones:serpentine", "too_many_stones:serpentine"},
+		{"too_many_stones:serpentine", "dye:violet", "too_many_stones:serpentine"},
+		{"too_many_stones:serpentine", "too_many_stones:serpentine", "too_many_stones:serpentine"},
 	}
 })
 
 end
---]]
+
+if minetest.get_modpath("default") ~= nil then
+
+minetest.register_craft({
+	type = "cooking",
+	output = "default:glass",
+	recipe = "too_many_stones:batch",
+})
+
+minetest.register_craft({
+	output = "too_many_stones:glow_calcite 8",
+	recipe = {
+		{"too_many_stones:calcite", "too_many_stones:calcite", "too_many_stones:calcite"},
+		{"too_many_stones:calcite", "default:mese_shard", "too_many_stones:calcite"},
+		{"too_many_stones:calcite", "too_many_stones:calcite", "too_many_stones:calcite"},
+	}
+})
+
+minetest.register_craft({
+	output = "too_many_stones:glow_sodalite 8",
+	recipe = {
+		{"too_many_stones:sodalite", "too_many_stones:sodalite", "too_many_stones:sodalite"},
+		{"too_many_stones:sodalite", "default:mese_shard", "too_many_stones:sodalite"},
+		{"too_many_stones:sodalite", "too_many_stones:sodalite", "too_many_stones:sodalite"},
+	}
+})
+
+end
