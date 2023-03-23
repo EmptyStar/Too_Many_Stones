@@ -41,6 +41,21 @@ walls.register("too_many_stones:amethyst_cracked_brick_wall", "Cracked Amethyst 
 
 walls.register("too_many_stones:amethyst_block_wall", "Amethyst Block Wall", "tms_amethyst_block.png",
 		"too_many_stones:amethyst_block", too_many_stones.node_sound_glass_defaults())
+-- Andesite
+walls.register("too_many_stones:andesite_wall", "Andesite Wall", "tms_andesite.png",
+		"too_many_stones:andesite", too_many_stones.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:andesite_brick_wall", "Andesite Brick Wall", "tms_andesite_brick.png",
+		"too_many_stones:andesite_brick", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:andesite_cracked_brick_wall", "Cracked Andesite Brick Wall", "tms_andesite_cracked_brick.png",
+		"too_many_stones:andesite_cracked_brick", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:andesite_block_wall", "Andesite Block Wall", "tms_andesite_block.png",
+		"too_many_stones:andesite_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:andesite_cobble_wall", "Cobbled Andesite Wall", "tms_andesite_cobble.png",
+		"too_many_stones:andesite_cobble", too_many_stones.node_sound_stone_defaults())
 -- Basalt
 walls.register("too_many_stones:basalt_wall", "Basalt Wall", "tms_basalt.png",
 		"too_many_stones:basalt", too_many_stones.node_sound_stone_defaults())
@@ -131,6 +146,9 @@ walls.register("too_many_stones:covellite_cracked_brick_wall", "Cracked Covellit
 
 walls.register("too_many_stones:covellite_block_wall", "Covellite Block Wall", "tms_covellite_block.png",
 		"too_many_stones:covellite_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:covellite_cobble_wall", "Cobbled Covellite Wall", "tms_covellite_cobble.png",
+		"too_many_stones:covellite_cobble", too_many_stones.node_sound_stone_defaults())
 -- Crocoite
 walls.register("too_many_stones:crocoite_wall", "Crocoite Wall", "tms_crocoite.png",
 		"too_many_stones:crocoite", too_many_stones.node_sound_glass_defaults())
@@ -206,6 +224,9 @@ walls.register("too_many_stones:granite_black_cracked_brick_wall", "Cracked Blac
 
 walls.register("too_many_stones:granite_black_block_wall", "Black Granite Block Wall", "tms_granite_black_block.png",
 		"too_many_stones:granite_black_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:granite_black_cobble_wall", "Cobbled Black Granite Wall", "tms_granite_black_cobble.png",
+		"too_many_stones:granite_black_cobble", too_many_stones.node_sound_stone_defaults())
 -- Blue Granite
 walls.register("too_many_stones:granite_blue_wall", "Blue Granite Wall", "tms_granite_blue.png",
 		"too_many_stones:granite_blue", too_many_stones.node_sound_stone_defaults())
@@ -218,6 +239,9 @@ walls.register("too_many_stones:granite_blue_cracked_brick_wall", "Cracked Blue 
 
 walls.register("too_many_stones:granite_blue_block_wall", "Blue Granite Block Wall", "tms_granite_blue_block.png",
 		"too_many_stones:granite_blue_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:granite_blue_cobble_wall", "Cobbled Black Granite Wall", "tms_granite_blue_cobble.png",
+		"too_many_stones:granite_blue_cobble", too_many_stones.node_sound_stone_defaults())
 -- Gray Granite
 walls.register("too_many_stones:granite_gray_wall", "Gray Granite Wall", "tms_granite_gray.png",
 		"too_many_stones:granite_gray", too_many_stones.node_sound_stone_defaults())
@@ -230,6 +254,9 @@ walls.register("too_many_stones:granite_gray_cracked_brick_wall", "Cracked Gray 
 
 walls.register("too_many_stones:granite_gray_block_wall", "Gray Granite Block Wall", "tms_granite_gray_block.png",
 		"too_many_stones:granite_gray_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:granite_gray_cobble_wall", "Cobbled Black Granite Wall", "tms_granite_gray_cobble.png",
+		"too_many_stones:granite_gray_cobble", too_many_stones.node_sound_stone_defaults())
 -- Green Granite
 walls.register("too_many_stones:granite_green_wall", "Green Granite Wall", "tms_granite_green.png",
 		"too_many_stones:granite_green", too_many_stones.node_sound_stone_defaults())
@@ -242,6 +269,9 @@ walls.register("too_many_stones:granite_green_cracked_brick_wall", "Cracked Gree
 
 walls.register("too_many_stones:granite_green_block_wall", "Green Granite Block Wall", "tms_granite_green_block.png",
 		"too_many_stones:granite_green_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:granite_green_cobble_wall", "Cobbled Black Granite Wall", "tms_granite_green_cobble.png",
+		"too_many_stones:granite_green_cobble", too_many_stones.node_sound_stone_defaults())
 -- Pink Granite
 walls.register("too_many_stones:granite_pink_wall", "Pink Granite Wall", "tms_granite_pink.png",
 		"too_many_stones:granite_pink", too_many_stones.node_sound_stone_defaults())
@@ -254,6 +284,9 @@ walls.register("too_many_stones:granite_pink_cracked_brick_wall", "Cracked Pink 
 
 walls.register("too_many_stones:granite_pink_block_wall", "Pink Granite Block Wall", "tms_granite_pink_block.png",
 		"too_many_stones:granite_pink_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:granite_pink_cobble_wall", "Cobbled Black Granite Wall", "tms_granite_pink_cobble.png",
+		"too_many_stones:granite_pink_cobble", too_many_stones.node_sound_stone_defaults())
 -- Red Granite
 walls.register("too_many_stones:granite_red_wall", "Red Granite Wall", "tms_granite_red.png",
 		"too_many_stones:granite_red", too_many_stones.node_sound_stone_defaults())
@@ -266,6 +299,9 @@ walls.register("too_many_stones:granite_red_cracked_brick_wall", "Cracked Red Gr
 
 walls.register("too_many_stones:granite_red_block_wall", "Red Granite Block Wall", "tms_granite_red_block.png",
 		"too_many_stones:granite_red_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:granite_red_cobble_wall", "Cobbled Black Granite Wall", "tms_granite_red_cobble.png",
+		"too_many_stones:granite_red_cobble", too_many_stones.node_sound_stone_defaults())
 -- White Granite
 walls.register("too_many_stones:granite_white_wall", "White Granite Wall", "tms_granite_white.png",
 		"too_many_stones:granite_white", too_many_stones.node_sound_stone_defaults())
@@ -278,6 +314,9 @@ walls.register("too_many_stones:granite_white_cracked_brick_wall", "Cracked Whit
 
 walls.register("too_many_stones:granite_white_block_wall", "White Granite Block Wall", "tms_granite_white_block.png",
 		"too_many_stones:granite_white_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:granite_white_cobble_wall", "Cobbled Black Granite Wall", "tms_granite_white_cobble.png",
+		"too_many_stones:granite_white_cobble", too_many_stones.node_sound_stone_defaults())
 -- Heliodor
 walls.register("too_many_stones:heliodor_wall", "Heliodor Wall", "tms_heliodor.png",
 		"too_many_stones:heliodor", too_many_stones.node_sound_glass_defaults())
@@ -302,6 +341,9 @@ walls.register("too_many_stones:howlite_cracked_brick_wall", "Cracked Howlite Br
 
 walls.register("too_many_stones:howlite_block_wall", "Howlite Block Wall", "tms_howlite_block.png",
 		"too_many_stones:howlite_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:howlite_cobble_wall", "Cobbled Howlite Wall", "tms_howlite_cobble.png",
+		"too_many_stones:howlite_cobble", too_many_stones.node_sound_stone_defaults())
 -- Ilvaite
 walls.register("too_many_stones:ilvaite_wall", "Ilvaite Wall", "tms_ilvaite.png",
 		"too_many_stones:ilvaite", too_many_stones.node_sound_stone_defaults())
@@ -602,6 +644,51 @@ walls.register("too_many_stones:travertine_cracked_brick_wall", "Cracked Travert
 
 walls.register("too_many_stones:travertine_block_wall", "Travertine Block Wall", "tms_travertine_block.png",
 		"too_many_stones:travertine_block", too_many_stones.node_sound_stone_defaults())
+-- Beige Tuff
+walls.register("too_many_stones:tuff_beige_wall", "Beige Tuff Wall", "tms_tuff_beige.png",
+		"too_many_stones:tuff_beige", too_many_stones.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:tuff_beige_brick_wall", "Beige Tuff Brick Wall", "tms_tuff_beige_brick.png",
+		"too_many_stones:tuff_beige_brick", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:tuff_beige_cracked_brick_wall", "Cracked Beige Tuff Brick Wall", "tms_tuff_beige_cracked_brick.png",
+		"too_many_stones:tuff_beige_cracked_brick", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:tuff_beige_block_wall", "Beige Tuff Block Wall", "tms_tuff_beige_block.png",
+		"too_many_stones:tuff_beige_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:tuff_beige_cobble_wall", "Cobbled Beige Tuff Wall", "tms_tuff_beige_cobble.png",
+		"too_many_stones:tuff_beige_cobble", too_many_stones.node_sound_stone_defaults())
+-- Grey Tuff
+walls.register("too_many_stones:tuff_grey_wall", "Grey Tuff Wall", "tms_tuff_grey.png",
+		"too_many_stones:tuff_grey", too_many_stones.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:tuff_grey_brick_wall", "Grey Tuff Brick Wall", "tms_tuff_grey_brick.png",
+		"too_many_stones:tuff_grey_brick", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:tuff_grey_cracked_brick_wall", "Cracked Grey Tuff Brick Wall", "tms_tuff_grey_cracked_brick.png",
+		"too_many_stones:tuff_grey_cracked_brick", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:tuff_grey_block_wall", "Grey Tuff Block Wall", "tms_tuff_grey_block.png",
+		"too_many_stones:tuff_grey_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:tuff_grey_cobble_wall", "Cobbled Grey Tuff Wall", "tms_tuff_grey_cobble.png",
+		"too_many_stones:tuff_grey_cobble", too_many_stones.node_sound_stone_defaults())
+-- Red Tuff
+walls.register("too_many_stones:tuff_red_wall", "Red Tuff Wall", "tms_tuff_red.png",
+		"too_many_stones:tuff_red", too_many_stones.node_sound_stone_defaults())
+		
+walls.register("too_many_stones:tuff_red_brick_wall", "Red Tuff Brick Wall", "tms_tuff_red_brick.png",
+		"too_many_stones:tuff_red_brick", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:tuff_red_cracked_brick_wall", "Cracked Red Tuff Brick Wall", "tms_tuff_red_cracked_brick.png",
+		"too_many_stones:tuff_red_cracked_brick", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:tuff_red_block_wall", "Red Tuff Block Wall", "tms_tuff_red_block.png",
+		"too_many_stones:tuff_red_block", too_many_stones.node_sound_stone_defaults())
+
+walls.register("too_many_stones:tuff_red_cobble_wall", "Cobbled Red Tuff Wall", "tms_tuff_red_cobble.png",
+		"too_many_stones:tuff_red_cobble", too_many_stones.node_sound_stone_defaults())
 -- Turquoise
 walls.register("too_many_stones:turquoise_wall", "Turquoise Wall", "tms_turquoise.png",
 		"too_many_stones:turquoise", too_many_stones.node_sound_stone_defaults())
