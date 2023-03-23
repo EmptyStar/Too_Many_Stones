@@ -2,6 +2,27 @@
 local S = minetest.get_translator("too_many_stones")
 
 if minetest.get_modpath("walls") ~= nil then
+-- Blue Agate
+walls.register("too_many_stones:agate_blue_wall", "Blue Agate Wall", "tms_agate_blue.png",
+		"too_many_stones:agate_blue", too_many_stones.node_sound_glass_defaults())
+-- Gray Agate
+walls.register("too_many_stones:agate_gray_wall", "Gray Agate Wall", "tms_agate_gray.png",
+		"too_many_stones:agate_gray", too_many_stones.node_sound_glass_defaults())
+-- Green Agate
+walls.register("too_many_stones:agate_green_wall", "Green Agate Wall", "tms_agate_green.png",
+		"too_many_stones:agate_green", too_many_stones.node_sound_glass_defaults())
+-- Moss Agate
+walls.register("too_many_stones:agate_moss_wall", "Moss Agate Wall", "tms_agate_moss.png",
+		"too_many_stones:agate_moss", too_many_stones.node_sound_glass_defaults())
+-- Orange Agate
+walls.register("too_many_stones:agate_orange_wall", "Orange Agate Wall", "tms_agate_orange.png",
+		"too_many_stones:agate_orange", too_many_stones.node_sound_glass_defaults())
+-- Purple Agate
+walls.register("too_many_stones:agate_purple_wall", "Purple Agate Wall", "tms_agate_purple.png",
+		"too_many_stones:agate_purple", too_many_stones.node_sound_glass_defaults())
+-- Red Agate
+walls.register("too_many_stones:agate_red_wall", "Red Agate Wall", "tms_agate_red.png",
+		"too_many_stones:agate_red", too_many_stones.node_sound_glass_defaults())
 -- Amazonite
 walls.register("too_many_stones:amazonite_wall", "Amazonite Wall", "tms_amazonite.png",
 		"too_many_stones:amazonite", too_many_stones.node_sound_glass_defaults())
