@@ -3,6 +3,85 @@ local S = minetest.get_translator("too_many_stones")
 
 if minetest.get_modpath("stairs") ~= nil then
 
+-- Blue Agate
+stairs.register_stair_and_slab(
+	"agate_blue",
+	"too_many_stones:agate_blue",
+	{cracky = 3},
+	{"tms_agate_blue.png"},
+	"Blue Agate Stair",
+	"Blue Agate Slab",
+	too_many_stones.node_sound_glass_defaults(),
+	true
+)
+
+-- Gray Agate
+stairs.register_stair_and_slab(
+	"agate_gray",
+	"too_many_stones:agate_gray",
+	{cracky = 3},
+	{"tms_agate_gray.png"},
+	"Gray Agate Stair",
+	"Gray Agate Slab",
+	too_many_stones.node_sound_glass_defaults(),
+	true
+)
+-- Green Agate
+stairs.register_stair_and_slab(
+	"agate_green",
+	"too_many_stones:agate_green",
+	{cracky = 3},
+	{"tms_agate_green.png"},
+	"Green Agate Stair",
+	"Green Agate Slab",
+	too_many_stones.node_sound_glass_defaults(),
+	true
+)
+-- Moss Agate
+stairs.register_stair_and_slab(
+	"agate_moss",
+	"too_many_stones:agate_moss",
+	{cracky = 3},
+	{"tms_agate_moss.png"},
+	"Moss Agate Stair",
+	"Moss Agate Slab",
+	too_many_stones.node_sound_glass_defaults(),
+	true
+)
+-- Orange Agate
+stairs.register_stair_and_slab(
+	"agate_orange",
+	"too_many_stones:agate_orange",
+	{cracky = 3},
+	{"tms_agate_orange.png"},
+	"Orange Agate Stair",
+	"Orange Agate Slab",
+	too_many_stones.node_sound_glass_defaults(),
+	true
+)
+-- Purple Agate
+stairs.register_stair_and_slab(
+	"agate_purple",
+	"too_many_stones:agate_purple",
+	{cracky = 3},
+	{"tms_agate_purple.png"},
+	"Purple Agate Stair",
+	"Purple Agate Slab",
+	too_many_stones.node_sound_glass_defaults(),
+	true
+)
+-- Red Agate
+stairs.register_stair_and_slab(
+	"agate_red",
+	"too_many_stones:agate_red",
+	{cracky = 3},
+	{"tms_agate_red.png"},
+	"Red Agate Stair",
+	"Red Agate Slab",
+	too_many_stones.node_sound_glass_defaults(),
+	true
+)
+
 -- Amazonite
 stairs.register_stair_and_slab(
 	"amazonite",
