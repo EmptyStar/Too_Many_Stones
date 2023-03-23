@@ -27,6 +27,12 @@ Amethyst Block=
 Amethyst Brick=
 Cracked Amethyst Brick=
 
+Andesite=
+Andesite Block=
+Andesite Brick=
+Cracked Andesite Brick=
+Cobbled Andesite=
+
 Basalt=
 Basalt Block=
 Basalt Brick=
@@ -34,6 +40,8 @@ Cracked Basalt Brick=
 Cobbled Basalt=
 
 Columnar Basalt=
+
+Batch=
 
 Black Opal=
 
@@ -67,6 +75,7 @@ Covellite=
 Covellite Block=
 Covellite Brick=
 Cracked Covellite Brick=
+Cobbled Covellite=
 
 Crocoite=
 Crocoite Block=
@@ -83,6 +92,8 @@ Eudialite Block=
 Eudialite Brick=
 Cracked Eudialite Brick=
 
+Fire Opal=
+
 Gabbro=
 Gabbro Block=
 Cobbled Gabbro=
@@ -98,36 +109,43 @@ Black Granite=
 Black Granite Block=
 Black Granite Brick=
 Cracked Black Granite Brick=
+Cobbled Black Granite=
 
 Blue Granite=
 Blue Granite Block=
 Blue Granite Brick=
 Cracked Blue Granite Brick=
+Cobbled Blue Granite=
 
 Gray Granite=
 Gray Granite Block=
 Gray Granite Brick=
 Cracked Gray Granite Brick=
+Cobbled Gray Granite=
 
 Green Granite=
 Green Granite Block=
 Green Granite Brick=
 Cracked Green Granite Brick=
+Cobbled Green Granite=
 
 Pink Granite=
 Pink Granite Block=
 Pink Granite Brick=
 Cracked Pink Granite Brick=
+Cobbled Pink Granite=
 
 Red Granite=
 Red Granite Block=
 Red Granite Brick=
 Cracked Red Granite Brick=
+Cobbled Red Granite=
 
 White Granite=
 White Granite Block=
 White Granite Brick=
 Cracked White Granite Brick=
+Cobbled White Granite=
 
 Heliodor=
 Heliodor Block=
@@ -138,6 +156,7 @@ Howlite=
 Howlite Block=
 Howlite Brick=
 Cracked Howlite Brick=
+Cobbled Howlite=
 
 Ilvaite=
 Ilvaite Block=
@@ -260,6 +279,24 @@ Cobbled Travertine=
 Travertine Brick=
 Cracked Travertine Brick=
 
+Beige Tuff=
+Beige Tuff Block=
+Cobbled Beige Tuff=
+Beige Tuff Brick=
+Cracked Beige Tuff=
+
+Grey Tuff=
+Grey Tuff Block=
+Cobbled Grey Tuff=
+Grey Tuff Brick=
+Cracked Grey Tuff=
+
+Red Tuff=
+Red Tuff Block=
+Cobbled Red Tuff=
+Red Tuff Brick=
+Cracked Red Tuff=
+
 Turquoise=
 Turquoise Block=
 Turquoise Brick=
@@ -298,6 +335,12 @@ Amethyst Brick Wall=
 Amethyst Block Wall=
 Cracked Amethyst Brick Wall=
 
+Andesite Wall=
+Andesite Block Wall=
+Andesite Brick Wall=
+Cracked Andesite Brick Wall=
+Cobbled Andesite Wall=
+
 Basalt Wall=
 Basalt Block Wall=
 Basalt Brick Wall=
@@ -334,6 +377,7 @@ Covellite Wall=
 Covellite Brick Wall=
 Covellite Block Wall=
 Cracked Covellite Brick Wall=
+Cobbled Covellite Wall=
 
 Crocoite Wall=
 Crocoite Brick Wall=
@@ -365,36 +409,43 @@ Black Granite Wall=
 Black Granite Brick Wall=
 Black Granite Block Wall=
 Cracked Black Granite Brick Wall=
+Cobbled Black Granite Wall=
 
 Blue Granite Wall=
 Blue Granite Brick Wall=
 Blue Granite Block Wall=
 Cracked Blue Granite Brick Wall=
+Cobbled Blue Granite Wall=
 
 Gray Granite Wall=
 Gray Granite Brick Wall=
 Gray Granite Block Wall=
 Cracked Gray Granite Brick Wall=
+Cobble Gray Granite Wall=
 
 Green Granite Wall=
 Green Granite Brick Wall=
 Green Granite Block Wall=
 Cracked Green Granite Brick Wall=
+Cobbled Green Granite Wall=
 
 Pink Granite Wall=
 Pink Granite Brick Wall=
 Pink Granite Block Wall=
 Cracked Pink Granite Brick Wall=
+Cobbled Pink Granite Wall=
 
 Red Granite Wall=
 Red Granite Brick Wall=
 Red Granite Block Wall=
 Cracked Red Granite Brick Wall=
+Cobbled Red Granite Wall=
 
 White Granite Wall=
 White Granite Brick Wall=
 White Granite Block Wall=
 Cracked White Granite Brick Wall=
+Cobbled White Granite Wall=
 
 Heliodor Wall=
 Heliodor Brick Wall=
@@ -405,6 +456,7 @@ Howlite Wall=
 Howlite Brick Wall=
 Howlite Block Wall=
 Cracked Howlite Brick Wall=
+Cobbled Howlite Wall=
 
 Ilvaite Wall=
 Ilvaite Brick Wall=
@@ -524,6 +576,24 @@ Travertine Brick Wall=
 Travertine Block Wall=
 Cracked Travertine Brick Wall=
 
+Beige Tuff Wall=
+Cobbled Beige Tuff Wall=
+Beige Tuff Block Wall=
+Beige Tuff Brick Wall=
+Cracked Beige Tuff Brick Wall=
+
+Grey Tuff Wall=
+Cobbled Grey Tuff Wall=
+Grey Tuff Block Wall=
+Grey Tuff Brick Wall=
+Cracked Grey Tuff Brick Wall=
+
+Red Tuff Wall=
+Cobbled Red Tuff Wall=
+Red Tuff Block Wall=
+Red Tuff Brick Wall=
+Cracked Red Tuff Brick Wall=
+
 Turquoise Wall=
 Turquoise Brick Wall=
 Turquoise Block Wall=
@@ -561,6 +631,12 @@ Amethyst Brick Slab=
 Amethyst Block Slab=
 Cracked Amethyst Brick Slab=
 
+Andesite Slab=
+Andesite Block Slab=
+Cobbled Andesite Slab=
+Andesite Brick Slab=
+Cobbled Andesite Brick Slab=
+
 Basalt Slab=
 Basalt Block Slab=
 Basalt Brick Slab=
@@ -597,6 +673,7 @@ Covellite Slab=
 Covellite Brick Slab=
 Covellite Block Slab=
 Cracked Covellite Brick Slab=
+Cobbled Covellite Slab=
 
 Crocoite Slab=
 Crocoite Brick Slab=
@@ -628,36 +705,43 @@ Black Granite Slab=
 Black Granite Brick Slab=
 Black Granite Block Slab=
 Cracked Black Granite Brick Slab=
+Cobbled Black Granite Slab=
 
 Blue Granite Slab=
 Blue Granite Brick Slab=
 Blue Granite Block Slab=
 Cracked Blue Granite Brick Slab=
+Cobbled Blue Granite Slab=
 
 Gray Granite Slab=
 Gray Granite Brick Slab=
 Gray Granite Block Slab=
 Cracked Gray Granite Brick Slab=
+Cobbled Gray Granite Slab=
 
 Green Granite Slab=
 Green Granite Brick Slab=
 Green Granite Block Slab=
 Cracked Green Granite Brick Slab=
+Cobbled Green Granite Slab=
 
 Pink Granite Slab=
 Pink Granite Brick Slab=
 Pink Granite Block Slab=
 Cracked Pink Granite Brick Slab=
+Cobbled Pink Granite Slab=
 
 Red Granite Slab=
 Red Granite Brick Slab=
 Red Granite Block Slab=
 Cracked Red Granite Brick Slab=
+Cobbled Red Granite Slab=
 
 White Granite Slab=
 White Granite Brick Slab=
 White Granite Block Slab=
 Cracked White Granite Brick Slab=
+Cobbled White Granite Slab=
 
 Heliodor Slab=
 Heliodor Brick Slab=
@@ -668,6 +752,7 @@ Howlite Slab=
 Howlite Brick Slab=
 Howlite Block Slab=
 Cracked Howlite Brick Slab=
+Cobbled Howlite Slab=
 
 Ilvaite Slab=
 Ilvaite Brick Slab=
@@ -789,6 +874,24 @@ Travertine Brick Slab=
 Travertine Block Slab=
 Cracked Travertine Brick Slab=
 
+Beige Tuff Slab=
+Cobbled Beige Tuff Slab=
+Beige Tuff Block Slab=
+Beige Tuff Brick Slab=
+Cracked Beige Tuff Brick Slab=
+
+Grey Tuff Slab=
+Cobbled Grey Tuff Slab=
+Grey Tuff Block Slab=
+Grey Tuff Brick Slab=
+Cracked Grey Tuff Brick Slab=
+
+Red Tuff Slab=
+Cobbled Red Tuff Slab=
+Red Tuff Block Slab=
+Red Tuff Brick Slab=
+Cracked Red Tuff Brick Slab=
+
 Turquoise Slab=
 Turquoise Brick Slab=
 Turquoise Block Slab=
@@ -827,6 +930,12 @@ Amethyst Brick Stair=
 Amethyst Block Stair=
 Cracked Amethyst Brick Stair=
 
+Andesite Stair=
+Andesite Block Stair=
+Cobbled Andesite Stair=
+Andesite Brick Stair=
+Cobbled Andesite Brick Stair=
+
 Basalt Stair=
 Basalt Block Stair=
 Basalt Brick Stair=
@@ -863,6 +972,7 @@ Covellite Stair=
 Covellite Brick Stair=
 Covellite Block Stair=
 Cracked Covellite Brick Stair=
+Cobbled Covellite Stair=
 
 Crocoite Stair=
 Crocoite Brick Stair=
@@ -894,36 +1004,43 @@ Black Granite Stair=
 Black Granite Brick Stair=
 Black Granite Block Stair=
 Cracked Black Granite Brick Stair=
+Cobbled Black Granite Stair=
 
 Blue Granite Stair=
 Blue Granite Brick Stair=
 Blue Granite Block Stair=
 Cracked Blue Granite Brick Stair=
+Cobbled Blue Granite Stair=
 
 Gray Granite Stair=
 Gray Granite Brick Stair=
 Gray Granite Block Stair=
 Cracked Gray Granite Brick Stair=
+Cobbled Gray Granite Stair=
 
 Green Granite Stair=
 Green Granite Brick Stair=
 Green Granite Block Stair=
 Cracked Green Granite Brick Stair=
+Cobbled Green Granite Stair=
 
 Pink Granite Stair=
 Pink Granite Brick Stair=
 Pink Granite Block Stair=
 Cracked Pink Granite Brick Stair=
+Cobbled Pink Granite Stair=
 
 Red Granite Stair=
 Red Granite Brick Stair=
 Red Granite Block Stair=
 Cracked Red Granite Brick Stair=
+Cobbled Red Granite Stair=
 
 White Granite Stair=
 White Granite Brick Stair=
 White Granite Block Stair=
 Cracked White Granite Brick Stair=
+Cobbled White Granite Stair=
 
 Heliodor Stair=
 Heliodor Brick Stair=
@@ -934,6 +1051,7 @@ Howlite Stair=
 Howlite Brick Stair=
 Howlite Block Stair=
 Cracked Howlite Brick Stair=
+Cobbled Howlite Stair=
 
 Ilvaite Stair=
 Ilvaite Brick Stair=
@@ -1053,6 +1171,24 @@ Travertine Brick Stair=
 Travertine Block Stair=
 Cracked Travertine Brick Stair=
 
+Beige Tuff Stair=
+Beige Tuff Brick Stair=
+Beige Tuff Block Stair=
+Cracked Beige Tuff Brick Stair=
+Cobbled Beige Tuff Stair=
+
+Grey Tuff Stair=
+Grey Tuff Brick Stair=
+Grey Tuff Block Stair=
+Cracked Grey Tuff Brick Stair=
+Cobbled Grey Tuff Stair=
+
+Red Tuff Stair=
+Red Tuff Brick Stair=
+Red Tuff Block Stair=
+Cracked Red Tuff Brick Stair=
+Cobbled Red Tuff Stair=
+
 Turquoise Stair=
 Turquoise Brick Stair=
 Turquoise Block Stair=
@@ -1090,6 +1226,12 @@ Inner Amethyst Brick Stair=
 Inner Amethyst Block Stair=
 Inner Cracked Amethyst Brick Stair=
 
+Inner Andesite Stair=
+Inner Andesite Block Stair=
+Inner Andesite Brick Stair=
+Inner Cracked Andesite Brick Stair=
+Inner Cobbled Andesite Stair=
+
 Inner Basalt Stair=
 Inner Basalt Block Stair=
 Inner Basalt Brick Stair=
@@ -1126,6 +1268,7 @@ Inner Covellite Stair=
 Inner Covellite Brick Stair=
 Inner Covellite Block Stair=
 Inner Cracked Covellite Brick Stair=
+Inner Cobbled Covellite Stair=
 
 Inner Crocoite Stair=
 Inner Crocoite Brick Stair=
@@ -1157,36 +1300,43 @@ Inner Black Granite Stair=
 Inner Black Granite Brick Stair=
 Inner Black Granite Block Stair=
 Inner Cracked Black Granite Brick Stair=
+Inner Cobbled Black Granite Stair=
 
 Inner Blue Granite Stair=
 Inner Blue Granite Brick Stair=
 Inner Blue Granite Block Stair=
 Inner Cracked Blue Granite Brick Stair=
+Inner Cobbled Blue Granite Stair=
 
 Inner Gray Granite Stair=
 Inner Gray Granite Brick Stair=
 Inner Gray Granite Block Stair=
 Inner Cracked Gray Granite Brick Stair=
+Inner Cobbled Gray Granite Stair=
 
 Inner Green Granite Stair=
 Inner Green Granite Brick Stair=
 Inner Green Granite Block Stair=
 Inner Cracked Green Granite Brick Stair=
+Inner Cobbled Green Granite Stair=
 
 Inner Pink Granite Stair=
 Inner Pink Granite Brick Stair=
 Inner Pink Granite Block Stair=
 Inner Cracked Pink Granite Brick Stair=
+Inner Cobbled Pink Granite Stair=
 
 Inner Red Granite Stair=
 Inner Red Granite Brick Stair=
 Inner Red Granite Block Stair=
 Inner Cracked Red Granite Brick Stair=
+Inner Cobbled Red Granite Stair=
 
 Inner White Granite Stair=
 Inner White Granite Brick Stair=
 Inner White Granite Block Stair=
 Inner Cracked White Granite Brick Stair=
+Inner Cobbled White Granite Stair=
 
 Inner Heliodor Stair=
 Inner Heliodor Brick Stair=
@@ -1197,6 +1347,7 @@ Inner Howlite Stair=
 Inner Howlite Brick Stair=
 Inner Howlite Block Stair=
 Inner Cracked Howlite Brick Stair=
+Inner Cobbled Howlite Stair=
 
 Inner Ilvaite Stair=
 Inner Ilvaite Brick Stair=
@@ -1316,6 +1467,24 @@ Inner Travertine Brick Stair=
 Inner Travertine Block Stair=
 Inner Cracked Travertine Brick Stair=
 
+Inner Beige Tuff Stair=
+Inner Cobbled Beige Tuff Stair=
+Inner Beige Tuff Brick Stair=
+Inner Beige Tuff Block Stair=
+Inner Cracked Beige Tuff Brick Stair=
+
+Inner Grey Tuff Stair=
+Inner Cobbled Grey Tuff Stair=
+Inner Grey Tuff Brick Stair=
+Inner Grey Tuff Block Stair=
+Inner Cracked Grey Tuff Brick Stair=
+
+Inner Red Tuff Stair=
+Inner Cobbled Red Tuff Stair=
+Inner Red Tuff Brick Stair=
+Inner Red Tuff Block Stair=
+Inner Cracked Red Tuff Brick Stair=
+
 Inner Turquoise Stair=
 Inner Turquoise Brick Stair=
 Inner Turquoise Block Stair=
@@ -1353,6 +1522,12 @@ Outer Amethyst Brick Stair=
 Outer Amethyst Block Stair=
 Outer Cracked Amethyst Brick Stair=
 
+Outer Andesite Stair=
+Outer Andesite Block Stair=
+Outer Andesite Brick Stair=
+Outer Cracked Andesite Brick Stair=
+Outer Cobbled Andesite Stair=
+
 Outer Basalt Stair=
 Outer Basalt Block Stair=
 Outer Basalt Brick Stair=
@@ -1389,6 +1564,7 @@ Outer Covellite Stair=
 Outer Covellite Brick Stair=
 Outer Covellite Block Stair=
 Outer Cracked Covellite Brick Stair=
+Outer Cobbled Covellite Stair=
 
 Outer Crocoite Stair=
 Outer Crocoite Brick Stair=
@@ -1420,36 +1596,43 @@ Outer Black Granite Stair=
 Outer Black Granite Brick Stair=
 Outer Black Granite Block Stair=
 Outer Cracked Black Granite Brick Stair=
+Outer Cobbled Black Granite Stair=
 
 Outer Blue Granite Stair=
 Outer Blue Granite Brick Stair=
 Outer Blue Granite Block Stair=
 Outer Cracked Blue Granite Brick Stair=
+Outer Cobbled Blue Granite Stair=
 
 Outer Gray Granite Stair=
 Outer Gray Granite Brick Stair=
 Outer Gray Granite Block Stair=
 Outer Cracked Gray Granite Brick Stair=
+Outer Cobbled Gray Granite Stair=
 
 Outer Green Granite Stair=
 Outer Green Granite Brick Stair=
 Outer Green Granite Block Stair=
 Outer Cracked Green Granite Brick Stair=
+Outer Cobbled Green Granite Stair=
 
 Outer Pink Granite Stair=
 Outer Pink Granite Brick Stair=
 Outer Pink Granite Block Stair=
 Outer Cracked Pink Granite Brick Stair=
+Outer Cobbled Pink Granite Stair=
 
 Outer Red Granite Stair=
 Outer Red Granite Brick Stair=
 Outer Red Granite Block Stair=
 Outer Cracked Red Granite Brick Stair=
+Outer Cobbled Red Granite Stair=
 
 Outer White Granite Stair=
 Outer White Granite Brick Stair=
 Outer White Granite Block Stair=
 Outer Cracked White Granite Brick Stair=
+Outer Cobbled White Granite Stair=
 
 Outer Heliodor Stair=
 Outer Heliodor Brick Stair=
@@ -1460,6 +1643,7 @@ Outer Howlite Stair=
 Outer Howlite Brick Stair=
 Outer Howlite Block Stair=
 Outer Cracked Howlite Brick Stair=
+Outer Cobbled Howlite Stair=
 
 Outer Ilvaite Stair=
 Outer Ilvaite Brick Stair=
@@ -1578,6 +1762,24 @@ Outer Cobbled Travertine Stair=
 Outer Travertine Brick Stair=
 Outer Travertine Block Stair=
 Outer Cracked Travertine Brick Stair=
+
+Outer Beige Tuff Stair=
+Outer Cobbled Beige Tuff Stair=
+Outer Beige Tuff Brick Stair=
+Outer Beige Tuff Block Stair=
+Outer Cracked Beige Tuff Brick Stair=
+
+Outer Grey Tuff Stair=
+Outer Cobbled Grey Tuff Stair=
+Outer Grey Tuff Brick Stair=
+Outer Grey Tuff Block Stair=
+Outer Cracked Grey Tuff Brick Stair=
+
+Outer Red Tuff Stair=
+Outer Cobbled Red Tuff Stair=
+Outer Red Tuff Brick Stair=
+Outer Red Tuff Block Stair=
+Outer Cracked Red Tuff Brick Stair=
 
 Outer Turquoise Stair=
 Outer Turquoise Brick Stair=
