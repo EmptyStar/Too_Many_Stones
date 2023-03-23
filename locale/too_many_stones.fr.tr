@@ -27,6 +27,12 @@ Amethyst Block=Bloc d'Améthyste
 Amethyst Brick=Brique d'Améthyste
 Cracked Amethyst Brick=Brique d'Améthyste Fissurée
 
+Andesite=Andésite
+Andesite Block=Bloc d'andésite
+Andesite Brick=Brique d'andésite
+Cracked Andesite Brick=Brique d'andésite fissurée
+Cobbled Andesite=Pierre d'Andésite
+
 Basalt = Basalte
 Basalt Block = Bloc de basalte
 Basalt Brick = Brique de basalte
@@ -67,6 +73,7 @@ Covellite=Covellite
 Covellite Block=Bloc de covellite
 Covellite Brick=Brique de covellite
 Cracked Covellite Brick=Brique de covellite fissurée
+Cobbled Covellite=Covellite pavé
 
 Crocoite=Crocoïte
 Crocoite Block=Bloc de crocoïte
@@ -98,36 +105,43 @@ Black Granite=Granite noir
 Black Granite Block=Bloc de granite noir
 Black Granite Brick=Brique de granite noir
 Cracked Black Granite Brick=Brique de granite noir fissurée
+Cobbled Black Granite=Granite noir pavé
 
 Blue Granite=Granit bleu
 Blue Granite Block=Bloc de granit bleu
 Blue Granite Brick=Brique de granit bleu
 Cracked Blue Granite Brick=Brique de granit bleu fissurée
+Cobbled Blue Granite=Granite bleu pavé
 
 Gray Granite=Granit gris
 Gray Granite Block=Bloc de granit gris
 Gray Granite Brick=Brique de granit gris
 Cracked Gray Granite Brick=Brique de granit gris fissurée
+Cobbled Gray Granite=Granite gris pavé
 
 Green Granite=Granit vert
 Green Granite Block=Bloc de granit vert
 Green Granite Brick=Brique de granit vert
 Cracked Green Granite Brick=Brique de granit vert fissurée
+Cobbled Green Granite=Granite vert pavé
 
 Pink Granite=Granit rose
 Pink Granite Block=Bloc de granit rose
 Pink Granite Brick=Brique de granit rose
 Cracked Pink Granite Brick=Brique de granit rose fissurée
+Cobbled Pink Granite=Granite rose pavé
 
 Red Granite=Granit rouge
 Red Granite Block=Bloc de granit rouge
 Red Granite Brick=Brique de granit rouge
 Cracked Red Granite Brick=Brique de granit rouge fissurée
+Cobbled Red Granite=Granite rouge pavé
 
 White Granite=Granit blanc
 White Granite Block=Bloc de granit blanc
 White Granite Brick=Brique de granit blanc
 Cracked White Granite Brick=Brique de granit blanc fissurée
+Cobbled White Granite=Granite blanc pavé
 
 Heliodor=Héliodore
 Heliodor Block=Bloc d'héliodore
@@ -138,12 +152,13 @@ Howlite=Howlite
 Howlite Block=Bloc de howlite
 Howlite Brick=Brique de howlite
 Cracked Howlite Brick=Brique de howlite fissurée
+Cobbled Howlite=Pavé de howlite
 
 Ilvaite=Ilvaïte
 Ilvaite Block=Bloc d'ilvaïte
 Ilvaite Brick=Brique d'ilvaïte
 Cracked Ilvaite Brick=Brique d'ilvaïte fissurée
-Cobbled Ilvaite=Cobbled Ilvaite
+Cobbled Ilvaite=Pavé d'ilvaïte
 
 Jade=Jade
 Jade Block=Bloc de jade
@@ -260,6 +275,24 @@ Cobbled Travertine=Travertin pavé
 Travertine Brick=Brique de travertin
 Cracked Travertine Brick=Brique de travertin fissurée
 
+Beige Tuff = Tuf beige
+Beige Tuff Block = Bloc de tuf beige
+Cobbled Beige Tuff = Tuf beige pavé
+Beige Tuff Brick = Brique de tuf beige
+Cracked Beige Tuff = Tuf beige craquelé
+
+Grey Tuff = Tuf gris
+Grey Tuff Block = Bloc de tuf gris
+Cobbled Grey Tuff = Tuf gris pavé
+Grey Tuff Brick = Brique de tuf gris
+Cracked Grey Tuff = Tuf gris craquelé
+
+Red Tuff = Tuf rouge
+Red Tuff Block = Bloc de tuf rouge
+Cobbled Red Tuff = Tuf rouge pavé
+Red Tuff Brick = Brique de tuf rouge
+Cracked Red Tuff = Tuf rouge craquelé
+
 Turquoise=Turquoise
 Turquoise Block=Bloc de turquoise
 Turquoise Brick=Brique de turquoise
@@ -298,6 +331,12 @@ Amethyst Brick Wall=Mur en brique d'améthyste
 Amethyst Block Wall=Mur en bloc d'améthyste
 Cracked Amethyst Brick Wall=Mur en brique d'améthyste fissurée
 
+Andesite Wall=Mur en andésite
+Andesite Block Wall=Mur en bloc d'andésite
+Andesite Brick Wall=Mur en brique d'andésite
+Cracked Andesite Brick Wall=Mur en brique d'andésite fissurée
+Cobbled Andesite Wall=Mur en pavé d'andésite
+
 Basalt Wall=Mur en basalte
 Basalt Brick Wall=Mur en brique de basalte
 Basalt Block Wall=Mur en bloc de basalte
@@ -334,6 +373,7 @@ Covellite Wall=Mur en Covellite
 Covellite Brick Wall=Mur en brique de Covellite
 Covellite Block Wall=Mur en bloc de Covellite
 Cracked Covellite Brick Wall=Mur en brique de Covellite fissurée
+Cobbled Covellite Wall=Mur en Covellite pavé
 
 Crocoite Wall=Mur en Crocoite
 Crocoite Brick Wall=Mur en brique de Crocoite
@@ -365,36 +405,43 @@ Black Granite Wall=Mur en granit noir
 Black Granite Brick Wall=Mur en briques de granit noir
 Black Granite Block Wall=Mur en blocs de granit noir
 Cracked Black Granite Brick Wall=Mur en briques de granit noir fissuré
+Cobbled Black Granite Wall=Mur en granite noir pavé
 
 Blue Granite Wall=Mur en granit bleu
 Blue Granite Brick Wall=Mur en briques de granit bleu
 Blue Granite Block Wall=Mur en blocs de granit bleu
 Cracked Blue Granite Brick Wall=Mur en briques de granit bleu fissuré
+Cobbled Blue Granite Wall=Mur en granite bleu pavé
 
 Gray Granite Wall=Mur en granit gris
 Gray Granite Brick Wall=Mur en briques de granit gris
 Gray Granite Block Wall=Mur en blocs de granit gris
 Cracked Gray Granite Brick Wall=Mur en briques de granit gris fissuré
+Cobbled Gray Granite Wall=Mur en granite gris pavé
 
 Green Granite Wall=Mur en granit vert
 Green Granite Brick Wall=Mur en briques de granit vert
 Green Granite Block Wall=Mur en blocs de granit vert
 Cracked Green Granite Brick Wall=Mur en briques de granit vert fissuré
+Cobbled Green Granite Wall=Mur en granite vert pavé
 
 Pink Granite Wall=Mur en granit rose
 Pink Granite Brick Wall=Mur en briques de granit rose
 Pink Granite Block Wall=Mur en blocs de granit rose
 Cracked Pink Granite Brick Wall=Mur en briques de granit rose fissuré
+Cobbled Pink Granite Wall=Mur en granite rose pavé
 
 Red Granite Wall=Mur en granit rouge
 Red Granite Brick Wall=Mur en briques de granit rouge
 Red Granite Block Wall=Mur en blocs de granit rouge
 Cracked Red Granite Brick Wall=Mur en briques de granit rouge fissuré
+Cobbled Red Granite Wall=Mur en granite rouge pavé
 
 White Granite Wall=Mur en granit blanc
 White Granite Brick Wall=Mur en briques de granit blanc
 White Granite Block Wall=Mur en blocs de granit blanc
 Cracked White Granite Brick Wall=Mur en briques de granit blanc fissuré
+Cobbled White Granite Wall=Mur en granite blanc pavé
 
 Heliodor Wall=Mur en Héliodore
 Heliodor Brick Wall=Mur en brique d'Héliodore
@@ -405,6 +452,7 @@ Howlite Wall=Mur en Howlite
 Howlite Brick Wall=Mur en brique de Howlite
 Howlite Block Wall=Mur en blocs de Howlite
 Cracked Howlite Brick Wall=Mur en briques de Howlite fissurées
+Cobbled Howlite Wall=Mur en pavé de howlite
 
 Ilvaite Wall=Mur en Ilvaite
 Ilvaite Brick Wall=Mur en brique d'Ilvaite
@@ -524,6 +572,24 @@ Travertine Brick Wall=Mur en brique de travertin
 Travertine Block Wall=Mur en bloc de travertin
 Cracked Travertine Brick Wall=Mur en brique de travertin fissurée
 
+Beige Tuff Wall=Mur en tuf beige
+Beige Tuff Block Wall =Mur en bloc de tuf beige
+Cobbled Beige Tuff Wall=Mur en tuf beige pavé
+Beige Tuff Brick Wall=Mur en brique de tuf beige
+Cracked Beige Tuff Wall=Mur en tuf beige craquelé
+
+Grey Tuff Wall=Mur en tuf gris
+Grey Tuff Block Wall=Mur en bloc de tuf gris
+Cobbled Grey Tuff Wall=Mur en tuf gris pavé
+Grey Tuff Brick Wall=Mur en brique de tuf gris
+Cracked Grey Tuff Wall=Mur en tuf gris craquelé
+
+Red Tuff Wall=Mur en tuf rouge
+Red Tuff Block Wall=Mur en bloc de tuf rouge
+Cobbled Red Tuff Wall=Mur en tuf rouge pavé
+Red Tuff Brick Wall=Mur en brique de tuf rouge
+Cracked Red Tuff Wall=Mur en tuf rouge craquelé
+
 Turquoise Wall=Mur en turquoise
 Turquoise Brick Wall=Mur en brique de turquoise
 Turquoise Block Wall=Mur en bloc de turquoise
@@ -561,6 +627,12 @@ Amethyst Brick Slab=Dalle en brique d'améthyste
 Amethyst Block Slab=Dalle en bloc d'améthyste
 Cracked Amethyst Brick Slab=Dalle en brique d'améthyste fissurée
 
+Andesite Slab=Dalle en andésite
+Andesite Block Slab=Dalle en bloc d'andésite
+Andesite Brick Slab=Dalle en brique d'andésite
+Cracked Andesite Brick Slab=Dalle en brique d'andésite fissurée
+Cobbled Andesite Slab=Dalle en pavé d'andésite
+
 Basalt Slab=Dalle en basalte
 Basalt Brick Slab=Dalle en brique de basalte
 Basalt Block Slab=Dalle en bloc de basalte
@@ -597,6 +669,7 @@ Covellite Slab=Dalle en Covellite
 Covellite Brick Slab=Dalle en brique de Covellite
 Covellite Block Slab=Dalle en bloc de Covellite
 Cracked Covellite Brick Slab=Dalle en brique de Covellite fissurée
+Cobbled Covellite Slab=Dalle en Covellite pavé
 
 Crocoite Slab=Dalle en Crocoite
 Crocoite Brick Slab=Dalle en brique de Crocoite
@@ -628,36 +701,43 @@ Black Granite Slab=Dalle en granit noir
 Black Granite Brick Slab=Dalle en briques de granit noir
 Black Granite Block Slab=Dalle en blocs de granit noir
 Cracked Black Granite Brick Slab=Dalle en briques de granit noir fissuré
+Cobbled Black Granite Slab=Dalle en granite noir pavé
 
 Blue Granite Slab=Dalle en granit bleu
 Blue Granite Brick Slab=Dalle en briques de granit bleu
 Blue Granite Block Slab=Dalle en blocs de granit bleu
 Cracked Blue Granite Brick Slab=Dalle en briques de granit bleu fissuré
+Cobbled Blue Granite Slab=Dalle en granite bleu pavé
 
 Gray Granite Slab=Dalle en granit gris
 Gray Granite Brick Slab=Dalle en briques de granit gris
 Gray Granite Block Slab=Dalle en blocs de granit gris
 Cracked Gray Granite Brick Slab=Dalle en briques de granit gris fissuré
+Cobbled Gray Granite Slab=Dalle en granite gris pavé
 
 Green Granite Slab=Dalle en granit vert
 Green Granite Brick Slab=Dalle en briques de granit vert
 Green Granite Block Slab=Dalle en blocs de granit vert
 Cracked Green Granite Brick Slab=Dalle en briques de granit vert fissuré
+Cobbled Green Granite Slab=Dalle en granite vert pavé
 
 Pink Granite Slab=Dalle en granit rose
 Pink Granite Brick Slab=Dalle en briques de granit rose
 Pink Granite Block Slab=Dalle en blocs de granit rose
 Cracked Pink Granite Brick Slab=Dalle en briques de granit rose fissuré
+Cobbled Pink Granite Slab=Dalle en granite rose pavé
 
 Red Granite Slab=Dalle en granit rouge
 Red Granite Brick Slab=Dalle en briques de granit rouge
 Red Granite Block Slab=Dalle en blocs de granit rouge
 Cracked Red Granite Brick Slab=Dalle en briques de granit rouge fissuré
+Cobbled Red Granite Slab=Dalle en granite rouge pavé
 
 White Granite Slab=Dalle en granit blanc
 White Granite Brick Slab=Dalle en briques de granit blanc
 White Granite Block Slab=Dalle en blocs de granit blanc
 Cracked White Granite Brick Slab=Dalle en briques de granit blanc fissuré
+Cobbled White Granite Slab=Dalle en granite blanc pavé
 
 Heliodor Slab=Dalle en Héliodore
 Heliodor Brick Slab=Dalle en brique d'Héliodore
@@ -668,6 +748,7 @@ Howlite Slab=Dalle en Howlite
 Howlite Brick Slab=Dalle en brique de Howlite
 Howlite Block Slab=Dalle en blocs de Howlite
 Cracked Howlite Brick Slab=Dalle en briques de Howlite fissurées
+Cobbled Howlite Slab=Dalle en pavé de howlite
 
 Ilvaite Slab=Dalle en Ilvaite
 Ilvaite Brick Slab=Dalle en brique d'Ilvaite
@@ -787,6 +868,24 @@ Travertine Brick Slab=Dalle en brique de travertin
 Travertine Block Slab=Dalle en bloc de travertin
 Cracked Travertine Brick Slab=Dalle en brique de travertin fissurée
 
+Beige Tuff Slab=Dalle en tuf beige
+Beige Tuff Block Slab =Dalle en bloc de tuf beige
+Cobbled Beige Tuff Slab=Dalle en tuf beige pavé
+Beige Tuff Brick Slab=Dalle en brique de tuf beige
+Cracked Beige Tuff Slab=Dalle en tuf beige craquelé
+
+Grey Tuff Slab=Dalle en tuf gris
+Grey Tuff Block Slab=Dalle en bloc de tuf gris
+Cobbled Grey Tuff Slab=Dalle en tuf gris pavé
+Grey Tuff Brick Slab=Dalle en brique de tuf gris
+Cracked Grey Tuff Slab=Dalle en tuf gris craquelé
+
+Red Tuff Slab=Dalle en tuf rouge
+Red Tuff Block Slab=Dalle en bloc de tuf rouge
+Cobbled Red Tuff Slab=Dalle en tuf rouge pavé
+Red Tuff Brick Slab=Dalle en brique de tuf rouge
+Cracked Red Tuff Slab=Dalle en tuf rouge craquelé
+
 Turquoise Slab=Dalle en turquoise
 Turquoise Brick Slab=Dalle en brique de turquoise
 Turquoise Block Slab=Dalle en bloc de turquoise
@@ -824,6 +923,12 @@ Amethyst Brick Stair=Escalier en brique d'améthyste
 Amethyst Block Stair=Escalier en bloc d'améthyste
 Cracked Amethyst Brick Stair=Escalier en brique d'améthyste fissurée
 
+Andesite Stair=Escalier en andésite
+Andesite Block Stair=Escalier en bloc d'andésite
+Andesite Brick Stair=Escalier en brique d'andésite
+Cracked Andesite Brick Stair=Escalier en brique d'andésite fissurée
+Cobbled Andesite Stair=Escalier en pavé d'andésite
+
 Basalt Stair=Escalier en basalte
 Basalt Brick Stair=Escalier en brique de basalte
 Basalt Block Stair=Escalier en bloc de basalte
@@ -860,6 +965,7 @@ Covellite Stair=Escalier en Covellite
 Covellite Brick Stair=Escalier en brique de Covellite
 Covellite Block Stair=Escalier en bloc de Covellite
 Cracked Covellite Brick Stair=Escalier en brique de Covellite fissurée
+Cobbled Covellite Stair=Escalier en Covellite pavé
 
 Crocoite Stair=Escalier en Crocoite
 Crocoite Brick Stair=Escalier en brique de Crocoite
@@ -891,36 +997,43 @@ Black Granite Stair=Escalier en granit noir
 Black Granite Brick Stair=Escalier en briques de granit noir
 Black Granite Block Stair=Escalier en blocs de granit noir
 Cracked Black Granite Brick Stair=Escalier en briques de granit noir fissuré
+Cobbled Black Granite Stair=Escalier en granite noir pavé
 
 Blue Granite Stair=Escalier en granit bleu
 Blue Granite Brick Stair=Escalier en briques de granit bleu
 Blue Granite Block Stair=Escalier en blocs de granit bleu
 Cracked Blue Granite Brick Stair=Escalier en briques de granit bleu fissuré
+Cobbled Blue Granite Stair=Escalier en granite bleu pavé
 
 Gray Granite Stair=Escalier en granit gris
 Gray Granite Brick Stair=Escalier en briques de granit gris
 Gray Granite Block Stair=Escalier en blocs de granit gris
 Cracked Gray Granite Brick Stair=Escalier en briques de granit gris fissuré
+Cobbled Gray Granite Stair=Escalier en granite gris pavé
 
 Green Granite Stair=Escalier en granit vert
 Green Granite Brick Stair=Escalier en briques de granit vert
 Green Granite Block Stair=Escalier en blocs de granit vert
 Cracked Green Granite Brick Stair=Escalier en briques de granit vert fissuré
+Cobbled Green Granite Stair=Escalier en granite vert pavé
 
 Pink Granite Stair=Escalier en granit rose
 Pink Granite Brick Stair=Escalier en briques de granit rose
 Pink Granite Block Stair=Escalier en blocs de granit rose
 Cracked Pink Granite Brick Stair=Escalier en briques de granit rose fissuré
+Cobbled Pink Granite Stair=Escalier en granite rose pavé
 
 Red Granite Stair=Escalier en granit rouge
 Red Granite Brick Stair=Escalier en briques de granit rouge
 Red Granite Block Stair=Escalier en blocs de granit rouge
 Cracked Red Granite Brick Stair=Escalier en briques de granit rouge fissuré
+Cobbled Red Granite Stair=Escalier en granite rouge pavé
 
 White Granite Stair=Escalier en granit blanc
 White Granite Brick Stair=Escalier en briques de granit blanc
 White Granite Block Stair=Escalier en blocs de granit blanc
 Cracked White Granite Brick Stair=Escalier en briques de granit blanc fissuré
+Cobbled White Granite Stair=Escalier en granite blanc pavé
 
 Heliodor Stair=Escalier en Héliodore
 Heliodor Brick Stair=Escalier en brique d'Héliodore
@@ -931,6 +1044,7 @@ Howlite Stair=Escalier en Howlite
 Howlite Brick Stair=Escalier en brique de Howlite
 Howlite Block Stair=Escalier en blocs de Howlite
 Cracked Howlite Brick Stair=Escalier en briques de Howlite fissurées
+Cobbled Howlite Stair=Escalier en pavé de howlite
 
 Ilvaite Stair=Escalier en Ilvaite
 Ilvaite Brick Stair=Escalier en brique d'Ilvaite
@@ -1050,6 +1164,24 @@ Travertine Brick Stair=Escalier en brique de travertin
 Travertine Block Stair=Escalier en bloc de travertin
 Cracked Travertine Brick Stair=Escalier en brique de travertin fissurée
 
+Beige Tuff Stair=Escalier en tuf beige
+Beige Tuff Block Stair =Escalier en bloc de tuf beige
+Cobbled Beige Tuff Stair=Escalier en tuf beige pavé
+Beige Tuff Brick Stair=Escalier en brique de tuf beige
+Cracked Beige Tuff Stair=Escalier en tuf beige craquelé
+
+Grey Tuff Stair=Escalier en tuf gris
+Grey Tuff Block Stair=Escalier en bloc de tuf gris
+Cobbled Grey Tuff Stair=Escalier en tuf gris pavé
+Grey Tuff Brick Stair=Escalier en brique de tuf gris
+Cracked Grey Tuff Stair=Escalier en tuf gris craquelé
+
+Red Tuff Stair=Escalier en tuf rouge
+Red Tuff Block Stair=Escalier en bloc de tuf rouge
+Cobbled Red Tuff Stair=Escalier en tuf rouge pavé
+Red Tuff Brick Stair=Escalier en brique de tuf rouge
+Cracked Red Tuff Stair=Escalier en tuf rouge craquelé
+
 Turquoise Stair=Escalier en turquoise
 Turquoise Brick Stair=Escalier en brique de turquoise
 Turquoise Block Stair=Escalier en bloc de turquoise
@@ -1087,6 +1219,12 @@ Inner Amethyst Brick Stair=Escalier en brique d'améthyste intérieur
 Inner Amethyst Block Stair=Escalier en bloc d'améthyste intérieur
 Inner Cracked Amethyst Brick Stair=Escalier en brique d'améthyste fissurée intérieur
 
+Inner Andesite Stair=Escalier en andésite intérieur
+Inner Andesite Block Stair=Escalier en bloc d'andésite intérieur
+Inner Andesite Brick Stair=Escalier en brique d'andésite intérieur
+Inner Cracked Andesite Brick Stair=Escalier en brique d'andésite fissurée intérieur
+Inner Cobbled Andesite Stair=Escalier en pavé d'andésite intérieur
+
 Inner Basalt Stair=Escalier en basalte intérieur
 Inner Basalt Brick Stair=Escalier en brique de basalte intérieur
 Inner Basalt Block Stair=Escalier en bloc de basalte intérieur
@@ -1123,6 +1261,7 @@ Inner Covellite Stair=Escalier en Covellite intérieur
 Inner Covellite Brick Stair=Escalier en brique de Covellite intérieur
 Inner Covellite Block Stair=Escalier en bloc de Covellite intérieur
 Inner Cracked Covellite Brick Stair=Escalier en brique de Covellite intérieur fissurée
+Inner Cobbled Covellite Stair=Escalier en Covellite pavé intérieur
 
 Inner Crocoite Stair=Escalier en Crocoite intérieur
 Inner Crocoite Brick Stair=Escalier en brique de Crocoite intérieur
@@ -1154,36 +1293,43 @@ Inner Black Granite Stair=Escalier intérieur en granit noir
 Inner Black Granite Brick Stair=Escalier intérieur en briques de granit noir
 Inner Black Granite Block Stair=Escalier intérieur en blocs de granit noir
 Inner Cracked Black Granite Brick Stair=Escalier intérieur en briques de granit noir fissuré
+Inner Cobbled Black Granite Stair=Escalier intérieur en granite noir pavé
 
 Inner Blue Granite Stair=Escalier intérieur en granit bleu
 Inner Blue Granite Brick Stair=Escalier intérieur en briques de granit bleu
 Inner Blue Granite Block Stair=Escalier intérieur en blocs de granit bleu
 Inner Cracked Blue Granite Brick Stair=Escalier intérieur en briques de granit bleu fissuré
+Inner Cobbled Blue Granite Stair=Escalier intérieur en granite bleu pavé
 
 Inner Gray Granite Stair=Escalier intérieur en granit gris
 Inner Gray Granite Brick Stair=Escalier intérieur en briques de granit gris
 Inner Gray Granite Block Stair=Escalier intérieur en blocs de granit gris
 Inner Cracked Gray Granite Brick Stair=Escalier intérieur en briques de granit gris fissuré
+Inner Cobbled Gray Granite Stair=Escalier intérieur en granite gris pavé
 
 Inner Green Granite Stair=Escalier intérieur en granit vert
 Inner Green Granite Brick Stair=Escalier intérieur en briques de granit vert
 Inner Green Granite Block Stair=Escalier intérieur en blocs de granit vert
 Inner Cracked Green Granite Brick Stair=Escalier intérieur en briques de granit vert fissuré
+Inner Cobbled Green Granite Stair=Escalier intérieur en granite vert pavé
 
 Inner Pink Granite Stair=Escalier intérieur en granit rose
 Inner Pink Granite Brick Stair=Escalier intérieur en briques de granit rose
 Inner Pink Granite Block Stair=Escalier intérieur en blocs de granit rose
 Inner Cracked Pink Granite Brick Stair=Escalier intérieur en briques de granit rose fissuré
+Inner Cobbled Pink Granite Stair=Escalier intérieur en granite rose pavé
 
 Inner Red Granite Stair=Escalier intérieur en granit rouge
 Inner Red Granite Brick Stair=Escalier intérieur en briques de granit rouge
 Inner Red Granite Block Stair=Escalier intérieur en blocs de granit rouge
 Inner Cracked Red Granite Brick Stair=Escalier intérieur en briques de granit rouge fissuré
+Inner Cobbled Red Granite Stair=Escalier intérieur en granite rouge pavé
 
 Inner White Granite Stair=Escalier intérieur en granit blanc
 Inner White Granite Brick Stair=Escalier intérieur en briques de granit blanc
 Inner White Granite Block Stair=Escalier intérieur en blocs de granit blanc
 Inner Cracked White Granite Brick Stair=Escalier intérieur en briques de granit blanc fissuré
+Inner Cobbled White Granite Stair=Escalier intérieur en granite blanc pavé
 
 Inner Heliodor Stair=Escalier en Héliodore intérieur
 Inner Heliodor Brick Stair=Escalier en brique d'Héliodore intérieur
@@ -1194,6 +1340,7 @@ Inner Howlite Stair=Escalier en Howlite intérieur
 Inner Howlite Brick Stair=Escalier en brique de Howlite intérieur
 Inner Howlite Block Stair=Escalier en blocs de Howlite intérieur
 Inner Cracked Howlite Brick Stair=Escalier en briques de Howlite fissurées intérieur
+Inner Cobbled Howlite Stair=Escalier en pavé de howlite intérieur
 
 Inner Ilvaite Stair=Escalier en Ilvaite intérieur
 Inner Ilvaite Brick Stair=Escalier en brique d'Ilvaite intérieur
@@ -1313,6 +1460,24 @@ Inner Travertine Brick Stair=Escalier intérieur en brique de travertin
 Inner Travertine Block Stair=Escalier intérieur en bloc de travertin
 Inner Cracked Travertine Brick Stair=Escalier intérieur en brique de travertin fissurée
 
+Inner Beige Tuff Stair=Escalier intérieur en tuf beige
+Inner Beige Tuff Block Stair =Escalier intérieur en bloc de tuf beige
+Inner Cobbled Beige Tuff Stair=Escalier intérieur en tuf beige pavé
+InnerBeige Tuff Brick Stair=Escalier intérieur en brique de tuf beige
+Inner Cracked Beige Tuff Stair=Escalier intérieur en tuf beige craquelé
+
+Inner Grey Tuff Stair=Escalier intérieur en tuf gris
+Inner Grey Tuff Block Stair=Escalier intérieur en bloc de tuf gris
+Inner Cobbled Grey Tuff Stair=Escalier intérieur en tuf gris pavé
+Inner Grey Tuff Brick Stair=Escalier intérieur en brique de tuf gris
+Inner Cracked Grey Tuff Stair=Escalier intérieur en tuf gris craquelé
+
+Inner Red Tuff Stair=Escalier intérieur en tuf rouge
+Inner Red Tuff Block Stair=Escalier intérieur en bloc de tuf rouge
+Inner Cobbled Red Tuff Stair=Escalier intérieur en tuf rouge pavé
+Inner Red Tuff Brick Stair=Escalier en intérieur brique de tuf rouge
+Inner Cracked Red Tuff Stair=Escalier intérieur en tuf rouge craquelé
+
 Inner Turquoise Stair=Escalier intérieur en turquoise
 Inner Turquoise Brick Stair=Escalier intérieur en brique de turquoise
 Inner Turquoise Block Stair=Escalier intérieur en bloc de turquoise
@@ -1350,6 +1515,12 @@ Outer Amethyst Brick Stair=Escalier en brique d'améthyste extérieure
 Outer Amethyst Block Stair=Escalier en bloc d'améthyste extérieure
 Outer Cracked Amethyst Brick Stair=Escalier en brique d'améthyste fissurée extérieure
 
+Outer Andesite Stair=Escalier en andésite extérieure
+Outer Andesite Block Stair=Escalier en bloc d'andésite extérieure
+Outer Andesite Brick Stair=Escalier en brique d'andésite extérieure
+Outer Cracked Andesite Brick Stair=Escalier en brique d'andésite fissurée extérieure
+Outer Cobbled Andesite Stair=Escalier en pavé d'andésite extérieure
+
 Outer Basalt Stair=Escalier en basalte extérieure
 Outer Basalt Brick Stair=Escalier en brique de basalte extérieure
 Outer Basalt Block Stair=Escalier en bloc de basalte extérieure
@@ -1386,6 +1557,7 @@ Outer Covellite Stair=Escalier en Covellite extérieure
 Outer Covellite Brick Stair=Escalier en brique de Covellite extérieure
 Outer Covellite Block Stair=Escalier en bloc de Covellite extérieure
 Outer Cracked Covellite Brick Stair=Escalier en brique de Covellite extérieure fissurée
+Outer Cobbled Covellite Stair=Escalier en Covellite pavé extérieure
 
 Outer Crocoite Stair=Escalier en Crocoite extérieure
 Outer Crocoite Brick Stair=Escalier en brique de Crocoite extérieure
@@ -1417,36 +1589,43 @@ Outer Black Granite Stair=Escalier extérieur en granit noir
 Outer Black Granite Brick Stair=Escalier extérieur en briques de granit noir
 Outer Black Granite Block Stair=Escalier extérieur en blocs de granit noir
 Outer Cracked Black Granite Brick Stair=Escalier extérieur en briques de granit noir fissuré
+Outer Cobbled Black Granite Stair=Escalier extérieur en granite noir pavé
 
 Outer Blue Granite Stair=Escalier extérieur en granit bleu
 Outer Blue Granite Brick Stair=Escalier extérieur en briques de granit bleu
 Outer Blue Granite Block Stair=Escalier extérieur en blocs de granit bleu
 Outer Cracked Blue Granite Brick Stair=Escalier extérieur en briques de granit bleu fissuré
+Outer Cobbled Blue Granite Stair=Escalier extérieur en granite bleu pavé
 
 Outer Gray Granite Stair=Escalier extérieur en granit gris
 Outer Gray Granite Brick Stair=Escalier extérieur en briques de granit gris
 Outer Gray Granite Block Stair=Escalier extérieur en blocs de granit gris
 Outer Cracked Gray Granite Brick Stair=Escalier extérieur en briques de granit gris fissuré
+Outer Cobbled Gray Granite Stair=Escalier extérieur en granite gris pavé
 
 Outer Green Granite Stair=Escalier extérieur en granit vert
 Outer Green Granite Brick Stair=Escalier extérieur en briques de granit vert
 Outer Green Granite Block Stair=Escalier extérieur en blocs de granit vert
 Outer Cracked Green Granite Brick Stair=Escalier extérieur en briques de granit vert fissuré
+Outer Cobbled Green Granite Stair=Escalier extérieur en granite vert pavé
 
 Outer Pink Granite Stair=Escalier extérieur en granit rose
 Outer Pink Granite Brick Stair=Escalier extérieur en briques de granit rose
 Outer Pink Granite Block Stair=Escalier extérieur en blocs de granit rose
 Outer Cracked Pink Granite Brick Stair=Escalier extérieur en briques de granit rose fissuré
+Outer Cobbled Pink Granite Stair=Escalier extérieur en granite rose pavé
 
 Outer Red Granite Stair=Escalier extérieur en granit rouge
 Outer Red Granite Brick Stair=Escalier extérieur en briques de granit rouge
 Outer Red Granite Block Stair=Escalier extérieur en blocs de granit rouge
 Outer Cracked Red Granite Brick Stair=Escalier extérieur en briques de granit rouge fissuré
+Outer Cobbled Red Granite Stair=Escalier extérieur en granite rouge pavé
 
 Outer White Granite Stair=Escalier extérieur en granit blanc
 Outer White Granite Brick Stair=Escalier extérieur en briques de granit blanc
 Outer White Granite Block Stair=Escalier extérieur en blocs de granit blanc
 Outer Cracked White Granite Brick Stair=Escalier extérieur en briques de granit blanc fissuré
+Outer Cobbled White Granite Stair=Escalier extérieur en granite blanc pavé
 
 Outer Heliodor Stair=Escalier en Héliodore extérieur
 Outer Heliodor Brick Stair=Escalier en brique d'Héliodore extérieur
@@ -1457,6 +1636,7 @@ Outer Howlite Stair=Escalier en Howlite extérieur
 Outer Howlite Brick Stair=Escalier en brique de Howlite extérieur
 Outer Howlite Block Stair=Escalier en blocs de Howlite extérieur
 Outer Cracked Howlite Brick Stair=Escalier en briques de Howlite fissurées extérieur
+Outer Cobbled Howlite Stair=Escalier en pavé de howlite extérieur
 
 Outer Ilvaite Stair=Escalier en Ilvaite extérieur
 Outer Ilvaite Brick Stair=Escalier en brique d'Ilvaite extérieur
@@ -1575,6 +1755,24 @@ Outer Cobbled Travertine Stair=Escalier extérieur pavé en travertin
 Outer Travertine Brick Stair=Escalier extérieur en brique de travertin
 Outer Travertine Block Stair=Escalier extérieur en bloc de travertin
 Outer Cracked Travertine Brick Stair=Escalier extérieur en brique de travertin fissurée
+
+Outer Beige Tuff Stair=Escalier extérieur en tuf beige
+Outer Beige Tuff Block Stair =Escalier extérieur en bloc de tuf beige
+Outer Cobbled Beige Tuff Stair=Escalier extérieur en tuf beige pavé
+OuterBeige Tuff Brick Stair=Escalier extérieur en brique de tuf beige
+Outer Cracked Beige Tuff Stair=Escalier extérieur en tuf beige craquelé
+
+Outer Grey Tuff Stair=Escalier extérieur en tuf gris
+Outer Grey Tuff Block Stair=Escalier extérieur en bloc de tuf gris
+Outer Cobbled Grey Tuff Stair=Escalier extérieur en tuf gris pavé
+Outer Grey Tuff Brick Stair=Escalier extérieur en brique de tuf gris
+Outer Cracked Grey Tuff Stair=Escalier extérieur en tuf gris craquelé
+
+Outer Red Tuff Stair=Escalier extérieur en tuf rouge
+Outer Red Tuff Block Stair=Escalier extérieur en bloc de tuf rouge
+Outer Cobbled Red Tuff Stair=Escalier extérieur en tuf rouge pavé
+Outer Red Tuff Brick Stair=Escalier en extérieur brique de tuf rouge
+Outer Cracked Red Tuff Stair=Escalier extérieur en tuf rouge craquelé
 
 Outer Turquoise Stair=Escalier extérieur en turquoise
 Outer Turquoise Brick Stair=Escalier extérieur en brique de turquoise
