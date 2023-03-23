@@ -1,4 +1,4 @@
-if not (minetest.get_modpath("default") and minetest.get_modpath("base_earth") and minetest.get_modpath("mcl_mapgen_core")) then
+if not (minetest.get_modpath("default") and not minetest.get_modpath("base_earth") and not minetest.get_modpath("mcl_mapgen_core")) then
 
 -- Blue Agate
 
@@ -1096,10 +1096,10 @@ if not (minetest.get_modpath("default") and minetest.get_modpath("base_earth") a
 		ore_type        = "blob",
 		ore             = "too_many_stones:turquoise",
 		wherein         = {"mapgen_stone"},
-		clust_scarcity  = 32 * 48 * 32,
-		clust_size      = 15,
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 10,
 		y_max           = 300,
-		y_min           = -60,
+		y_min           = -120,
 		noise_threshold = 0.0,
 		noise_params    = {
 			offset = 0.5,

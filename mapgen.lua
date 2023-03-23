@@ -1,15 +1,27 @@
+-- Register ores based on provided climate data, queued to run after all other mods are loaded
+-- Kindly provided by EmptyStar
+local oreq = {}
+local function register_ore_by_climate(ore)
+	-- Queue up ore for processing after all mods are loaded
+	table.insert(oreq,ore)
+end
+
 -- Minetest Game, Mesecraft, and Others
 
 if minetest.get_modpath("default") ~= nil then
 
 -- Blue Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_blue",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 80,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -24,12 +36,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Gray Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_gray",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 80,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -44,12 +60,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Green Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_green",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 80,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -64,12 +84,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Moss Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_moss",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 80,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -84,12 +108,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Orange Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_orange",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 80,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -104,12 +132,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Purple Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_purple",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 80,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -124,32 +156,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Red Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_red",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
-		y_max           = 31000,
-		y_min           = -31000,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
--- Amber
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:amber",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
-		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 80,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -164,12 +180,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Amazonite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amazonite",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 50,
+		heat_max		= 80,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -184,12 +204,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Amber
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amber",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= 30,
+		heat_max		= 70,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -204,13 +228,17 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Amethyst
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amethyst",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
-		y_max           = 0,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 20,
+		humidity_max	= 70,
+		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
 		noise_params    = {
@@ -222,14 +250,20 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+-- Andesite
+
+	register_ore_by_climate({
 		ore_type        = "blob",
-		ore             = "too_many_stones:amethyst",
-		wherein         = {"default:stone"},
+		ore             = "too_many_stones:andesite",
+		wherein         = {"mapgen_stone"},
 		clust_scarcity  = 64 * 64 * 64,
-		clust_size      = 14,
+		clust_size      = 10,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 0,
+		humidity_max	= 40,
 		y_max           = 31000,
-		y_min           = 100,
+		y_min           = -31000,
 		noise_threshold = 0.0,
 		noise_params    = {
 			offset = 0.5,
@@ -242,12 +276,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Basalt
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:basalt",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 50,
+		heat_max		= 100,
+		humidity_min	= 0,
+		humidity_max	= 30,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -262,12 +300,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Columnar Basalt
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:basalt_columnar",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 50,
+		heat_max		= 100,
+		humidity_min	= 10,
+		humidity_max	= 40,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -282,12 +324,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Calcite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:calcite",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 20,
+		humidity_max	= 70,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -301,12 +347,16 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:calcite",
 		wherein         = {"default:sand", "default:silver_sand"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 10,
+		heat_min		= 10,
+		heat_max		= 40,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 0,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -322,12 +372,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Carnotite
 
-		minetest.register_ore({
+		register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:carnotite",
-		wherein         = {"default:stone", "default:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone", "default:desert_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 0,
+		heat_max		= 60,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = -300,
 		y_min           = -1000,
 		noise_threshold = 0.0,
@@ -342,12 +396,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Celestine
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:celestine",
 		wherein         = {"default:silver_sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 60,
+		heat_max		= 90,
+		humidity_min	= 20,
+		humidity_max	= 60,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -362,12 +420,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Citrine
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:citrine",
 		wherein         = {"default:desert_stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 20,
+		humidity_max	= 60,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -382,12 +444,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Eudialite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:eudialite",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 80,
+		humidity_min	= 20,
+		humidity_max	= 60,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -402,12 +468,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Gabbro
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:gabbro",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 20,
+		heat_min		= 30,
+		heat_max		= 70,
+		humidity_min	= 0,
+		humidity_max	= 30,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -422,12 +492,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Galena
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:galena",
-		wherein         = {"default:stone", "default:sandstone", "default:desert_sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone", "default:sandstone", "default:desert_sandstone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 60,
+		heat_max		= 90,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -442,12 +516,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Black Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_black",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 70,
+		heat_max		= 90,
+		humidity_min	= 20,
+		humidity_max	= 50,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -462,12 +540,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Blue Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_blue",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 70,
+		humidity_min	= 50,
+		humidity_max	= 70,
 		y_max           = 30,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -482,12 +564,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Gray Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_gray",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 50,
+		heat_max		= 70,
+		humidity_min	= 20,
+		humidity_max	= 50,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -502,12 +588,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Green Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_green",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 70,
+		humidity_min	= 30,
+		humidity_max	= 60,
 		y_max           = 31000,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -523,12 +613,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Pink Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_pink",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 40,
+		heat_max		= 70,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 10,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -543,12 +637,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Red Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_red",
-		wherein         = {"default:stone", "default:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone", "default:desert_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 40,
+		heat_max		= 70,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -500,
 		noise_threshold = 0.0,
@@ -564,12 +662,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- White Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_white",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 50,
+		heat_max		= 70,
+		humidity_min	= 10,
+		humidity_max	= 40,
 		y_max           = 31000,
 		y_min           = -300,
 		noise_threshold = 0.0,
@@ -584,12 +686,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Heliodor
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:heliodor",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 60,
+		heat_max		= 90,
+		humidity_min	= 20,
+		humidity_max	= 60,
 		y_max           = -30,
 		y_min           = -500,
 		noise_threshold = 0.0,
@@ -604,12 +710,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Howlite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:howlite",
-		wherein         = {"default:stone", "default:silver_sandstone", "default:desert_sandstone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone", "default:silver_sandstone", "default:desert_sandstone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 0,
+		heat_max		= 60,
+		humidity_min	= 20,
+		humidity_max	= 60,
 		y_max           = 1000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -624,12 +734,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Ilvaite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:ilvaite",
-		wherein         = {"default:stone", "default:desert_stone", "default:permafrost"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone", "default:desert_stone", "default:permafrost"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 20,
+		humidity_max	= 70,
 		y_max           = 31000,
 		y_min           = -100,
 		noise_threshold = 0.0,
@@ -644,12 +758,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Kyanite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:kyanite",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 50,
+		heat_max		= 70,
+		humidity_min	= 20,
+		humidity_max	= 60,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -662,11 +780,11 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:kyanite",
 		wherein         = {"default:silver_sand"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
 		y_max           = -300,
 		y_min           = -31000,
@@ -682,12 +800,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Lapis Lazuli
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:lapis_lazuli",
 		wherein         = {"default:sandstone", "default:desert_stone", "default:silver_sandstone"},
-		clust_scarcity  = 64 * 16 * 64,
+		clust_scarcity  = 80 * 48 * 80,
 		clust_size      = 14,
+		heat_min		= 20,
+		heat_max		= 60,
+		humidity_min	= 20,
+		humidity_max	= 60,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -702,12 +824,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Blue Limestone
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:limestone_blue",
-		wherein         = {"default:stone", "default:sand", "default:desert_sand"},
-		clust_scarcity  = 48 * 48 * 48,
-		clust_size      = 7,
+		wherein         = {"mapgen_stone", "default:sand", "default:desert_sand"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 14,
+		heat_min		= 20,
+		heat_max		= 60,
+		humidity_min	= 70,
+		humidity_max	= 100,
 		y_max           = 300,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -722,12 +848,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- White Limestone
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:limestone_white",
-		wherein         = {"default:stone", "default:silver_sand"},
-		clust_scarcity  = 48 * 48 * 48,
-		clust_size      = 7,
+		wherein         = {"mapgen_stone", "default:silver_sand"},
+		clust_scarcity  = 64 * 64 * 64,
+		clust_size      = 14,
+		heat_min		= 20,
+		heat_max		= 60,
+		humidity_min	= 70,
+		humidity_max	= 100,
 		y_max           = 31000,
 		y_min           = -300,
 		noise_threshold = 0.0,
@@ -742,12 +872,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Marble
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:marble",
-		wherein         = {"default:stone", "default:sandstone", "default:silver_sandstone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone", "default:sandstone", "default:silver_sandstone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 0,
+		heat_max		= 60,
+		humidity_min	= 20,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -500,
 		noise_threshold = 0.0,
@@ -763,12 +897,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Mudstone
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:mudstone",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 10,
+		heat_min		= 0,
+		heat_max		= 60,
+		humidity_min	= 40,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -100,
 		noise_threshold = 0.0,
@@ -783,13 +921,17 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Prasiolite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:prasiolite",
-		wherein         = {"default:stone", "default:silver_sandstone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone", "default:silver_sandstone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
-		y_max           = -50,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 20,
+		humidity_max	= 70,
+		y_max           = 50,
 		y_min           = -1000,
 		noise_threshold = 0.0,
 		noise_params    = {
@@ -801,11 +943,11 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:prasiolite",
 		wherein         = {"default:sand", "default:silver_sand", "default:desert_sand"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = -2,
 		y_min           = -50,
@@ -821,12 +963,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Pumice
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:pumice",
-		wherein         = {"default:stone", "default:gravel"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone", "default:gravel"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 10,
+		heat_min		= 30,
+		heat_max		= 40,
+		humidity_min	= 0,
+		humidity_max	= 40,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -839,11 +985,11 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:pumice",
 		wherein         = {"default:water_source"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 10,
 		y_max           = 31000,
 		y_min           = -1,
@@ -859,12 +1005,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Quartz
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:quartz",
-		wherein         = {"default:stone", "default:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone", "default:desert_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 20,
+		humidity_max	= 60,
 		y_max           = -300,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -877,11 +1027,11 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:quartz",
 		wherein         = {"default:sand", "default:silver_sand", "default:desert_sand"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = -2,
 		y_min           = -50,
@@ -897,12 +1047,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Rose Quartz
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:rose_quartz",
-		wherein         = {"default:stone", "default:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone", "default:desert_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 60,
+		heat_max		= 90,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = -300,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -915,11 +1069,11 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:rose_quartz",
 		wherein         = {"default:sand", "default:silver_sand", "default:desert_sand"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
 		y_max           = -2,
 		y_min           = -50,
@@ -935,12 +1089,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Scoria
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:scoria",
-		wherein         = {"default:stone", "default:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone", "default:desert_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 0,
+		humidity_max	= 40,
 		y_max           = 31000,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -955,12 +1113,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Serpentine
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:serpentine",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 0,
+		heat_max		= 80,
+		humidity_min	= 0,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -975,12 +1137,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Slate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:slate",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 0,
+		heat_max		= 60,
+		humidity_min	= 30,
+		humidity_max	= 70,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -995,12 +1161,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Smokey Quartz
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:smokey_quartz",
 		wherein         = {"default:sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1015,11 +1185,11 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Soapstone
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:soapstone",
 		wherein         = {"default:sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
 		y_max           = 31000,
 		y_min           = -31000,
@@ -1033,13 +1203,17 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:soapstone",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
-		y_max           = -400,
+		heat_min		= 40,
+		heat_max		= 80,
+		humidity_min	= 20,
+		humidity_max	= 60,
+		y_max           = 0,
 		y_min           = -31000,
 		noise_threshold = 0.0,
 		noise_params    = {
@@ -1053,12 +1227,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Sodalite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sodalite",
-		wherein         = {"default:stone", "default:desert_stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone", "default:desert_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 20,
+		heat_max		= 60,
+		humidity_min	= 50,
+		humidity_max	= 80,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1073,12 +1251,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Sugilite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sugilite",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= 70,
+		heat_max		= 100,
+		humidity_min	= 10,
+		humidity_max	= 40,
 		y_max           = 30,
 		y_min           = -2000,
 		noise_threshold = 0.0,
@@ -1093,12 +1275,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Travertine
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:travertine",
-		wherein         = {"default:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= 0,
+		heat_max		= 60,
+		humidity_min	= 40,
+		humidity_max	= 60,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1111,12 +1297,84 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:travertine",
 		wherein         = {"default:sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 30,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Beige Tuff
+
+	register_ore_by_climate({
+		ore_type        = "blob",
+		ore             = "too_many_stones:tuff_beige",
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
+		clust_size      = 14,
+		heat_min		= 60,
+		heat_max		= 100,
+		humidity_min	= 0,
+		humidity_max	= 30,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Grey Tuff
+
+	register_ore_by_climate({
+		ore_type        = "blob",
+		ore             = "too_many_stones:tuff_grey",
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
+		clust_size      = 14,
+		heat_min		= 60,
+		heat_max		= 100,
+		humidity_min	= 0,
+		humidity_max	= 30,
+		y_max           = 31000,
+		y_min           = -31000,
+		noise_threshold = 0.0,
+		noise_params    = {
+			offset = 0.5,
+			scale = 0.2,
+			spread = {x = 5, y = 5, z = 5},
+			octaves = 1,
+			persist = 0.0
+		},
+	})
+
+-- Red Tuff
+
+	register_ore_by_climate({
+		ore_type        = "blob",
+		ore             = "too_many_stones:tuff_red",
+		wherein         = {"mapgen_stone"},
+		clust_scarcity  = 80 * 80 * 80,
+		clust_size      = 14,
+		heat_min		= 60,
+		heat_max		= 100,
+		humidity_min	= 0,
+		humidity_max	= 30,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1131,12 +1389,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Turquoise
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sandstone_with_turquoise",
 		wherein         = {"default:sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 15,
+--		heat_min		= 20,
+--		heat_max		= 60,
+--		humidity_min	= 20,
+--		humidity_max	= 60,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -1150,12 +1412,16 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:desert_sandstone_with_turquoise",
 		wherein         = {"default:desert_sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 15,
+--		heat_min		= 20,
+--		heat_max		= 60,
+--		humidity_min	= 20,
+--		humidity_max	= 60,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -1169,12 +1435,16 @@ if minetest.get_modpath("default") ~= nil then
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:silver_sandstone_with_turquoise",
 		wherein         = {"default:silver_sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 15,
+--		heat_min		= 20,
+--		heat_max		= 60,
+--		humidity_min	= 20,
+--		humidity_max	= 60,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -1190,12 +1460,16 @@ if minetest.get_modpath("default") ~= nil then
 
 -- Vivianite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:vivianite",
-		wherein         = {"default:stone", "default:silver_sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		wherein         = {"mapgen_stone", "default:silver_sandstone"},
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= 30,
+		heat_max		= 70,
+		humidity_min	= 10,
+		humidity_max	= 40,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1207,7 +1481,7 @@ if minetest.get_modpath("default") ~= nil then
 			persist = 0.0
 		},
 	})
-
+--[[
 end
 
 -- Minebase Version
@@ -1216,12 +1490,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Blue Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_blue",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1236,12 +1514,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Gray Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_gray",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1256,12 +1538,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Green Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_green",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1276,12 +1562,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Moss Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_moss",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1296,12 +1586,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Orange Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_orange",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1316,12 +1610,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Purple Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_purple",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1336,12 +1634,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Red Agate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:agate_red",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1356,12 +1658,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Amazonite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amazonite",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1376,12 +1682,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Amber
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amber",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1396,12 +1706,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Amethyst
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amethyst",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 0,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1414,12 +1728,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:amethyst",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = 100,
 		noise_threshold = 0.0,
@@ -1434,12 +1752,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Basalt
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:basalt",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1454,12 +1776,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Columnar Basalt
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:basalt_columnar",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1475,12 +1801,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Calcite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:calcite",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1494,12 +1824,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:calcite",
 		wherein         = {"base_earth:sand", "base_earth:silver_sand"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 10,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 0,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1515,12 +1849,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Carnotite
 
-		minetest.register_ore({
+		register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:carnotite",
 		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -300,
 		y_min           = -1000,
 		noise_threshold = 0.0,
@@ -1535,12 +1873,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Celestine
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:celestine",
 		wherein         = {"base_earth:silver_sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1555,12 +1897,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Citrine
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:citrine",
 		wherein         = {"base_earth:desert_stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1575,12 +1921,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Eudialite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:eudialite",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1595,12 +1945,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Gabbro
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:gabbro",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 20,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1615,12 +1969,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Galena
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:galena",
 		wherein         = {"base_earth:stone", "base_earth:sandstone", "base_earth:desert_sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1635,12 +1993,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Black Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_black",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1655,12 +2017,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Blue Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_blue",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 30,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1675,12 +2041,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Gray Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_gray",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1695,12 +2065,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Green Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_green",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -1716,12 +2090,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Pink Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_pink",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 10,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1736,12 +2114,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Red Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_red",
 		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -500,
 		noise_threshold = 0.0,
@@ -1757,12 +2139,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- White Granite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:granite_white",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -300,
 		noise_threshold = 0.0,
@@ -1777,12 +2163,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Heliodor
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:heliodor",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -30,
 		y_min           = -500,
 		noise_threshold = 0.0,
@@ -1797,12 +2187,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Howlite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:howlite",
 		wherein         = {"base_earth:stone", "base_earth:silver_sandstone", "base_earth:desert_sandstone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 1000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1817,12 +2211,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Ilvaite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:ilvaite",
 		wherein         = {"base_earth:stone", "base_earth:desert_stone", "base_earth:permafrost"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -100,
 		noise_threshold = 0.0,
@@ -1837,12 +2235,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Kyanite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:kyanite",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -1855,12 +2257,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:kyanite",
 		wherein         = {"base_earth:silver_sand"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -300,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1875,12 +2281,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Lapis Lazuli
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:lapis_lazuli",
 		wherein         = {"base_earth:sandstone", "base_earth:desert_stone", "base_earth:silver_sandstone"},
 		clust_scarcity  = 64 * 16 * 64,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1895,12 +2305,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Blue Limestone
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:limestone_blue",
 		wherein         = {"base_earth:stone", "base_earth:sand", "base_earth:desert_sand"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 300,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -1915,12 +2329,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- White Limestone
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:limestone_white",
 		wherein         = {"base_earth:stone", "base_earth:silver_sand"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -300,
 		noise_threshold = 0.0,
@@ -1935,12 +2353,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Marble
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:marble",
 		wherein         = {"base_earth:stone", "base_earth:sandstone", "base_earth:silver_sandstone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -500,
 		noise_threshold = 0.0,
@@ -1956,12 +2378,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Mudstone
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:mudstone",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 10,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -100,
 		noise_threshold = 0.0,
@@ -1976,12 +2402,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Prasiolite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:prasiolite",
 		wherein         = {"base_earth:stone", "base_earth:silver_sandstone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -50,
 		y_min           = -1000,
 		noise_threshold = 0.0,
@@ -1994,12 +2424,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:prasiolite",
 		wherein         = {"base_earth:sand", "base_earth:silver_sand", "base_earth:desert_sand"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -2,
 		y_min           = -50,
 		noise_threshold = 0.0,
@@ -2014,12 +2448,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Pumice
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:pumice",
 		wherein         = {"base_earth:stone", "base_earth:gravel"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 10,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2032,12 +2470,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:pumice",
 		wherein         = {"base_liquids:water_source"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 10,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -1,
 		noise_threshold = 0.0,
@@ -2052,12 +2494,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Quartz
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:quartz",
 		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -300,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2070,12 +2516,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:quartz",
 		wherein         = {"base_earth:sand", "base_earth:silver_sand", "base_earth:desert_sand"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -2,
 		y_min           = -50,
 		noise_threshold = 0.0,
@@ -2090,12 +2540,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Rose Quartz
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:rose_quartz",
 		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -300,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2108,12 +2562,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:rose_quartz",
 		wherein         = {"base_earth:sand", "base_earth:silver_sand", "base_earth:desert_sand"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -2,
 		y_min           = -50,
 		noise_threshold = 0.0,
@@ -2128,12 +2586,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Scoria
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:scoria",
 		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -2148,12 +2610,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Serpentine
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:serpentine",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2168,12 +2634,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Slate
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:slate",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -2188,12 +2658,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Smokey Quartz
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:smokey_quartz",
 		wherein         = {"base_earth:sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2208,12 +2682,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Soapstone
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:soapstone",
 		wherein         = {"base_earth:sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2226,12 +2704,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:soapstone",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = -400,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2246,12 +2728,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Sodalite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sodalite",
 		wherein         = {"base_earth:stone", "base_earth:desert_stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2266,12 +2752,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Sugilite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sugilite",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 48 * 48 * 48,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 30,
 		y_min           = -2000,
 		noise_threshold = 0.0,
@@ -2286,12 +2776,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Travertine
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:travertine",
 		wherein         = {"base_earth:stone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 14,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2304,12 +2798,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:travertine",
 		wherein         = {"base_earth:sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 30,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2324,12 +2822,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Turquoise
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:sandstone_with_turquoise",
 		wherein         = {"base_earth:sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 15,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -2343,12 +2845,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:desert_sandstone_with_turquoise",
 		wherein         = {"base_earth:desert_sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 15,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -2362,12 +2868,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 		},
 	})
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:silver_sandstone_with_turquoise",
 		wherein         = {"base_earth:silver_sandstone"},
-		clust_scarcity  = 32 * 48 * 32,
+		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 15,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 300,
 		y_min           = -60,
 		noise_threshold = 0.0,
@@ -2383,12 +2893,16 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 
 -- Vivianite
 
-	minetest.register_ore({
+	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:vivianite",
 		wherein         = {"base_earth:stone", "base_earth:silver_sandstone"},
-		clust_scarcity  = 64 * 64 * 64,
+		clust_scarcity  = 80 * 80 * 80,
 		clust_size      = 7,
+		heat_min		= ,
+		heat_max		= ,
+		humidity_min	= ,
+		humidity_max	= ,
 		y_max           = 31000,
 		y_min           = -31000,
 		noise_threshold = 0.0,
@@ -2400,5 +2914,65 @@ if minetest.get_modpath("base_earth") and minetest.get_modpath("base_liquids") ~
 			persist = 0.0
 		},
 	})
-
+--]]
 end
+
+-- Do actual ore registration after all mods are loaded
+minetest.register_on_mods_loaded(function()
+	for _,ore in ipairs(oreq) do
+		-- Initialize any missing biome or climate values
+		ore.biomes = ore.biomes or {}
+
+		local checksum = 0
+		if not ore.heat_min then
+			ore.heat_min = -100
+			checksum = checksum + 1
+		end
+
+		if not ore.heat_max then
+			ore.heat_max = 200
+			checksum = checksum + 1
+		end
+
+		if not ore.humidity_min then
+			ore.humidity_min = -100
+			checksum = checksum + 1
+		end
+
+		if not ore.humidity_max then
+			ore.humidity_max = 200
+			checksum = checksum + 1
+		end
+
+		-- Add matching biomes to ore biome list if any climate data was specified
+		if checksum ~= 4 then
+			checksum = #ore.biomes
+			for name,biome in pairs(minetest.registered_biomes) do
+				-- Increment biome checksum
+				checksum = checksum + 1
+
+				-- Ensure climate values
+				local heat = biome.heat_point or 50
+				local humidity = biome.humidity_point or 50
+
+				-- Add biome if climate values match
+				if (
+					heat >= ore.heat_min and
+					heat <= ore.heat_max and
+					humidity >= ore.humidity_min and
+					humidity <= ore.humidity_max
+				) then
+					table.insert(ore.biomes,name)
+				end
+			end
+		else
+			checksum = #ore.biomes + 1
+		end
+
+		-- Don't use an empty biome list or a biome list that contains all biomes
+		ore.biomes = #ore.biomes > 0 and #ore.biomes < checksum and ore.biomes or nil
+
+		-- Register ore with Minetest
+		minetest.register_ore(ore)
+	end
+end)
