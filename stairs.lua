@@ -146,6 +146,61 @@ stairs.register_stair_and_slab(
 	too_many_stones.node_sound_glass_defaults(),
 	false
 )
+-- Andesite
+stairs.register_stair_and_slab(
+	"andesite",
+	"too_many_stones:andesite",
+	{cracky = 3},
+	{"tms_andesite.png"},
+	"Andesite Stair",
+	"Andesite Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"andesite_cobble",
+	"too_many_stones:andesite_cobble",
+	{cracky = 3},
+	{"tms_andesite_cobble.png"},
+	"Cobbled Andesite Stair",
+	"Cobbled Andesite Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"andesite_brick",
+	"too_many_stones:andesite_brick",
+	{cracky = 2},
+	{"tms_andesite_brick.png"},
+	"Andesite Brick Stair",
+	"Andesite Brick Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"andesite_cracked_brick",
+	"too_many_stones:andesite_cracked_brick",
+	{cracky = 2},
+	{"tms_andesite_cracked_brick.png"},
+	"Cracked Andesite Brick Stair",
+	"Cracked Andesite Brick Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"andesite_block",
+	"too_many_stones:andesite_block",
+	{cracky = 2},
+	{"tms_andesite_block.png"},
+	"Andesite Block Stair",
+	"Andesite Block Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
 -- Basalt
 stairs.register_stair_and_slab(
 	"basalt",
@@ -476,6 +531,17 @@ stairs.register_stair_and_slab(
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )
+
+stairs.register_stair_and_slab(
+	"covellite_cobble",
+	"too_many_stones:covellite_cobble",
+	{cracky = 2},
+	{"tms_covellite_cobble.png"},
+	"Cobbled Covellite Stair",
+	"Cobbled Covellite Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
 -- Crocoite
 stairs.register_stair_and_slab(
 	"crocoite",
@@ -751,6 +817,17 @@ stairs.register_stair_and_slab(
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )
+
+stairs.register_stair_and_slab(
+	"granite_black_cobble",
+	"too_many_stones:granite_black_cobble",
+	{cracky = 2},
+	{"tms_granite_black_cobble.png"},
+	"Cobbled Black Granite Stair",
+	"Cobbled Black Granite Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
 -- Blue Granite
 stairs.register_stair_and_slab(
 	"granite_blue",
@@ -792,6 +869,17 @@ stairs.register_stair_and_slab(
 	{"tms_granite_blue_block.png"},
 	"Blue Granite Block Stair",
 	"Blue Granite Block Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"granite_blue_cobble",
+	"too_many_stones:granite_blue_cobble",
+	{cracky = 2},
+	{"tms_granite_blue_cobble.png"},
+	"Cobbled Blue Granite Stair",
+	"Cobbled Blue Granite Slab",
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )
@@ -839,6 +927,17 @@ stairs.register_stair_and_slab(
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )
+
+stairs.register_stair_and_slab(
+	"granite_gray_cobble",
+	"too_many_stones:granite_gray_cobble",
+	{cracky = 2},
+	{"tms_granite_gray_cobble.png"},
+	"Cobbled Gray Granite Stair",
+	"Cobbled Gray Granite Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
 -- Green Granite
 stairs.register_stair_and_slab(
 	"granite_green",
@@ -880,6 +979,17 @@ stairs.register_stair_and_slab(
 	{"tms_granite_green_block.png"},
 	"Green Granite Block Stair",
 	"Green Granite Block Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"granite_green_cobble",
+	"too_many_stones:granite_green_cobble",
+	{cracky = 2},
+	{"tms_granite_green_cobble.png"},
+	"Cobbled Green Granite Stair",
+	"Cobbled Green Granite Slab",
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )
@@ -927,6 +1037,17 @@ stairs.register_stair_and_slab(
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )
+
+stairs.register_stair_and_slab(
+	"granite_pink_cobble",
+	"too_many_stones:granite_pink_cobble",
+	{cracky = 2},
+	{"tms_granite_pink_cobble.png"},
+	"Cobbled Pink Granite Stair",
+	"Cobbled Pink Granite Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
 -- Red Granite
 stairs.register_stair_and_slab(
 	"granite_red",
@@ -971,6 +1092,17 @@ stairs.register_stair_and_slab(
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )
+
+stairs.register_stair_and_slab(
+	"granite_red_cobble",
+	"too_many_stones:granite_red_cobble",
+	{cracky = 2},
+	{"tms_granite_red_cobble.png"},
+	"Cobbled Red Granite Stair",
+	"Cobbled Red Granite Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
 -- White Granite
 stairs.register_stair_and_slab(
 	"granite_white",
@@ -1012,6 +1144,17 @@ stairs.register_stair_and_slab(
 	{"tms_granite_white_block.png"},
 	"White Granite Block Stair",
 	"White Granite Block Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"granite_white_cobble",
+	"too_many_stones:granite_white_cobble",
+	{cracky = 2},
+	{"tms_granite_white_cobble.png"},
+	"Cobbled White Granite Stair",
+	"Cobbled White Granite Slab",
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )
@@ -1100,6 +1243,17 @@ stairs.register_stair_and_slab(
 	{"tms_howlite_block.png"},
 	"Howlite Block Stair",
 	"Howlite Block Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"howlite_cobble",
+	"too_many_stones:howlite_cobble",
+	{cracky = 2},
+	{"tms_howlite_cobble.png"},
+	"Cobbled Howlite Stair",
+	"Cobbled Howlite Slab",
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )
@@ -2215,6 +2369,171 @@ stairs.register_stair_and_slab(
 	{"tms_travertine_block.png"},
 	"Travertine Block Stair",
 	"Travertine Block Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+-- Beige Tuff
+stairs.register_stair_and_slab(
+	"tuff_beige",
+	"too_many_stones:tuff_beige",
+	{cracky = 3},
+	{"tms_tuff_beige.png"},
+	"Beige Tuff Stair",
+	"Beige Tuff Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"tuff_beige_brick",
+	"too_many_stones:tuff_beige_brick",
+	{cracky = 2},
+	{"tms_tuff_beige_brick.png"},
+	"Beige Tuff Brick Stair",
+	"Beige Tuff Brick Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"tuff_beige_cracked_brick",
+	"too_many_stones:tuff_beige_cracked_brick",
+	{cracky = 2},
+	{"tms_tuff_beige_cracked_brick.png"},
+	"Cracked Beige Tuff Brick Stair",
+	"Cracked Beige Tuff Brick Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"tuff_beige_block",
+	"too_many_stones:tuff_beige_block",
+	{cracky = 2},
+	{"tms_tuff_beige_block.png"},
+	"Beige Tuff Block Stair",
+	"Beige Tuff Block Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"tuff_beige_cobble",
+	"too_many_stones:tuff_beige_cobble",
+	{cracky = 2},
+	{"tms_tuff_beige_cobble.png"},
+	"Cobbled Beige Tuff Stair",
+	"Cobbled Beige Tuff Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+-- Grey Tuff
+stairs.register_stair_and_slab(
+	"tuff_grey",
+	"too_many_stones:tuff_grey",
+	{cracky = 3},
+	{"tms_tuff_grey.png"},
+	"Grey Tuff Stair",
+	"Grey Tuff Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"tuff_grey_brick",
+	"too_many_stones:tuff_grey_brick",
+	{cracky = 2},
+	{"tms_tuff_grey_brick.png"},
+	"Grey Tuff Brick Stair",
+	"Grey Tuff Brick Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"tuff_grey_cracked_brick",
+	"too_many_stones:tuff_grey_cracked_brick",
+	{cracky = 2},
+	{"tms_tuff_grey_cracked_brick.png"},
+	"Cracked Grey Tuff Brick Stair",
+	"Cracked Grey Tuff Brick Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"tuff_grey_block",
+	"too_many_stones:tuff_grey_block",
+	{cracky = 2},
+	{"tms_tuff_grey_block.png"},
+	"Grey Tuff Block Stair",
+	"Grey Tuff Block Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"tuff_grey_cobble",
+	"too_many_stones:tuff_grey_cobble",
+	{cracky = 2},
+	{"tms_tuff_grey_cobble.png"},
+	"Cobbled Grey Tuff Stair",
+	"Cobbled Grey Tuff Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+-- Red Tuff
+stairs.register_stair_and_slab(
+	"tuff_red",
+	"too_many_stones:tuff_red",
+	{cracky = 3},
+	{"tms_tuff_red.png"},
+	"Red Tuff Stair",
+	"Red Tuff Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	true
+)
+
+stairs.register_stair_and_slab(
+	"tuff_red_brick",
+	"too_many_stones:tuff_red_brick",
+	{cracky = 2},
+	{"tms_tuff_red_brick.png"},
+	"Red Tuff Brick Stair",
+	"Red Tuff Brick Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"tuff_red_cracked_brick",
+	"too_many_stones:tuff_red_cracked_brick",
+	{cracky = 2},
+	{"tms_tuff_red_cracked_brick.png"},
+	"Cracked Red Tuff Brick Stair",
+	"Cracked Red Tuff Brick Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"tuff_red_block",
+	"too_many_stones:tuff_red_block",
+	{cracky = 2},
+	{"tms_tuff_red_block.png"},
+	"Red Tuff Block Stair",
+	"Red Tuff Block Slab",
+	too_many_stones.node_sound_stone_defaults(),
+	false
+)
+
+stairs.register_stair_and_slab(
+	"tuff_red_cobble",
+	"too_many_stones:tuff_red_cobble",
+	{cracky = 2},
+	{"tms_tuff_red_cobble.png"},
+	"Cobbled Red Tuff Stair",
+	"Cobbled Red Tuff Slab",
 	too_many_stones.node_sound_stone_defaults(),
 	false
 )

@@ -13,6 +13,7 @@ A Minetest mod that adds as many stones as I can make good textures for. Recent 
 ##### Amazonite-(light green)
 ##### Amber-(dark orange)
 ##### Amethyst-(dark purple)
+##### Andesite-(dark gray)
 ##### Black Opal-(black to green)
 ##### Basalt-(dark greenish grey)
 ##### Columnar Basalt-(reddish light gray)
@@ -65,8 +66,15 @@ A Minetest mod that adds as many stones as I can make good textures for. Recent 
 ##### Sodalite-(dark blue) was Bluestone
 ##### Sugilite-(purple)
 ##### Travertine-(light tan)
+##### Beige Tuff-(beige)
+##### Grey Tuff-(dirty gray)
+##### Red Tuff-(orange)
 ##### Turquoise-(light blue)
 ##### Vivianite-(dark green)
 
 ## To Do:
 ##### Find and add ore mods to optional depends
+
+# Credits:
+# 
+##### Based on code from Minetest game, all walls mod, and geodes mod. Textures created by JoeEnderman with Stable Diffusion (rough versions), Krita (Agates and other complicated textures), Gimp (cleaning up from the others), Planet Minecraft (block and brick variants), and Blockbench (cobblestones, granites, and cracked bricks). From V0.2.2+: Many textures have been cleaned up or made using Libresprite. Code rebase with help from Mineclone2 and Minebase. All node sounds are CC0 except where they are from minetest game in which case they are (CC BY-SA 3.0). The ones not from MTG (break glass 1 and 2), (all break node hard), (all dig cracky), (glass footstep 1-3), (hard_footstep 1-3), (place node hard3) are sourced from opengameart.org, freesound.org, and myself. Some are a combination of both. Jasper Boerstra is the biggest influence on my texture style, and I hope it shows. I love what he did for most Minecraft textures. AwesomeDragon97 gave me the idea to use mapgen_stone instead of each game's individual stone types. Thank you to EmptyStar for continuing to support TMS and help me with development.

@@ -29,7 +29,7 @@ minetest.register_node("too_many_stones:glow_apatite", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  violet_stone = 1, cracky = 3, stone = 1},
 	drop = "too_many_stones:glow_apatite_cobble",
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
@@ -42,7 +42,7 @@ minetest.register_node("too_many_stones:glow_apatite_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  violet_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -54,7 +54,7 @@ minetest.register_node("too_many_stones:glow_apatite_cobble", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  violet_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -66,7 +66,7 @@ minetest.register_node("too_many_stones:glow_apatite_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  violet_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -78,7 +78,7 @@ minetest.register_node("too_many_stones:glow_apatite_cracked_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  violet_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -90,7 +90,7 @@ minetest.register_node("too_many_stones:glow_calcite", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  red_stone = 1, cracky = 3, stone = 1},
 	drop = "too_many_stones:glow_calcite_cobble",
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
@@ -103,7 +103,7 @@ minetest.register_node("too_many_stones:glow_calcite_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  red_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -115,7 +115,7 @@ minetest.register_node("too_many_stones:glow_calcite_cobble", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  red_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -127,7 +127,7 @@ minetest.register_node("too_many_stones:glow_calcite_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  red_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -139,7 +139,7 @@ minetest.register_node("too_many_stones:glow_calcite_cracked_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  red_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -151,7 +151,7 @@ minetest.register_node("too_many_stones:glow_esperite", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  yellow_stone = 1, cracky = 3, stone = 1},
 	drop = "too_many_stones:glow_esperite_cobble",
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
@@ -164,7 +164,7 @@ minetest.register_node("too_many_stones:glow_esperite_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  yellow_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -176,7 +176,7 @@ minetest.register_node("too_many_stones:glow_esperite_cobble", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  yellow_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -188,7 +188,7 @@ minetest.register_node("too_many_stones:glow_esperite_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  yellow_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -200,7 +200,7 @@ minetest.register_node("too_many_stones:glow_esperite_cracked_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  yellow_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -212,7 +212,7 @@ minetest.register_node("too_many_stones:glow_fluorite", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  blue_stone = 1, cracky = 3, stone = 1},
 	drop = "too_many_stones:glow_fluorite_cobble",
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
@@ -225,7 +225,7 @@ minetest.register_node("too_many_stones:glow_fluorite_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  blue_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -237,7 +237,7 @@ minetest.register_node("too_many_stones:glow_fluorite_cobble", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  blue_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -249,7 +249,7 @@ minetest.register_node("too_many_stones:glow_fluorite_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  blue_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -261,7 +261,7 @@ minetest.register_node("too_many_stones:glow_fluorite_cracked_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  blue_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -273,7 +273,7 @@ minetest.register_node("too_many_stones:glow_selenite", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  cyan_stone = 1, cracky = 3, stone = 1},
 	drop = "too_many_stones:glow_selenite_cobble",
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
@@ -286,7 +286,7 @@ minetest.register_node("too_many_stones:glow_selenite_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  cyan_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -298,7 +298,7 @@ minetest.register_node("too_many_stones:glow_selenite_cobble", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  cyan_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -310,7 +310,7 @@ minetest.register_node("too_many_stones:glow_selenite_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  cyan_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -322,7 +322,7 @@ minetest.register_node("too_many_stones:glow_selenite_cracked_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  cyan_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -334,7 +334,7 @@ minetest.register_node("too_many_stones:glow_sodalite", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  orange_stone = 1, cracky = 3, stone = 1},
 	drop = "too_many_stones:glow_sodalite_cobble",
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
@@ -347,7 +347,7 @@ minetest.register_node("too_many_stones:glow_sodalite_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  orange_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -359,7 +359,7 @@ minetest.register_node("too_many_stones:glow_sodalite_cobble", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  orange_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -371,7 +371,7 @@ minetest.register_node("too_many_stones:glow_sodalite_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  orange_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -383,7 +383,7 @@ minetest.register_node("too_many_stones:glow_sodalite_cracked_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  orange_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -395,7 +395,7 @@ minetest.register_node("too_many_stones:glow_willemite", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  green_stone = 1, cracky = 3, stone = 1},
 	drop = "too_many_stones:glow_willemite_cobble",
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
@@ -408,7 +408,7 @@ minetest.register_node("too_many_stones:glow_willemite_block", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  green_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -420,7 +420,7 @@ minetest.register_node("too_many_stones:glow_willemite_cobble", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  green_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -432,7 +432,7 @@ minetest.register_node("too_many_stones:glow_willemite_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  green_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
@@ -444,7 +444,7 @@ minetest.register_node("too_many_stones:glow_willemite_cracked_brick", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
-	groups = {cracky = 3, stone = 1},
+	groups = {glow_stone = 1,  green_stone = 1, cracky = 3, stone = 1},
 	sounds = too_many_stones.node_sound_glass_defaults(),
 	light_source = minetest.LIGHT_MAX,
 })
