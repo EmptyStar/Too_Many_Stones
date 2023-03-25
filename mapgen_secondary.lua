@@ -31,26 +31,6 @@
 		},
 	})
 
--- Chrysoprase
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:chrysoprase",
-		wherein         = {"default:stone", "too_many_stones:serpentine"},
-		clust_scarcity  = 64 * 64 * 64,
-		clust_size      = 14,
-		y_max           = 31000,
-		y_min           = -1000,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
 -- Covellite
 
 	minetest.register_ore({
@@ -117,26 +97,6 @@
 		ore_type        = "blob",
 		ore             = "too_many_stones:fire_opal",
 		wherein         = {"too_many_stones:crocoite", "too_many_stones:soapstone"},
-		clust_scarcity  = 64 * 64 * 64,
-		clust_size      = 14,
-		y_max           = 31000,
-		y_min           = -31000,
-		noise_threshold = 0.0,
-		noise_params    = {
-			offset = 0.5,
-			scale = 0.2,
-			spread = {x = 5, y = 5, z = 5},
-			octaves = 1,
-			persist = 0.0
-		},
-	})
-
--- Jade
-
-	minetest.register_ore({
-		ore_type        = "blob",
-		ore             = "too_many_stones:jade",
-		wherein         = {"default:stone", "too_many_stones:serpentine"},
 		clust_scarcity  = 64 * 64 * 64,
 		clust_size      = 14,
 		y_max           = 31000,
