@@ -8,6 +8,7 @@ Gray Granite
 White Granite
 Heliodor
 Jade
+Pyrite (underground only)
 Quartz
 Slate
 Sugilite
@@ -30,6 +31,7 @@ Sodalite
 
 HUMID (all temperature, high humidity)
 Celestine
+Covellite
 Green Granite
 Blue Limestone
 White Limestone
@@ -50,19 +52,21 @@ Marble
 
 ARID (high temperature, low humidity)
 Basalt
-Carnotite
 Columnar Basalt
+
+DRY (all temperature, low humidity)
+Carnotite
+Erythrite
 Eudialite
+Prasiolite
 Pumice
 Scoria
 Smokey Quartz
 
-DRY (all temperature, low humidity)
-Prasiolite
-
 HOT (high temperature, all humidity)
 Andesite
 Citrine
+Crocoite
 Gabbro
 Red Granite
 Beige Tuff
