@@ -572,7 +572,7 @@ if minetest.get_modpath("default") ~= nil then
 	register_ore_by_climate({
 		ore_type        = "blob",
 		ore             = "too_many_stones:celestine",
-		wherein         = {"default:silver_sandstone"},
+		wherein         = {"mapgen_stone"},
 		clust_scarcity  = 72 * 72 * 72,
 		clust_size      = 14,
 		heat_min		= 0,
